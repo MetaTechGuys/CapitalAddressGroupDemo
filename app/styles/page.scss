@@ -1029,3 +1029,12 @@
     contain: none; // Remove containment for mobile scroll
   }
 }
+[dir="rtl"] {
+  @media (min-width: 769px) {
+    
+    .section-navigation{
+      right: auto;
+      left: 2rem;
+    }
+  }
+}

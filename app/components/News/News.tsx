@@ -44,7 +44,7 @@ const News = () => {
       id: 4,
       title: t('news.trustedPartner'),
       description: t('news.trustedPartnerDesc'),
-      image: "/images/news-4.webp",
+      image: "/images/news-2.webp",
       category: t('news.aboutUs'),
       link: "/about",
       featured: true,

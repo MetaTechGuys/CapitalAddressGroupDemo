@@ -565,11 +565,9 @@
 // Animations
 @keyframes slideIn {
   from {
-    opacity: 0;
     transform: translateY(20px);
   }
   to {
-    opacity: 1;
     transform: translateY(0);
   }
 }
@@ -970,6 +968,11 @@
 
 // RTL Support
 [dir="rtl"] {
+
+  .slider__nav{
+    transform: rotate(180deg);
+  }
+
   .slider {
     &__nav--prev {
       left: auto;
@@ -1006,6 +1009,7 @@
     &__thumb-nav--next {
       right: auto;
       left: 0.5rem;
+
     }
 
     &__cta {
