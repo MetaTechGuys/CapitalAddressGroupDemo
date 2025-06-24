@@ -21,8 +21,7 @@ const News = () => {
       category: t('news.services'),
       link: "/services",
       featured: true,
-      gradient: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      imageGradient: "linear-gradient(135deg, rgba(102, 126, 234, 0.8) 0%, rgba(118, 75, 162, 0.8) 100%)"
+      gradient: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)"
     },
     {
       id: 2,
@@ -48,8 +47,7 @@ const News = () => {
       category: t('news.aboutUs'),
       link: "/about",
       featured: true,
-      gradient: "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
-      imageGradient: "linear-gradient(135deg, rgba(250, 112, 154, 0.8) 0%, rgba(254, 225, 64, 0.8) 100%)"
+      gradient: "linear-gradient(135deg, #fa709a 0%, #fee140 100%)"
     }
   ];
 
@@ -80,9 +78,6 @@ const News = () => {
                 <>
                   <div 
                     className="news__item-image"
-                    style={{
-                      background: item.imageGradient
-                    }}
                   >
                     <Image 
                       src={item.image} 
@@ -93,9 +88,6 @@ const News = () => {
                     />
                     <div 
                       className="news__item-overlay"
-                      style={{
-                        background: item.imageGradient
-                      }}
                     ></div>
                     <span className="news__item-category">{item.category}</span>
                   </div>

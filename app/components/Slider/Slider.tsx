@@ -16,38 +16,59 @@ const Slider = () => {
   const slides = [
     {
       id: 1,
-      image: "/images/Cosmetics.webp",
+      image: "/images/slide1.webp",
       title: t('slider.luxuryResidential'),
       subtitle: t('slider.luxuryResidentialSub'),
       description: t('slider.luxuryResidentialDesc')
     },
     {
       id: 2,
-      image: "/images/tourism.webp",
+      image: "/images/slide2.webp",
       title: t('slider.commercialRealEstate'),
       subtitle: t('slider.commercialRealEstateSub'),
       description: t('slider.commercialRealEstateDesc')
     },
     {
       id: 3,
-      image: "/images/produce.webp",
+      image: "/images/slide3.webp",
       title: t('slider.investmentOpportunities'),
       subtitle: t('slider.investmentOpportunitiesSub'),
       description: t('slider.investmentOpportunitiesDesc')
     },
     {
       id: 4,
-      image: "/images/invest.webp",
+      image: "/images/slide4.webp",
       title: t('slider.modernArchitecture'),
       subtitle: t('slider.modernArchitectureSub'),
       description: t('slider.modernArchitectureDesc')
     },
     {
       id: 5,
-      image: "/images/magnify.webp",
+      image: "/images/slide5.webp",
       title: t('slider.waterfrontProperties'),
       subtitle: t('slider.waterfrontPropertiesSub'),
       description: t('slider.waterfrontPropertiesDesc')
+    },
+    {
+      id: 6,
+      image: "/images/slide6.webp",
+      title: t('slider.urbanPenthouses'),
+      subtitle: t('slider.urbanPenthousesSub'),
+      description: t('slider.urbanPenthousesDesc')
+    },
+    {
+      id: 7,
+      image: "/images/slide7.webp",
+      title: t('slider.suburbanEstates'),
+      subtitle: t('slider.suburbanEstatesSub'),
+      description: t('slider.suburbanEstatesDesc')
+    },
+    {
+      id: 8,
+      image: "/images/slide8.webp",
+      title: t('slider.golfCommunities'),
+      subtitle: t('slider.golfCommunitiesSub'),
+      description: t('slider.golfCommunitiesDesc')
     }
   ];
 
