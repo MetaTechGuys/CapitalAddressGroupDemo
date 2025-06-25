@@ -78,7 +78,7 @@ const Slider = () => {
 
     const interval = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % slides.length);
-    }, 5000);
+    }, 4000);
 
     return () => clearInterval(interval);
   }, [isAutoPlaying, slides.length, mounted]);
@@ -93,14 +93,6 @@ const Slider = () => {
 
   const goToSlide = (index: number) => {
     setCurrentSlide(index);
-  };
-
-  const handleMouseEnter = () => {
-    setIsAutoPlaying(false);
-  };
-
-  const handleMouseLeave = () => {
-    setIsAutoPlaying(true);
   };
 
   // Prevent hydration mismatch
@@ -119,11 +111,7 @@ const Slider = () => {
   }
 
   return (
-    <section 
-      className="slider"
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
-    >
+    <section className="slider">
       <div className="slider__container">
         {/* Main Slide Display */}
         <div className="slider__main">
