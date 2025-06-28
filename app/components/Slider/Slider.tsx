@@ -1,7 +1,7 @@
-import { useEffect, useState } from 'react';
-import Image from 'next/image';
-import { useLanguage } from '../../contexts/LanguageContext';
-import './Slider.scss';
+import { useEffect, useState } from "react";
+import Image from "next/image";
+import { useLanguage } from "../../contexts/LanguageContext";
+import "./Slider.scss";
 
 const Slider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -17,59 +17,59 @@ const Slider = () => {
     {
       id: 1,
       image: "/images/slide1.webp",
-      title: t('slider.luxuryResidential'),
-      subtitle: t('slider.luxuryResidentialSub'),
-      description: t('slider.luxuryResidentialDesc')
+      title: t("slider.luxuryResidential"),
+      subtitle: t("slider.luxuryResidentialSub"),
+      description: t("slider.luxuryResidentialDesc"),
     },
     {
       id: 2,
       image: "/images/slide2.webp",
-      title: t('slider.commercialRealEstate'),
-      subtitle: t('slider.commercialRealEstateSub'),
-      description: t('slider.commercialRealEstateDesc')
+      title: t("slider.commercialRealEstate"),
+      subtitle: t("slider.commercialRealEstateSub"),
+      description: t("slider.commercialRealEstateDesc"),
     },
     {
       id: 3,
       image: "/images/slide3.webp",
-      title: t('slider.investmentOpportunities'),
-      subtitle: t('slider.investmentOpportunitiesSub'),
-      description: t('slider.investmentOpportunitiesDesc')
+      title: t("slider.investmentOpportunities"),
+      subtitle: t("slider.investmentOpportunitiesSub"),
+      description: t("slider.investmentOpportunitiesDesc"),
     },
     {
       id: 4,
       image: "/images/slide4.webp",
-      title: t('slider.modernArchitecture'),
-      subtitle: t('slider.modernArchitectureSub'),
-      description: t('slider.modernArchitectureDesc')
+      title: t("slider.modernArchitecture"),
+      subtitle: t("slider.modernArchitectureSub"),
+      description: t("slider.modernArchitectureDesc"),
     },
     {
       id: 5,
       image: "/images/slide5.webp",
-      title: t('slider.waterfrontProperties'),
-      subtitle: t('slider.waterfrontPropertiesSub'),
-      description: t('slider.waterfrontPropertiesDesc')
+      title: t("slider.waterfrontProperties"),
+      subtitle: t("slider.waterfrontPropertiesSub"),
+      description: t("slider.waterfrontPropertiesDesc"),
     },
     {
       id: 6,
       image: "/images/slide6.webp",
-      title: t('slider.urbanPenthouses'),
-      subtitle: t('slider.urbanPenthousesSub'),
-      description: t('slider.urbanPenthousesDesc')
+      title: t("slider.urbanPenthouses"),
+      subtitle: t("slider.urbanPenthousesSub"),
+      description: t("slider.urbanPenthousesDesc"),
     },
     {
       id: 7,
       image: "/images/slide7.webp",
-      title: t('slider.suburbanEstates'),
-      subtitle: t('slider.suburbanEstatesSub'),
-      description: t('slider.suburbanEstatesDesc')
+      title: t("slider.suburbanEstates"),
+      subtitle: t("slider.suburbanEstatesSub"),
+      description: t("slider.suburbanEstatesDesc"),
     },
     {
       id: 8,
       image: "/images/slide8.webp",
-      title: t('slider.golfCommunities'),
-      subtitle: t('slider.golfCommunitiesSub'),
-      description: t('slider.golfCommunitiesDesc')
-    }
+      title: t("slider.golfCommunities"),
+      subtitle: t("slider.golfCommunitiesSub"),
+      description: t("slider.golfCommunitiesDesc"),
+    },
   ];
 
   // Auto-play functionality
@@ -121,48 +121,49 @@ const Slider = () => {
               alt={slides[currentSlide].title}
               className="slider__image"
               fill
-              priority={currentSlide === 0} // Priority for first slide only
-              style={{ objectFit: 'cover' }}
+              priority
+              style={{ objectFit: "cover" }}
               sizes="100vw"
             />
             <div className="slider__overlay"></div>
           </div>
 
           {/* Overlay Content - Centered */}
-          <div className="slider__content">
-            <div className="slider__text">
-              <span className="slider__slide-number">
-                {String(currentSlide + 1).padStart(2, '0')} / {String(slides.length).padStart(2, '0')}
-              </span>
-              <h2 className="slider__title">{slides[currentSlide].title}</h2>
-              <h3 className="slider__subtitle">{slides[currentSlide].subtitle}</h3>
-              <p className="slider__description">{slides[currentSlide].description}</p>
-              <button className="slider__cta">
-                {t('slider.exploreProperties')}
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
-                </svg>
-              </button>
-            </div>
-          </div>
+<div className="slider__content">
+  <div className="slider__text" key={currentSlide}>  {/* Add key prop here */}
+    <span className="slider__slide-number">
+      {String(currentSlide + 1).padStart(2, '0')} / {String(slides.length).padStart(2, '0')}
+    </span>
+    <h2 className="slider__title">{slides[currentSlide].title}</h2>
+    <h3 className="slider__subtitle">{slides[currentSlide].subtitle}</h3>
+    <p className="slider__description">{slides[currentSlide].description}</p>
+    <button className="slider__cta">
+      {t('slider.exploreProperties')}
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
+      </svg>
+    </button>
+  </div>
+</div>
+
 
           {/* Navigation Arrows */}
-          <button 
-            className="slider__nav slider__nav--prev" 
+          <button
+            className="slider__nav slider__nav--prev"
             onClick={prevSlide}
             aria-label="Previous slide"
           >
             <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
+              <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z" />
             </svg>
           </button>
-          <button 
-            className="slider__nav slider__nav--next" 
+          <button
+            className="slider__nav slider__nav--next"
             onClick={nextSlide}
             aria-label="Next slide"
           >
             <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
+              <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z" />
             </svg>
           </button>
         </div>
@@ -173,7 +174,9 @@ const Slider = () => {
             {slides.map((slide, index) => (
               <div
                 key={slide.id}
-                className={`slider__thumbnail ${index === currentSlide ? 'slider__thumbnail--active' : ''}`}
+                className={`slider__thumbnail ${
+                  index === currentSlide ? "slider__thumbnail--active" : ""
+                }`}
                 onClick={() => goToSlide(index)}
               >
                 <div className="slider__thumbnail-image">
@@ -181,15 +184,18 @@ const Slider = () => {
                     src={slide.image}
                     alt={slide.title}
                     fill
-                    style={{ objectFit: 'cover' }}
+                    style={{ objectFit: "cover" }}
                     sizes="(max-width: 768px) 20vw, (max-width: 1200px) 15vw, 10vw"
+                    priority
                   />
                   <div className="slider__thumbnail-overlay"></div>
-                  
+
                   {/* Text overlay on image */}
                   <div className="slider__thumbnail-content">
                     <h4 className="slider__thumbnail-title">{slide.title}</h4>
-                    <p className="slider__thumbnail-subtitle">{slide.subtitle}</p>
+                    <p className="slider__thumbnail-subtitle">
+                      {slide.subtitle}
+                    </p>
                   </div>
                 </div>
               </div>
@@ -198,29 +204,29 @@ const Slider = () => {
         </div>
 
         {/* Play/Pause Button */}
-        <button 
+        <button
           className="slider__play-pause"
           onClick={() => setIsAutoPlaying(!isAutoPlaying)}
-          aria-label={isAutoPlaying ? 'Pause slideshow' : 'Play slideshow'}
+          aria-label={isAutoPlaying ? "Pause slideshow" : "Play slideshow"}
         >
           {isAutoPlaying ? (
             <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>
+              <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z" />
             </svg>
           ) : (
             <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M8 5v14l11-7z"/>
+              <path d="M8 5v14l11-7z" />
             </svg>
           )}
         </button>
 
         {/* Progress Bar - At the end */}
         <div className="slider__progress">
-          <div 
+          <div
             className="slider__progress-bar"
-            style={{ 
+            style={{
               width: `${((currentSlide + 1) / slides.length) * 100}%`,
-              animationDuration: isAutoPlaying ? '5s' : 'none'
+              animationDuration: isAutoPlaying ? "5s" : "none",
             }}
           ></div>
         </div>

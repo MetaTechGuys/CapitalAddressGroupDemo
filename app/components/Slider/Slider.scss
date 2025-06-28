@@ -581,6 +581,17 @@
   }
 }
 
+@keyframes textSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 // Slide transition animations
 .slider__image {
   animation: fadeIn 0.5s ease-in-out;
@@ -588,6 +599,11 @@
 
 .slider__content {
   animation: slideIn 0.6s ease-out 0.2s both;
+}
+
+// Add new text animation
+.slider__text {
+  animation: textSlideIn 0.8s ease-out;
 }
 
 // Focus states for accessibility
