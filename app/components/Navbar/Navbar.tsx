@@ -42,9 +42,9 @@ const Navbar = () => {
     {
       id: 'about',
       label: t('navbar.about'),
-      href: '/about',
+      href: '/aboutus',
       dropdown: [
-        { label: t('navbar.dropdown.about.our_story'), href: '/about/story' },
+        { label: t('navbar.dropdown.about.our_story'), href: '/aboutus/story' },
         { label: t('navbar.dropdown.about.team'), href: '/about/team' },
         { label: t('navbar.dropdown.about.mission_vision'), href: '/about/mission' },
         { label: t('navbar.dropdown.about.careers'), href: '/about/careers' },

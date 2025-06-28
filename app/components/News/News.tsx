@@ -118,7 +118,7 @@ const News = () => {
                     <div className="news__item-meta">
                     </div>
                     
-                    <h3 className="news__item-title">{item.title}</h3>
+                    <h2 className="news__item-title">{item.title}</h2>
                     <p className="news__item-description">{item.description}</p>
                     
                     <Link href={item.link} className="news__item-link">
