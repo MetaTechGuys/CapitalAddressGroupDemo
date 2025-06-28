@@ -7,11 +7,20 @@ const Slider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
   const [mounted, setMounted] = useState(false);
+  const [imageLoaded, setImageLoaded] = useState(false);
   const { t } = useLanguage();
 
   useEffect(() => {
     setMounted(true);
   }, []);
+
+  useEffect(() => {
+    setImageLoaded(false);
+  }, [currentSlide]);
+
+  const handleImageLoad = () => {
+    setImageLoaded(true);
+  };
 
   const slides = [
     {
@@ -121,15 +130,16 @@ const Slider = () => {
               alt={slides[currentSlide].title}
               className="slider__image"
               fill
-              priority
+              priority={currentSlide === 0}
               style={{ objectFit: "cover" }}
               sizes="100vw"
+              onLoad={handleImageLoad}
             />
             <div className="slider__overlay"></div>
           </div>
 
           {/* Overlay Content - Centered */}
-<div className="slider__content">
+<div className={`slider__content ${imageLoaded ? 'slider__content--visible' : ''}`}>
   <div className="slider__text" key={currentSlide}>  {/* Add key prop here */}
     <span className="slider__slide-number">
       {String(currentSlide + 1).padStart(2, '0')} / {String(slides.length).padStart(2, '0')}
@@ -233,6 +243,6 @@ const Slider = () => {
       </div>
     </section>
   );
-};
 
+};
 export default Slider;
