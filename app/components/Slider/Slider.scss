@@ -101,14 +101,16 @@
 
   // Remove animation from text by default
   &__text {
-    color: white;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-    animation: none;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: none;
   }
 
   // Only animate text when content becomes visible
   &__content--visible &__text {
-    animation: textSlideIn 0.8s ease-out;
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
   }
 
   &__slide-number {
@@ -597,16 +599,16 @@
   }
 }
 
-@keyframes textSlideIn {
-  0% {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
+// @keyframes textSlideIn {
+//   0% {
+//     opacity: 0;
+//     transform: translateY(30px);
+//   }
+//   100% {
+//     opacity: 1;
+//     transform: translateY(0);
+//   }
+// }
 
 // Slide transition animations
 .slider__image {
@@ -618,9 +620,9 @@
 // }
 
 // Add new text animation
-.slider__text {
-  animation: textSlideIn 0.8s ease-out;
-}
+// .slider__text {
+//   animation: textSlideIn 0.8s ease-out;
+// }
 
 // Focus states for accessibility
 .slider {
