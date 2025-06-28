@@ -214,12 +214,6 @@ export default function AboutUs() {
     };
   }, [isMobile, sections, currentSection, isUserScrolling]);
 
-  const handleSectionClick = (index: number) => {
-    if (!isTransitioning) {
-      goToSection(index);
-    }
-  };
-
   return (
     <div className={`fullpage-container ${isMobile ? 'mobile-scroll' : ''}`}>
 
