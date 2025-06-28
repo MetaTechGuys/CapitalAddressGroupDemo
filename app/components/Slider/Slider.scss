@@ -69,7 +69,7 @@
     font-weight: 500;
   }
 
-  // Content - Always centered both horizontally and vertically
+  // Content visibility control - hide by default
   &__content {
     position: absolute;
     top: 80%;
@@ -81,7 +81,8 @@
     width: 90%;
     padding: 0 1rem;
     opacity: 0;
-    transition: opacity 0.3s ease;
+    visibility: hidden;
+    transition: opacity 0.4s ease, visibility 0.4s ease;
 
     @media (max-width: 768px) {
       max-width: 90%;
@@ -91,17 +92,21 @@
       max-width: 95%;
     }
 
+    // Only show when image is loaded
     &--visible {
       opacity: 1;
+      visibility: visible;
     }
   }
 
+  // Remove animation from text by default
   &__text {
     color: white;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     animation: none;
   }
 
+  // Only animate text when content becomes visible
   &__content--visible &__text {
     animation: textSlideIn 0.8s ease-out;
   }
@@ -608,9 +613,9 @@
   animation: fadeIn 0.2s ease-in-out;
 }
 
-.slider__content {
-  animation: slideIn 0.8s ease-out 0.8s both;
-}
+// .slider__content {
+//   animation: slideIn 0.8s ease-out 0.8s both;
+// }
 
 // Add new text animation
 .slider__text {

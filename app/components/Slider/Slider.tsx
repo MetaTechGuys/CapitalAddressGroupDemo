@@ -243,6 +243,5 @@ const Slider = () => {
       </div>
     </section>
   );
-
 };
 export default Slider;
