@@ -130,7 +130,7 @@ const Slider = () => {
               alt={slides[currentSlide].title}
               className="slider__image"
               fill
-              priority={currentSlide === 0}
+              priority
               style={{ objectFit: "cover" }}
               sizes="100vw"
               onLoad={handleImageLoad}
