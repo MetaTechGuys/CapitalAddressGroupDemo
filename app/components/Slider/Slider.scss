@@ -6,6 +6,7 @@
   background: var(--bg-primary);
   color: var(--text-primary);
   transition: all 0.3s ease;
+  pointer-events: none;
   // Ensure proper overflow handling
   overflow: hidden;
   
@@ -189,6 +190,7 @@
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     cursor: pointer;
+    pointer-events: all;
 
     &:hover {
       background: rgba(255, 255, 255, 0.2);
@@ -230,6 +232,7 @@
     z-index: 20;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+    pointer-events: all;
 
     &:hover {
       background: rgba(255, 255, 255, 0.2);
@@ -273,6 +276,7 @@
     align-items: center;
     padding: 0 1rem;
     overflow: hidden;
+    pointer-events: all;
     
 
     @media (max-width: 768px) {
@@ -436,6 +440,7 @@
     z-index: 20;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+    pointer-events: all;
 
     &:hover {
       background: rgba(255, 255, 255, 0.2);
