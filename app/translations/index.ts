@@ -204,6 +204,109 @@ info3: {
   happyClientsNumber: "پیشگام",
   happyClients: "مدیریت سرمایه و منابع",
 },
+companies: {
+      title: "شرکت‌های گروه",
+      construction: "گروه شرکت‌های ساختمانی",
+      investment: "گروه شرکت‌های سرمایه‌گذاری",
+      petrochemical: "گروه شرکت‌های نفت و پتروشیمی",
+      industrial: "گروه شرکت‌های صنعتی",
+      energy: "گروه شرکت‌های انرژی",
+      trading: "گروه شرکت‌های بازرگانی",
+      tourism: "گروه شرکت‌های گردشگری",
+      cosmetic: "گروه شرکت‌های آرایشی و بهداشتی"
+    },
+    companyDetails: {
+    title: "جزئیات شرکت",
+    learnMore: "بیشتر بدانید",
+    construction: {
+      title: "گروه شرکت‌های ساختمانی کپیتال آدرس",
+      description: `گروه ساختمانی کپیتال آدرس، یکی از بازوهای اجرایی اصلی این هلدینگ، در زمینه طراحی، ساخت و توسعه پروژه‌های عمرانی و ساختمانی فعالیت می‌کند. این گروه با بهره‌گیری از تیم‌های تخصصی، استانداردهای بین‌المللی و فناوری‌های نوین، پروژه‌هایی در کلاس جهانی را در بخش‌های مختلف به اجرا درمی‌آورد.
+حوزه‌های فعالیت:
+    ساخت مجتمع‌های مسکونی، تجاری و اداری
+    مدیریت و اجرای پروژه‌های عمرانی و زیربنایی
+    طراحی و اجرای شهرک‌ها و پروژه‌های کلان‌مقیاس
+    بازسازی و نوسازی سازه‌های شهری و تاریخی
+    توسعه زیرساخت‌های هوشمند ساختمانی
+تعهد به کیفیت، زمان‌بندی دقیق، و خلق ارزش پایدار در حوزه ساخت و ساز، ما را به شریک مطمئن در پروژه‌های عمرانی ملی و بین‌المللی تبدیل کرده است.`
+    },
+    investment: {
+      title: "گروه سرمایه‌گذاری کپیتال آدرس",
+      description: `گروه سرمایه‌گذاری کپیتال آدرس به‌عنوان بازوی مالی و راهبردی هلدینگ، مأموریت دارد با بهره‌گیری از تحلیل‌های تخصصی، فرصت‌های اقتصادی را در بازارهای داخلی و بین‌المللی شناسایی و ارزش‌آفرینی کند. این گروه با رویکردی هوشمندانه و مبتنی بر داده، به توسعه پرتفوی متنوع سرمایه‌گذاری و پشتیبانی مالی سایر بخش‌های هلدینگ می‌پردازد.
+حوزه‌های فعالیت:
+    سرمایه‌گذاری در پروژه‌های زیرساختی، فناوری و صنعت
+    مدیریت سبد سرمایه و دارایی‌های استراتژیک
+    تأمین مالی و جذب منابع برای پروژه‌های بزرگ
+    تحلیل بازار، ریسک‌سنجی و تصمیم‌سازی مالی
+    مشارکت با نهادهای مالی، بانک‌ها و صندوق‌ها
+با تکیه بر تجربه، شفافیت و دید بلندمدت، ما سرمایه را از یک ابزار مالی، به ابزاری برای توسعه پایدار و رشد ملی تبدیل می‌کنیم.`
+    },
+    petrochemical: {
+      title: "گروه نفت و پتروشیمی کپیتال آدرس",
+      description: `گروه نفت و پتروشیمی کپیتال آدرس با تمرکز بر زنجیره تأمین انرژی، از استخراج مواد اولیه تا تولید فرآورده‌های پتروشیمیایی فعالیت می‌کند. این گروه با تکیه بر دانش فنی، فناوری‌های روز و استانداردهای بین‌المللی، نقش کلیدی در توسعه پایدار صنایع پایین‌دستی و بالا‌دستی نفت و گاز ایفا می‌کند.
+حوزه‌های فعالیت:
+    احداث و بهره‌برداری از پالایشگاه‌های نفت و گاز
+    سرمایه‌گذاری در پروژه‌های پتروشیمی
+    صادرات و واردات مشتقات نفتی
+    مشاوره مهندسی و مدیریت پروژه‌های صنعتی
+    انتقال فناوری و توسعه زیرساخت‌های انرژی
+ما با هدف ارتقاء بهره‌وری، توسعه صادرات غیرنفتی و خلق ارزش افزوده در صنعت انرژی، در مسیر تحول و نوآوری گام برمی‌داریم.`
+    },
+    industrial: {
+      title: "گروه صنعتی کپیتال آدرس",
+      description: `گروه صنعتی کپیتال آدرس با مأموریت توسعه زیرساخت‌های تولیدی و پشتیبانی از صنایع استراتژیک کشور، در حوزه طراحی، ساخت و راه‌اندازی واحدهای صنعتی فعالیت می‌کند. این گروه با بهره‌مندی از مهندسی پیشرفته، دانش فنی بومی و استانداردهای بین‌المللی، به‌عنوان یکی از پایه‌های صنعتی‌سازی در مجموعه ایفای نقش می‌نماید.
+حوزه‌های فعالیت:
+    طراحی و احداث واحدهای تولیدی و کارخانه‌های صنعتی
+    تأمین ماشین‌آلات، تجهیزات و خطوط تولید
+    اجرای پروژه‌های کلید در دست (EPC) در صنایع مختلف
+    نگهداری، تعمیرات و بهینه‌سازی تأسیسات صنعتی
+    ارتقاء فناوری و مکانیزه‌سازی فرآیندهای تولیدی
+ما با رویکردی دقیق، مهندسی‌شده و منعطف، صنعت را به بستری برای خلق ارزش اقتصادی، اشتغال پایدار و پیشرفت فناورانه تبدیل کرده‌ایم..`
+    },
+    energy: {
+      title: "گروه انرژی کپیتال آدرس",
+      description: `گروه انرژی کپیتال آدرس با رویکردی آینده‌نگر، در حوزه تولید، انتقال و بهره‌برداری از منابع انرژی پایدار و سنتی فعالیت می‌کند. این گروه با تمرکز بر نوآوری، پایداری زیست‌محیطی و بهره‌وری انرژی، در پی شکل‌دهی به آینده‌ای سبز و مطمئن برای تأمین انرژی است.
+حوزه‌های فعالیت:
+    سرمایه‌گذاری در پروژه‌های برق، گاز و انرژی‌های تجدیدپذیر
+    احداث نیروگاه‌های خورشیدی، بادی و سیکل ترکیبی
+    توسعه زیرساخت‌های هوشمند توزیع انرژی
+    مدیریت و بهینه‌سازی مصرف انرژی در پروژه‌های بزرگ
+    مشاوره و اجرای پروژه‌های انتقال و توزیع نیرو
+ما بر این باوریم که آینده‌ی انرژی، در گرو تلفیق دانش مهندسی، مسئولیت اجتماعی و رویکرد پایدار است — و در این مسیر، حضوری فعال و مؤثر داریم.`
+    },
+    trading: {
+      title: "گروه بازرگانی کپیتال آدرس",
+      description:`گروه بازرگانی کپیتال آدرس با تمرکز بر توسعه تجارت داخلی و بین‌المللی، در مسیر اتصال تولید به بازار و تسهیل زنجیره تأمین فعالیت می‌کند. این گروه با تکیه بر شبکه‌ای گسترده از شرکای تجاری و تیم‌های متخصص، نقش مهمی در صادرات، واردات و توزیع کالاهای استراتژیک ایفا می‌نماید.
+حوزه‌های فعالیت:
+    واردات مواد اولیه، تجهیزات صنعتی و کالاهای مصرفی
+    صادرات محصولات تولیدی گروه‌های زیرمجموعه به بازارهای جهانی
+    خدمات لجستیک، حمل‌ونقل و ترخیص کالا
+    توسعه بازارهای هدف و مذاکرات تجاری بین‌المللی
+    تأمین و توزیع کالا در زنجیره خرده‌فروشی و عمده‌فروشی
+ما با رویکردی شفاف، سریع و هوشمند، تجارت را به ابزار پویای رشد اقتصادی و ارزش‌آفرینی در هلدینگ تبدیل کرده‌ایم.`
+    },
+    tourism: {
+      title: "گروه گردشگری کپیتال آدرس",
+      description: `گروه گردشگری کپیتال آدرس با هدف توسعه زیرساخت‌های صنعت توریسم، ارتقاء تجربه سفر و تقویت جایگاه ایران در بازار گردشگری بین‌المللی فعالیت می‌کند. این گروه با سرمایه‌گذاری در پروژه‌های اقامتی، تفریحی و فرهنگی، بستری نوین برای گردشگری پایدار و اقتصادی فراهم کرده است.
+حوزه‌های فعالیت:
+    ساخت و بهره‌برداری از هتل‌ها، اقامتگاه‌ها و مراکز تفریحی
+    طراحی و اجرای تورهای داخلی و خارجی
+    توسعه گردشگری سلامت، فرهنگی و تجاری
+    سرمایه‌گذاری در فناوری‌های سفر و پلتفرم‌های گردشگری
+    همکاری با شرکت‌های هواپیمایی، آژانس‌ها و نهادهای جهانی گردشگری
+ما معتقدیم گردشگری تنها سفر نیست، بلکه فرصتی برای ارتباط فرهنگی، رونق اقتصادی و ساخت آینده‌ای جهانی‌تر است — و در این مسیر، نقش‌آفرینی می‌کنیم.`
+    },
+    cosmetic: {
+      title: "گروه آرایشی و بهداشتی کپیتال آدرس",
+      description: `گروه آرایشی و بهداشتی کپیتال آدرس با هدف ارتقاء کیفیت زندگی، زیبایی پایدار و سلامت فردی، در حوزه تولید، واردات و توزیع محصولات آرایشی، مراقبتی و بهداشتی فعالیت می‌کند. این گروه با بهره‌گیری از فرمولاسیون‌های نوین، استانداردهای جهانی و برندهای معتبر، نیازهای متنوع بازار را پاسخ می‌دهد.
+حوزه‌های فعالیت:
+    تولید و بسته‌بندی محصولات مراقبت پوست، مو و بدن
+    واردات برندهای آرایشی و بهداشتی بین‌المللی
+    توسعه برندهای اختصاصی در حوزه زیبایی
+    توزیع گسترده از طریق فروشگاه‌های زنجیره‌ای، داروخانه‌ها و آنلاین
+    تحقیق و توسعه در زمینه ترکیبات طبیعی و پایدار
+ما زیبایی را با علم، نوآوری و احترام به سلامت مصرف‌کننده معنا می‌کنیم — و در مسیر خلق تجربه‌ای متمایز از مراقبت فردی گام برمی‌داریم.`
+    }
+  },
   },
   en: {
   navbar: {
@@ -409,6 +512,125 @@ info3: {
   yearsExperience: "Connecting chains",
   happyClientsNumber: "Pioneer",
   happyClients: "Capital and resource management",
+},
+companies: {
+      title: "Group Companies",
+      construction: "Construction Companies Group",
+      investment: "Investment Companies Group",
+      petrochemical: "Oil and Petrochemical Companies Group",
+      industrial: "Industrial Companies Group",
+      energy: "Energy Companies Group",
+      trading: "Trading Companies Group",
+      tourism: "Tourism Companies Group",
+      cosmetic: "Cosmetic and Health Companies Group"
+    },
+    companyDetails: {
+  title: "Company Details",
+  learnMore: "Learn More",
+  construction: {
+    title: "Capital Address Construction Companies Group",
+    description: `Capital Address Construction Group, one of the main executive arms of this holding, operates in the field of design, construction and development of civil and construction projects. This group, by utilizing specialized teams, international standards and modern technologies, implements world-class projects in various sectors.
+
+Areas of activity:
+    Construction of residential, commercial and administrative complexes
+    Management and implementation of civil and infrastructure projects
+    Design and implementation of townships and large-scale projects
+    Reconstruction and renovation of urban and historical structures
+    Development of smart building infrastructure
+
+Our commitment to quality, precise scheduling, and creating sustainable value in construction has made us a reliable partner in national and international civil projects.`
+  },
+  investment: {
+    title: "Capital Address Investment Group",
+    description: `Capital Address Investment Group, as the financial and strategic arm of the holding, has the mission to identify and create value in economic opportunities in domestic and international markets by utilizing specialized analyses. This group, with an intelligent and data-driven approach, develops a diverse investment portfolio and provides financial support to other sectors of the holding.
+
+Areas of activity:
+    Investment in infrastructure, technology and industry projects
+    Management of capital portfolio and strategic assets
+    Financing and resource mobilization for large projects
+    Market analysis, risk assessment and financial decision-making
+    Partnership with financial institutions, banks and funds
+
+Based on experience, transparency and long-term vision, we transform capital from a financial tool into an instrument for sustainable development and national growth.`
+  },
+  petrochemical: {
+    title: "Capital Address Oil and Petrochemical Group",
+    description: `Capital Address Oil and Petrochemical Group, focusing on the energy supply chain, operates from raw material extraction to petrochemical product manufacturing. This group, relying on technical knowledge, modern technologies and international standards, plays a key role in the sustainable development of downstream and upstream oil and gas industries.
+
+Areas of activity:
+    Construction and operation of oil and gas refineries
+    Investment in petrochemical projects
+    Export and import of petroleum derivatives
+    Engineering consulting and industrial project management
+    Technology transfer and energy infrastructure development
+
+With the goal of improving productivity, developing non-oil exports and creating added value in the energy industry, we are moving forward in the path of transformation and innovation.`
+  },
+  industrial: {
+    title: "Capital Address Industrial Group",
+    description: `Capital Address Industrial Group, with the mission of developing production infrastructure and supporting the country's strategic industries, operates in the field of design, construction and commissioning of industrial units. This group, benefiting from advanced engineering, indigenous technical knowledge and international standards, plays a role as one of the industrial foundations in the collection.
+
+Areas of activity:
+    Design and construction of production units and industrial factories
+    Supply of machinery, equipment and production lines
+    Implementation of turnkey (EPC) projects in various industries
+    Maintenance, repairs and optimization of industrial facilities
+    Technology upgrade and mechanization of production processes
+
+With a precise, engineered and flexible approach, we have transformed industry into a platform for creating economic value, sustainable employment and technological advancement.`
+  },
+  energy: {
+    title: "Capital Address Energy Group",
+    description: `Capital Address Energy Group, with a forward-looking approach, operates in the field of production, transmission and utilization of sustainable and conventional energy sources. This group, focusing on innovation, environmental sustainability and energy efficiency, seeks to shape a green and secure future for energy supply.
+
+Areas of activity:
+    Investment in electricity, gas and renewable energy projects
+    Construction of solar, wind and combined cycle power plants
+    Development of smart energy distribution infrastructure
+    Management and optimization of energy consumption in large projects
+    Consulting and implementation of power transmission and distribution projects
+
+We believe that the future of energy depends on the integration of engineering knowledge, social responsibility and sustainable approach — and we have an active and effective presence in this path.`
+  },
+  trading: {
+    title: "Capital Address Trading Group",
+    description: `Capital Address Trading Group, focusing on the development of domestic and international trade, operates in the path of connecting production to market and facilitating the supply chain. This group, relying on an extensive network of business partners and specialized teams, plays an important role in the export, import and distribution of strategic goods.
+
+Areas of activity:
+    Import of raw materials, industrial equipment and consumer goods
+    Export of products from subsidiary groups to global markets
+    Logistics, transportation and customs clearance services
+    Target market development and international business negotiations
+    Supply and distribution of goods in retail and wholesale chains
+
+With a transparent, fast and intelligent approach, we have transformed trade into a dynamic tool for economic growth and value creation in the holding.`
+  },
+  tourism: {
+    title: "Capital Address Tourism Group",
+    description: `Capital Address Tourism Group, with the goal of developing tourism industry infrastructure, improving travel experience and strengthening Iran's position in the international tourism market, operates. This group, by investing in accommodation, recreational and cultural projects, has provided a new platform for sustainable and economic tourism.
+
+Areas of activity:
+    Construction and operation of hotels, accommodations and recreational centers
+    Design and implementation of domestic and international tours
+    Development of health, cultural and business tourism
+    Investment in travel technologies and tourism platforms
+    Cooperation with airlines, agencies and global tourism institutions
+
+We believe that tourism is not just travel, but an opportunity for cultural connection, economic prosperity and building a more global future — and we play a role in this path.`
+  },
+  cosmetic: {
+    title: "Capital Address Cosmetic and Health Group",
+    description: `Capital Address Cosmetic and Health Group, with the goal of improving quality of life, sustainable beauty and personal health, operates in the field of production, import and distribution of cosmetic, care and health products. This group, utilizing modern formulations, global standards and reputable brands, responds to the diverse needs of the market.
+
+Areas of activity:
+    Production and packaging of skin, hair and body care products
+    Import of international cosmetic and health brands
+    Development of exclusive brands in the beauty field
+    Extensive distribution through chain stores, pharmacies and online
+    Research and development in natural and sustainable compounds
+
+We give meaning to beauty with science, innovation and respect for consumer health — and we are moving forward in the path of creating a distinctive experience in personal care.`
+  }
 },
 },
   de: {
@@ -616,6 +838,125 @@ info3: {
   happyClientsNumber: "Pionier",
   happyClients: "Kapital- und Ressourcenmanagement",
 },
+    companies: {
+      title: "Konzernunternehmen",
+      construction: "Bauunternehmen-Gruppe",
+      investment: "Investmentunternehmen-Gruppe",
+      petrochemical: "Öl- und Petrochemieunternehmen-Gruppe",
+      industrial: "Industrieunternehmen-Gruppe",
+      energy: "Energieunternehmen-Gruppe",
+      trading: "Handelsunternehmen-Gruppe",
+      tourism: "Tourismusunternehmen-Gruppe",
+      cosmetic: "Kosmetik- und Gesundheitsunternehmen-Gruppe"
+    },
+    companyDetails: {
+  title: "Unternehmensdetails",
+  learnMore: "Mehr erfahren",
+  construction: {
+    title: "Capital Address Bauunternehmen-Gruppe",
+    description: `Die Capital Address Baugruppe, einer der wichtigsten Ausführungsarme dieser Holding, ist im Bereich Design, Bau und Entwicklung von Bau- und Bauprojekten tätig. Diese Gruppe setzt durch den Einsatz spezialisierter Teams, internationaler Standards und moderner Technologien Weltklasse-Projekte in verschiedenen Bereichen um.
+
+Tätigkeitsbereiche:
+    Bau von Wohn-, Gewerbe- und Verwaltungskomplexen
+    Management und Umsetzung von Bau- und Infrastrukturprojekten
+    Design und Umsetzung von Stadtteilen und Großprojekten
+    Rekonstruktion und Renovierung städtischer und historischer Strukturen
+    Entwicklung intelligenter Gebäudeinfrastruktur
+
+Unser Engagement für Qualität, präzise Terminplanung und die Schaffung nachhaltiger Werte im Bauwesen haben uns zu einem zuverlässigen Partner in nationalen und internationalen Bauprojekten gemacht.`
+  },
+  investment: {
+    title: "Capital Address Investmentgruppe",
+    description: `Die Capital Address Investmentgruppe hat als finanzieller und strategischer Arm der Holding die Mission, durch spezialisierte Analysen wirtschaftliche Chancen in in- und ausländischen Märkten zu identifizieren und Werte zu schaffen. Diese Gruppe entwickelt mit einem intelligenten und datengesteuerten Ansatz ein diversifiziertes Investmentportfolio und bietet finanzielle Unterstützung für andere Bereiche der Holding.
+
+Tätigkeitsbereiche:
+    Investitionen in Infrastruktur-, Technologie- und Industrieprojekte
+    Management von Kapitalportfolio und strategischen Vermögenswerten
+    Finanzierung und Ressourcenmobilisierung für Großprojekte
+    Marktanalyse, Risikobewertung und finanzielle Entscheidungsfindung
+    Partnerschaft mit Finanzinstituten, Banken und Fonds
+
+Basierend auf Erfahrung, Transparenz und langfristiger Vision verwandeln wir Kapital von einem Finanzinstrument in ein Instrument für nachhaltige Entwicklung und nationales Wachstum.`
+  },
+  petrochemical: {
+    title: "Capital Address Öl- und Petrochemie-Gruppe",
+    description: `Die Capital Address Öl- und Petrochemie-Gruppe konzentriert sich auf die Energieversorgungskette und ist von der Rohstoffgewinnung bis zur Herstellung petrochemischer Produkte tätig. Diese Gruppe spielt, gestützt auf technisches Wissen, moderne Technologien und internationale Standards, eine Schlüsselrolle in der nachhaltigen Entwicklung der nachgelagerten und vorgelagerten Öl- und Gasindustrie.
+
+Tätigkeitsbereiche:
+    Bau und Betrieb von Öl- und Gasraffinerien
+    Investitionen in petrochemische Projekte
+    Export und Import von Erdölderivaten
+    Ingenieurberatung und industrielles Projektmanagement
+    Technologietransfer und Entwicklung der Energieinfrastruktur
+
+Mit dem Ziel, die Produktivität zu verbessern, nicht-ölige Exporte zu entwickeln und Mehrwert in der Energieindustrie zu schaffen, bewegen wir uns auf dem Weg der Transformation und Innovation vorwärts.`
+  },
+  industrial: {
+    title: "Capital Address Industriegruppe",
+    description: `Die Capital Address Industriegruppe ist mit der Mission, Produktionsinfrastruktur zu entwickeln und strategische Industrien des Landes zu unterstützen, im Bereich Design, Bau und Inbetriebnahme von Industrieanlagen tätig. Diese Gruppe spielt, profitierend von fortschrittlicher Technik, einheimischem technischen Wissen und internationalen Standards, eine Rolle als eine der industriellen Grundlagen in der Sammlung.
+
+Tätigkeitsbereiche:
+    Design und Bau von Produktionseinheiten und Industriefabriken
+    Lieferung von Maschinen, Ausrüstung und Produktionslinien
+    Umsetzung schlüsselfertiger (EPC) Projekte in verschiedenen Industrien
+    Wartung, Reparaturen und Optimierung industrieller Anlagen
+    Technologie-Upgrade und Mechanisierung von Produktionsprozessen
+
+Mit einem präzisen, technischen und flexiblen Ansatz haben wir die Industrie in eine Plattform für die Schaffung wirtschaftlicher Werte, nachhaltiger Beschäftigung und technologischen Fortschritts verwandelt.`
+  },
+  energy: {
+    title: "Capital Address Energiegruppe",
+    description: `Die Capital Address Energiegruppe ist mit einem zukunftsorientierten Ansatz im Bereich Produktion, Übertragung und Nutzung nachhaltiger und konventioneller Energiequellen tätig. Diese Gruppe, die sich auf Innovation, Umweltnachhaltigkeit und Energieeffizienz konzentriert, strebt danach, eine grüne und sichere Zukunft für die Energieversorgung zu gestalten.
+
+Tätigkeitsbereiche:
+    Investitionen in Strom-, Gas- und erneuerbare Energieprojekte
+    Bau von Solar-, Wind- und kombinierten Zykluskraftwerken
+    Entwicklung intelligenter Energieverteilungsinfrastruktur
+    Management und Optimierung des Energieverbrauchs in Großprojekten
+    Beratung und Umsetzung von Stromübertragungs- und -verteilungsprojekten
+
+Wir glauben, dass die Zukunft der Energie von der Integration von Ingenieurswissen, sozialer Verantwortung und nachhaltigem Ansatz abhängt — und wir haben eine aktive und effektive Präsenz auf diesem Weg.`
+  },
+  trading: {
+    title: "Capital Address Handelsgruppe",
+    description: `Die Capital Address Handelsgruppe konzentriert sich auf die Entwicklung des in- und ausländischen Handels und ist auf dem Weg tätig, Produktion mit Markt zu verbinden und die Lieferkette zu erleichtern. Diese Gruppe spielt, gestützt auf ein umfangreiches Netzwerk von Geschäftspartnern und spezialisierten Teams, eine wichtige Rolle beim Export, Import und Vertrieb strategischer Güter.
+
+Tätigkeitsbereiche:
+    Import von Rohstoffen, Industrieausrüstung und Konsumgütern
+    Export von Produkten der Tochtergruppen auf globale Märkte
+    Logistik-, Transport- und Zollabfertigungsdienstleistungen
+    Zielmarktentwicklung und internationale Geschäftsverhandlungen
+    Lieferung und Vertrieb von Waren in Einzelhandels- und Großhandelsketten
+
+Mit einem transparenten, schnellen und intelligenten Ansatz haben wir den Handel in ein dynamisches Werkzeug für Wirtschaftswachstum und Wertschöpfung in der Holding verwandelt.`
+  },
+  tourism: {
+    title: "Capital Address Tourismusgruppe",
+    description: `Die Capital Address Tourismusgruppe ist mit dem Ziel tätig, die Infrastruktur der Tourismusbranche zu entwickeln, das Reiseerlebnis zu verbessern und Irans Position im internationalen Tourismusmarkt zu stärken. Diese Gruppe hat durch Investitionen in Unterkunfts-, Freizeit- und Kulturprojekte eine neue Plattform für nachhaltigen und wirtschaftlichen Tourismus geschaffen.
+
+Tätigkeitsbereiche:
+    Bau und Betrieb von Hotels, Unterkünften und Freizeitzentren
+    Design und Umsetzung von in- und ausländischen Touren
+    Entwicklung von Gesundheits-, Kultur- und Geschäftstourismus
+    Investitionen in Reisetechnologien und Tourismusplattformen
+    Zusammenarbeit mit Fluggesellschaften, Agenturen und globalen Tourismuseinrichtungen
+
+Wir glauben, dass Tourismus nicht nur Reisen ist, sondern eine Gelegenheit für kulturelle Verbindung, wirtschaftlichen Wohlstand und den Aufbau einer globaleren Zukunft — und wir spielen eine Rolle auf diesem Weg.`
+  },
+  cosmetic: {
+    title: "Capital Address Kosmetik- und Gesundheitsgruppe",
+    description: `Die Capital Address Kosmetik- und Gesundheitsgruppe ist mit dem Ziel tätig, die Lebensqualität, nachhaltige Schönheit und persönliche Gesundheit zu verbessern, im Bereich Produktion, Import und Vertrieb von Kosmetik-, Pflege- und Gesundheitsprodukten. Diese Gruppe nutzt moderne Formulierungen, globale Standards und renommierte Marken und reagiert auf die vielfältigen Bedürfnisse des Marktes.
+
+Tätigkeitsbereiche:
+    Produktion und Verpackung von Haut-, Haar- und Körperpflegeprodukten
+    Import internationaler Kosmetik- und Gesundheitsmarken
+    Entwicklung exklusiver Marken im Schönheitsbereich
+    Umfangreicher Vertrieb über Kettenstores, Apotheken und online
+    Forschung und Entwicklung innatürlichen und nachhaltigen Verbindungen
+
+Wir geben Schönheit mit Wissenschaft, Innovation und Respekt für die Verbrauchergesundheit Bedeutung — und wir bewegen uns vorwärts auf dem Weg, eine unverwechselbare Erfahrung in der persönlichen Pflege zu schaffen.`
+  }
+},
 },
   ar: {
   navbar: {
@@ -822,6 +1163,125 @@ info3: {
   happyClientsNumber: "رائد",
   happyClients: "إدارة رؤوس الأموال والموارد",
 },
+companies: {
+      title: "شركات المجموعة",
+      construction: "مجموعة شركات البناء",
+      investment: "مجموعة شركات الاستثمار",
+      petrochemical: "مجموعة شركات النفط والبتروكيماويات",
+      industrial: "مجموعة الشركات الصناعية",
+      energy: "مجموعة شركات الطاقة",
+      trading: "مجموعة الشركات التجارية",
+      tourism: "مجموعة شركات السياحة",
+      cosmetic: "مجموعة شركات التجميل والصحة"
+    },
+    companyDetails: {
+  title: "تفاصيل الشركة",
+  learnMore: "تعلم المزيد",
+  construction: {
+    title: "مجموعة شركات البناء العنوان الرأسمالي",
+    description: `مجموعة العنوان الرأسمالي للبناء، إحدى الأذرع التنفيذية الرئيسية لهذه الشركة القابضة، تعمل في مجال تصميم وبناء وتطوير المشاريع المدنية والإنشائية. تقوم هذه المجموعة، من خلال الاستفادة من الفرق المتخصصة والمعايير الدولية والتقنيات الحديثة، بتنفيذ مشاريع عالمية المستوى في قطاعات مختلفة.
+
+مجالات النشاط:
+    بناء المجمعات السكنية والتجارية والإدارية
+    إدارة وتنفيذ المشاريع المدنية والبنية التحتية
+    تصميم وتنفيذ البلدات والمشاريع واسعة النطاق
+    إعادة بناء وتجديد الهياكل الحضرية والتاريخية
+    تطوير البنية التحتية للمباني الذكية
+
+التزامنا بالجودة والجدولة الدقيقة وخلق القيمة المستدامة في البناء جعلنا شريكاً موثوقاً في المشاريع المدنية الوطنية والدولية.`
+  },
+  investment: {
+    title: "مجموعة الاستثمار العنوان الرأسمالي",
+    description: `مجموعة الاستثمار العنوان الرأسمالي، كذراع مالي واستراتيجي للشركة القابضة، لديها مهمة تحديد وخلق القيمة في الفرص الاقتصادية في الأسواق المحلية والدولية من خلال الاستفادة من التحليلات المتخصصة. تقوم هذه المجموعة، بنهج ذكي ومدفوع بالبيانات، بتطوير محفظة استثمارية متنوعة وتقديم الدعم المالي لقطاعات أخرى من الشركة القابضة.
+
+مجالات النشاط:
+    الاستثمار في مشاريع البنية التحتية والتكنولوجيا والصناعة
+    إدارة محفظة رؤوس الأموال والأصول الاستراتيجية
+    التمويل وحشد الموارد للمشاريع الكبيرة
+    تحليل السوق وتقييم المخاطر واتخاذ القرارات المالية
+    الشراكة مع المؤسسات المالية والبنوك والصناديق
+
+بناءً على الخبرة والشفافية والرؤية طويلة المدى، نحول رأس المال من أداة مالية إلى أداة للتنمية المستدامة والنمو الوطني.`
+  },
+  petrochemical: {
+    title: "مجموعة النفط والبتروكيماويات العنوان الرأسمالي",
+    description: `مجموعة النفط والبتروكيماويات العنوان الرأسمالي، مع التركيز على سلسلة إمداد الطاقة، تعمل من استخراج المواد الخام إلى تصنيع المنتجات البتروكيماوية. تلعب هذه المجموعة، بالاعتماد على المعرفة التقنية والتقنيات الحديثة والمعايير الدولية، دوراً رئيسياً في التنمية المستدامة لصناعات النفط والغاز المتقدمة والمتأخرة.
+
+مجالات النشاط:
+    بناء وتشغيل مصافي النفط والغاز
+    الاستثمار في المشاريع البتروكيماوية
+    تصدير واستيراد مشتقات البترول
+    الاستشارات الهندسية وإدارة المشاريع الصناعية
+    نقل التكنولوجيا وتطوير البنية التحتية للطاقة
+
+بهدف تحسين الإنتاجية وتطوير الصادرات غير النفطية وخلق القيمة المضافة في صناعة الطاقة، نتقدم في طريق التحول والابتكار.`
+  },
+  industrial: {
+    title: "المجموعة الصناعية العنوان الرأسمالي",
+    description: `المجموعة الصناعية العنوان الرأسمالي، بمهمة تطوير البنية التحتية الإنتاجية ودعم الصناعات الاستراتيجية للبلاد، تعمل في مجال تصميم وبناء وتشغيل الوحدات الصناعية. تلعب هذه المجموعة، بالاستفادة من الهندسة المتقدمة والمعرفة التقنية المحلية والمعايير الدولية، دوراً كإحدى الأسس الصناعية في المجموعة.
+
+مجالات النشاط:
+    تصميم وبناء وحدات الإنتاج والمصانع الصناعية
+    توريد الآلات والمعدات وخطوط الإنتاج
+    تنفيذ مشاريع تسليم المفتاح (EPC) في صناعات مختلفة
+    صيانة وإصلاح وتحسين المرافق الصناعية
+    ترقية التكنولوجيا وميكنة عمليات الإنتاج
+
+بنهج دقيق ومهندس ومرن، حولنا الصناعة إلى منصة لخلق القيمة الاقتصادية والتوظيف المستدام والتقدم التكنولوجي.`
+  },
+  energy: {
+    title: "مجموعة الطاقة العنوان الرأسمالي",
+    description: `مجموعة الطاقة العنوان الرأسمالي، بنهج مستقبلي، تعمل في مجال إنتاج ونقل واستخدام مصادر الطاقة المستدامة والتقليدية. تسعى هذه المجموعة، مع التركيز على الابتكار والاستدامة البيئية وكفاءة الطاقة، إلى تشكيل مستقبل أخضر وآمن لإمداد الطاقة.
+
+مجالات النشاط:
+    الاستثمار في مشاريع الكهرباء والغاز والطاقة المتجددة
+    بناء محطات الطاقة الشمسية والرياح والدورة المركبة
+    تطوير البنية التحتية الذكية لتوزيع الطاقة
+    إدارة وتحسين استهلاك الطاقة في المشاريع الكبيرة
+    الاستشارة وتنفيذ مشاريع نقل وتوزيع الطاقة
+
+نؤمن أن مستقبل الطاقة يعتمد على دمج المعرفة الهندسية والمسؤولية الاجتماعية والنهج المستدام — ولدينا حضور فعال ومؤثر في هذا المسار.`
+  },
+    trading: {
+  title: "مجموعة شركات التجارة العنوان الرأسمالي",
+  description: `مجموعة التجارة العنوان الرأسمالي تركز على تطوير التجارة الداخلية والدولية، وتعمل في مسار ربط الإنتاج بالسوق وتسهيل سلسلة التوريد. هذه المجموعة، بالاعتماد على شبكة واسعة من الشركاء التجاريين والفرق المتخصصة، تلعب دوراً مهماً في تصدير واستيراد وتوزيع السلع الاستراتيجية.
+
+مجالات النشاط:
+    استيراد المواد الخام والمعدات الصناعية والسلع الاستهلاكية
+    تصدير منتجات المجموعات الفرعية إلى الأسواق العالمية
+    خدمات اللوجستيات والنقل وتخليص البضائع
+    تطوير الأسواق المستهدفة والمفاوضات التجارية الدولية
+    توريد وتوزيع البضائع في سلاسل التجزئة والجملة
+
+بنهج شفاف وسريع وذكي، حولنا التجارة إلى أداة ديناميكية للنمو الاقتصادي وخلق القيمة في الشركة القابضة.`
+},
+tourism: {
+  title: "مجموعة شركات السياحة العنوان الرأسمالي",
+  description: `مجموعة السياحة العنوان الرأسمالي تعمل بهدف تطوير البنية التحتية لصناعة السياحة، وتحسين تجربة السفر وتعزيز مكانة إيران في سوق السياحة الدولية. هذه المجموعة، من خلال الاستثمار في مشاريع الإقامة والترفيه والثقافة، وفرت منصة جديدة للسياحة المستدامة والاقتصادية.
+
+مجالات النشاط:
+    بناء وتشغيل الفنادق والمساكن والمراكز الترفيهية
+    تصميم وتنفيذ الجولات الداخلية والخارجية
+    تطوير السياحة الصحية والثقافية والتجارية
+    الاستثمار في تقنيات السفر ومنصات السياحة
+    التعاون مع شركات الطيران والوكالات والمؤسسات السياحية العالمية
+
+نحن نؤمن أن السياحة ليست مجرد سفر، بل فرصة للتواصل الثقافي والازدهار الاقتصادي وبناء مستقبل أكثر عالمية — ونحن نلعب دوراً في هذا المسار.`
+},
+cosmetic: {
+  title: "مجموعة شركات التجميل والصحة العنوان الرأسمالي",
+  description: `مجموعة التجميل والصحة العنوان الرأسمالي تعمل بهدف تحسين جودة الحياة والجمال المستدام والصحة الشخصية، في مجال إنتاج واستيراد وتوزيع منتجات التجميل والعناية والصحة. هذه المجموعة، باستخدام التركيبات الحديثة والمعايير العالمية والعلامات التجارية المعتبرة، تلبي الاحتياجات المتنوعة للسوق.
+
+مجالات النشاط:
+    إنتاج وتعبئة منتجات العناية بالبشرة والشعر والجسم
+    استيراد العلامات التجارية العالمية للتجميل والصحة
+    تطوير العلامات التجارية الحصرية في مجال الجمال
+    التوزيع الواسع من خلال المتاجر المتسلسلة والصيدليات والإنترنت
+    البحث والتطوير في مجال المركبات الطبيعية والمستدامة
+
+نحن نعطي معنى للجمال بالعلم والابتكار واحترام صحة المستهلك — ونحن نتقدم في مسار خلق تجربة مميزة في العناية الشخصية.`
+}
+  },
 },
   zh: {
   navbar: {
@@ -1028,6 +1488,127 @@ info3: {
   happyClientsNumber: "先锋",
   happyClients: "资本和资源管理",
 },
+companies: {
+      title: "集团公司",
+      construction: "建筑公司集团",
+      investment: "投资公司集团",
+      petrochemical: "石油和石化公司集团",
+      industrial: "工业公司集团",
+      energy: "能源公司集团",
+      trading: "贸易公司集团",
+      tourism: "旅游公司集团",
+      cosmetic: "化妆品和健康公司集团"
+    },
+// Chinese translations
+companyDetails: {
+  title: "公司详情",
+  learnMore: "了解更多",
+  construction: {
+    title: "首都地址建筑公司集团",
+    description: `首都地址建筑集团作为该控股公司的主要执行部门之一，在设计、建设和开发土木工程和建筑项目领域开展业务。该集团通过利用专业团队、国际标准和现代技术，在各个领域实施世界级项目。
+
+业务领域：
+    住宅、商业和行政综合体建设
+    土木工程和基础设施项目管理与实施
+    城镇和大型项目的设计与实施
+    城市和历史建筑的重建和翻新
+    智能建筑基础设施开发
+
+我们对质量的承诺、精确的时间安排以及在建筑领域创造可持续价值，使我们成为国内外土木工程项目的可靠合作伙伴。`
+  },
+  investment: {
+    title: "首都地址投资集团",
+    description: `首都地址投资集团作为控股公司的金融和战略部门，其使命是通过专业分析识别国内外市场的经济机会并创造价值。该集团采用智能和数据驱动的方法，开发多元化投资组合，为控股公司其他部门提供财务支持。
+
+业务领域：
+    基础设施、技术和工业项目投资
+    资本组合和战略资产管理
+    大型项目融资和资源调动
+    市场分析、风险评估和财务决策
+    与金融机构、银行和基金合作
+
+基于经验、透明度和长远眼光，我们将资本从金融工具转变为可持续发展和国家增长的工具。`
+  },
+  petrochemical: {
+    title: "首都地址石油和石化集团",
+    description: `首都地址石油和石化集团专注于能源供应链，从原材料开采到石化产品制造全程运营。该集团依托技术知识、现代技术和国际标准，在石油天然气上下游产业的可持续发展中发挥关键作用。
+
+业务领域：
+    石油和天然气炼厂建设与运营
+    石化项目投资
+    石油衍生品出口和进口
+    工程咨询和工业项目管理
+    技术转让和能源基础设施开发
+
+以提高生产力、发展非石油出口和在能源行业创造附加值为目标，我们在转型和创新的道路上前进。`
+  },
+  industrial: {
+    title: "首都地址工业集团",
+    description: `首都地址工业集团以发展生产基础设施和支持国家战略产业为使命，在工业单位的设计、建设和调试领域开展业务。该集团受益于先进工程、本土技术知识和国际标准，在集团中发挥工业基础之一的作用。
+
+业务领域：
+    生产单位和工业工厂的设计与建设
+    机械、设备和生产线供应
+    各行业交钥匙(EPC)项目实施
+    工业设施维护、维修和优化
+    技术升级和生产流程机械化
+
+通过精确、工程化和灵活的方法，我们将工业转变为创造经济价值、可持续就业和技术进步的平台。`
+  },
+  energy: {
+    title: "首都地址能源集团",
+    description: `首都地址能源集团以前瞻性方法，在可持续和传统能源的生产、传输和利用领域开展业务。该集团专注于创新、环境可持续性和能源效率，致力于为能源供应塑造绿色安全的未来。
+
+业务领域：
+    电力、天然气和可再生能源项目投资
+    太阳能、风能和联合循环发电厂建设
+    智能能源分配基础设施开发
+    大型项目能源消耗管理和优化
+    电力传输和分配项目咨询与实施
+
+我们相信能源的未来取决于工程知识、社会责任和可持续方法的结合——我们在这条道路上发挥积极有效的作用。`
+  },
+  trading: {
+    title: "首都地址贸易集团",
+    description: `首都地址贸易集团专注于国内外贸易发展，致力于连接生产与市场，促进供应链发展。该集团依托广泛的商业伙伴网络和专业团队，在战略商品的出口、进口和分销中发挥重要作用。
+
+业务领域：
+    原材料、工业设备和消费品进口
+    子集团产品出口到全球市场
+    物流、运输和清关服务
+    目标市场开发和国际商务谈判
+    零售和批发链中的商品供应和分销
+
+通过透明、快速和智能的方法，我们将贸易转变为控股公司经济增长和价值创造的动态工具。`
+  },
+  tourism: {
+    title: "首都地址旅游集团",
+    description: `首都地址旅游集团以发展旅游业基础设施、改善旅行体验和加强伊朗在国际旅游市场地位为目标开展业务。该集团通过投资住宿、娱乐和文化项目，为可持续和经济旅游提供了新平台。
+
+业务领域：
+    酒店、住宿和娱乐中心建设与运营
+    国内外旅游线路设计与实施
+    健康、文化和商务旅游发展
+    旅游技术和旅游平台投资
+    与航空公司、代理商和全球旅游机构合作
+
+我们相信旅游不仅仅是旅行，而是文化连接、经济繁荣和建设更全球化未来的机会——我们在这条道路上发挥作用。`
+  },
+  cosmetic: {
+    title: "首都地址化妆品和健康集团",
+    description: `首都地址化妆品和健康集团以提高生活质量、可持续美丽和个人健康为目标，在化妆品、护理和健康产品的生产、进口和分销领域开展业务。该集团利用现代配方、全球标准和知名品牌，满足市场的多样化需求。
+
+业务领域：
+    皮肤、头发和身体护理产品生产和包装
+    国际化妆品和健康品牌进口
+    美容领域专属品牌开发
+    通过连锁店、药店和在线渠道广泛分销
+    天然和可持续成分研发
+
+我们用科学、创新和对消费者健康的尊重来诠释美丽——我们在创造独特个人护理体验的道路上前进。`
+  }
+},
+
 },
 };
 

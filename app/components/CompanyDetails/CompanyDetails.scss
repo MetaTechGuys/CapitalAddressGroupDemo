@@ -1,0 +1,334 @@
+.company-details {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+  &__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+    z-index: 1;
+  }
+
+  &__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      135deg,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.3) 50%,
+      rgba(0, 0, 0, 0.7) 100%
+    );
+    z-index: 2;
+  }
+
+  &__content {
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 0;
+    padding: 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+  }
+
+  &__content-inner {
+    backdrop-filter: blur(20px);
+    border-radius: 24px;
+    padding: 2rem;
+    box-shadow: 0 25px 80px rgba(0, 0, 0, 0.3);
+    max-width: 800px;
+    width: 100%;
+    transform: translateY(0);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 30px 100px rgba(0, 0, 0, 0.4);
+    }
+  }
+
+  &__title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0 0 2rem 0;
+    color: #333;
+    line-height: 1.2;
+    background: linear-gradient(135deg, #4794dd 0%, #3266c5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    transition: all 0.3s ease;
+  }
+
+  &__description {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #c4c4c4;
+    margin: 0 0 2.5rem 0;
+    font-weight: 400;
+    text-align: justify;
+    white-space: pre-line;
+    max-height: 800px;
+    overflow-y: auto;
+    
+    &::-webkit-scrollbar {
+      width: 4px;
+    }
+    
+    &::-webkit-scrollbar-track {
+      background: rgba(0, 0, 0, 0.1);
+      border-radius: 2px;
+    }
+    
+    &::-webkit-scrollbar-thumb {
+      background: rgba(102, 126, 234, 0.3);
+      border-radius: 2px;
+      
+      &:hover {
+        background: rgba(102, 126, 234, 0.5);
+      }
+    }
+  }
+
+  &__actions {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+  }
+
+  &__cta {
+    background: linear-gradient(135deg, #2b5aaf 0%, #1c509e 100%);
+    color: white;
+    border: none;
+    padding: 1.2rem 2.5rem;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+
+    &:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 15px 35px rgba(102, 126, 234, 0.5);
+      background: linear-gradient(135deg, #4794dd 0%, #3266c5 100%);
+    }
+
+    &:active {
+      transform: translateY(-1px);
+    }
+  }
+
+  &__back-btn {
+    position: fixed;
+    bottom: 2rem;
+    left: 2rem;
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.95);
+    color: #5393f3;
+    border: 2px solid rgba(102, 126, 234, 0.4);
+    padding: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+    backdrop-filter: blur(15px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+    overflow: hidden;
+    
+    // Button stays in place, no position animations
+    &:hover {
+      background: rgba(102, 126, 234, 0.15);
+      border-color: #5393f3;
+      box-shadow: 0 15px 40px rgba(102, 126, 234, 0.5);
+      
+      // Glow effect on hover
+      &::before {
+        opacity: 1;
+        transform: scale(1.2);
+      }
+      
+      // Make arrow animation faster on hover
+      .company-details__back-arrow {
+        animation: arrow-bounce-hover 0.8s infinite;
+      }
+    }
+
+    &:active {
+      transform: scale(0.95);
+      box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+    }
+
+    // Glow effect
+    &::before {
+      content: '';
+      position: absolute;
+      top: -2px;
+      left: -2px;
+      right: -2px;
+      bottom: -2px;
+      border-radius: 50%;
+      z-index: -1;
+      opacity: 0;
+      transition: all 0.4s ease;
+      transform: scale(1);
+    }
+  }
+
+  &__back-arrow {
+    width: 26px;
+    height: 26px;
+    transition: all 0.3s ease;
+    
+    // Continuous up and down animation for the arrow
+    animation: arrow-bounce 1.4s infinite ease-in-out;
+    
+  }
+
+  // Keyframe animations - only for the arrow
+  @keyframes arrow-bounce {
+    0%, 100% { 
+      transform: translateY(0); 
+    }
+    50% { 
+      transform: translateY(-4px); 
+    }
+  }
+
+  @keyframes arrow-bounce-hover {
+    0%, 100% { 
+      transform: translateY(0); 
+    }
+    50% { 
+      transform: translateY(-8px); 
+    }
+  }
+
+  // Mobile Responsive
+  @media (max-width: 768px) {
+    &__content {
+      padding: 1rem;
+    }
+
+    &__content-inner {
+      padding: 2.5rem 2rem;
+      border-radius: 20px;
+    }
+
+    &__title {
+      font-size: 2.2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    &__description {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      margin-bottom: 2rem;
+      max-height: 250px;
+    }
+
+    &__cta {
+      padding: 1rem 2rem;
+      font-size: 1rem;
+    }
+
+    &__back-btn {
+      bottom: 1.5rem;
+      left: 1.5rem;
+      width: 55px;
+      height: 55px;
+    }
+
+    &__back-arrow {
+      width: 22px;
+      height: 22px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    &__content-inner {
+      padding: 2rem 1.5rem;
+    }
+
+    &__title {
+      font-size: 1.8rem;
+    }
+
+    &__description {
+      font-size: 1rem;
+      line-height: 1.6;
+      max-height: 200px;
+    }
+
+    &__cta {
+      width: 100%;
+      max-width: 250px;
+    }
+
+    &__back-btn {
+      bottom: 1rem;
+      left: 1rem;
+      width: 50px;
+      height: 50px;
+    }
+
+    &__back-arrow {
+      width: 20px;
+      height: 20px;
+    }
+
+    // Reduce animation intensity on mobile
+    @keyframes arrow-bounce {
+      0%, 100% { 
+        transform: translateY(0); 
+      }
+      50% { 
+        transform: translateY(-2px); 
+      }
+    }
+
+    @keyframes arrow-bounce-hover {
+      0%, 100% { 
+        transform: translateY(0); 
+      }
+      50% { 
+        transform: translateY(-4px); 
+      }
+    }
+  }
+}
+[dir="rtl"] {
+    .company-details{
+        &__content{
+        margin-left: auto;
+        margin-right: 0;
+    }
+    &__background{
+transform: rotateY(180deg);
+    }
+}
+}

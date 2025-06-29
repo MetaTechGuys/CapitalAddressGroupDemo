@@ -1,0 +1,108 @@
+.cover {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+
+  &__container {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: scale(1.02);
+    }
+  }
+
+  // Responsive breakpoints
+  @media (max-width: 768px) {
+    &__image {
+      object-fit: cover;
+      height: 50vh;
+      min-height: 300px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    &__image {
+      height: 40vh;
+      min-height: 250px;
+    }
+  }
+
+  // Full height variant
+  &--full-height {
+    height: 100vh;
+    min-height: 500px;
+
+    .cover__container {
+      height: 100%;
+    }
+
+    .cover__image {
+      height: 100vh;
+      object-fit: cover;
+    }
+  }
+
+  // Fixed height variants
+  &--small {
+    .cover__image {
+      height: 300px;
+      object-fit: cover;
+    }
+  }
+
+  &--medium {
+    .cover__image {
+      height: 500px;
+      object-fit: cover;
+    }
+  }
+
+  &--large {
+    .cover__image {
+      height: 700px;
+      object-fit: cover;
+    }
+  }
+
+  // Rounded corners variant
+  &--rounded {
+    .cover__image {
+      border-radius: 12px;
+    }
+  }
+
+  // Shadow variant
+  &--shadow {
+    .cover__image {
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+  }
+}
+
+// Dark theme support
+[data-theme="dark"] {
+  .cover {
+    &__image {
+      filter: brightness(0.9);
+    }
+  }
+}
+
+// RTL support
+[dir="rtl"] {
+  .cover {
+    // RTL specific styles if needed
+  }
+}
