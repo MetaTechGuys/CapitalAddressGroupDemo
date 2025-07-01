@@ -39,10 +39,10 @@ const Footer = () => {
           <div className="footer__section">
             <h4 className="footer__subtitle">{t('footer.company')}</h4>
             <ul className="footer__list">
-              <li><a href="/about" className="footer__link">{t('navbar.about')}</a></li>
-              <li><a href="/team" className="footer__link">{t('footer.ourTeam')}</a></li>
+              <li><a href="/aboutus" className="footer__link">{t('navbar.about')}</a></li>
+              <li><a href="/services" className="footer__link">{t('footer.ourTeam')}</a></li>
               <li><a href="/careers" className="footer__link">{t('footer.careers')}</a></li>
-              <li><a href="/contact" className="footer__link">{t('navbar.contact')}</a></li>
+              <li><a href="/contactus" className="footer__link">{t('navbar.contact')}</a></li>
             </ul>
           </div>
           

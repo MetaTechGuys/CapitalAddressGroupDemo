@@ -35,7 +35,7 @@ const Hero = () => {
             <Link href="/services" className="hero__btn hero__btn--primary">
               {t('hero.ourServices')}
             </Link>
-            <Link href="/contact" className="hero__btn hero__btn--secondary">
+            <Link href="/contactus" className="hero__btn hero__btn--secondary">
               {t('hero.getInTouch')}
             </Link>
           </div>

@@ -65,7 +65,7 @@ const Timeline = () => {
           </div>
           
           <div className="timeline__actions">
-            <Link href="/about" className="timeline__btn timeline__btn--primary">
+            <Link href="/aboutus" className="timeline__btn timeline__btn--primary">
               {t('timeline.ourStory')}
               <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
