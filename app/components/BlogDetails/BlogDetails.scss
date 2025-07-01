@@ -1,0 +1,270 @@
+.blog-details {
+  padding: 2rem 0;
+  justify-content: center;
+
+  &__header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  &__title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    // color: #fff;
+  }
+
+  &__description {
+    font-size: 1.1rem;
+    // color: #fff;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 800px; // Reduced from 1200px for 2 items
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  &__item {
+    border-radius: 12px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: 2px solid transparent;
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    }
+
+    &--active {
+      border-color: #007bff;
+      box-shadow: 0 8px 25px rgba(0, 123, 255, 0.2);
+    }
+  }
+
+  &__image-container {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f8f9fa;
+    border-radius: 50%;
+  }
+
+  &__image {
+    object-fit: contain;
+    border-radius: 0%;
+  }
+
+  &__name {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+
+  &__info {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+   &__action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    opacity: 1;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+    margin-top: 1rem;
+  }
+
+  &__action-text {
+    font-size: 0.9rem;
+    color: #007bff;
+    font-weight: 500;
+  }
+
+  &__arrow {
+    color: #007bff;
+    transition: transform 0.3s ease;
+  }
+
+  @media (max-width: 768px) {
+    &__grid {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+
+    &__title {
+      font-size: 2rem;
+    }
+
+    &__item {
+      padding: 1.5rem;
+    }
+  }
+}
+
+// Light theme (default)
+.blog-details {
+  &__item {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    transition: all 0.3s ease;
+
+    &:hover {
+      border-color: #d1d5db;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    &--active {
+      border-color: #007bff;
+      box-shadow: 0 8px 25px rgba(0, 123, 255, 0.2);
+    }
+  }
+
+  &__image-container {
+    background: #f9fafb;
+  }
+
+  &__name {
+    color: #1f2937;
+  }
+
+  &__info {
+    color: #6b7280;
+  }
+}
+
+// Dark theme support
+@media (prefers-color-scheme: dark) {
+  .blog-details {
+    &__item {
+      background: #1f2937;
+      border-color: #374151;
+
+      &:hover {
+        border-color: #4b5563;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      }
+
+      &--active {
+        border-color: #3b82f6;
+        box-shadow: 0 8px 25px rgba(59, 130, 246, 0.3);
+      }
+    }
+
+    &__image-container {
+      background: #111827;
+    }
+
+    &__name {
+      color: #f9fafb;
+    }
+
+    &__info {
+      color: #d1d5db;
+    }
+  }
+}
+
+// Manual theme toggle support (if you have theme switcher)
+[data-theme="light"] {
+  .blog-details {
+
+    &__title {
+      color: #007bff;
+    }
+
+    &__description {
+      color: #000;
+    }
+
+    &__item {
+      background: #c4c4c444;
+      border: 1px solid #888888;
+
+      &:hover {
+        border-color: #888888;
+        box-shadow: 0 8px 14px rgba(0, 0, 0, 0.4);
+      }
+
+      &--active {
+        border-color: #007bff;
+        box-shadow: 0 8px 25px rgba(0, 123, 255, 0.3);
+      }
+    }
+
+    &__image-container {
+      background: #c4c4c404;
+    }
+
+    &__name {
+      color: #1f2937;
+    }
+
+    &__info {
+      color: #4b5563;
+    }
+  }
+}
+
+[data-theme="dark"] {
+  .blog-details {
+
+    &__title {
+      color: #007bff;
+    }
+
+    &__description {
+      color: #fff;
+    }
+
+    &__item {
+      background: #88888844;
+      border: 1px solid #c4c4c4;
+
+      &:hover {
+        border-color: #c4c4c4;
+        box-shadow: 0 8px 14px rgba(248, 248, 248, 0.4);
+      }
+
+      &--active {
+        border-color: #3b82f6;
+        box-shadow: 0 8px 25px rgba(59, 130, 246, 0.4);
+      }
+    }
+
+    &__image-container {
+      background: #88888804;
+      
+      > img {
+        filter: invert(1);
+      }
+    }
+
+    &__name {
+      color: #f9fafb;
+    }
+
+    &__info {
+      color: #e5e7eb;
+    }
+  }
+}
+
+[dir="rtl"] {
+  .blog-details__arrow {
+    transform: rotateY(180deg);
+  }
+}

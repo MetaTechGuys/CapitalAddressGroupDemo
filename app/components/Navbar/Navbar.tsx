@@ -33,10 +33,10 @@ const Navbar = () => {
     {
       id: "home",
       label: t("navbar.home"),
-      href: "/",
+      href: "#",
       dropdown: [
         { label: t("navbar.dropdown.home.welcome"), href: "/" },
-        { label: t("navbar.dropdown.home.latest_news"), href: "/news" },
+        { label: t("navbar.dropdown.home.latest_news"), href: "/blog" },
         {
           label: t("navbar.dropdown.home.featured_projects"),
           href: "/featured",
@@ -50,9 +50,9 @@ const Navbar = () => {
     {
       id: "about",
       label: t("navbar.about"),
-      href: "/aboutus",
+      href: "#",
       dropdown: [
-        { label: t("navbar.dropdown.about.our_story"), href: "/aboutus/story" },
+        { label: t("navbar.dropdown.about.our_story"), href: "/aboutus" },
         { label: t("navbar.dropdown.about.team"), href: "/about/team" },
         {
           label: t("navbar.dropdown.about.mission_vision"),
@@ -65,11 +65,11 @@ const Navbar = () => {
     {
       id: "services",
       label: t("navbar.services"),
-      href: "/services",
+      href: "#",
       dropdown: [
         {
           label: t("navbar.dropdown.services.real_estate"),
-          href: "/services/real-estate",
+          href: "/services",
         },
         {
           label: t("navbar.dropdown.services.property_management"),
@@ -92,9 +92,9 @@ const Navbar = () => {
     {
       id: "contact",
       label: t("navbar.contact"),
-      href: "/contact",
+      href: "#",
       dropdown: [
-        { label: t("navbar.dropdown.contact.get_in_touch"), href: "/contact" },
+        { label: t("navbar.dropdown.contact.get_in_touch"), href: "/contactus" },
         {
           label: t("navbar.dropdown.contact.office_locations"),
           href: "/contact/locations",

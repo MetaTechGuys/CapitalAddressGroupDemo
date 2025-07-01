@@ -119,7 +119,7 @@
     color: white;
     border: none;
     padding: 1.2rem 2.5rem;
-    border-radius: 50px;
+    border-radius: 14px;
     font-size: 1.1rem;
     font-weight: 600;
     cursor: pointer;
@@ -142,14 +142,14 @@
   &__back-btn {
     position: fixed;
     bottom: 2rem;
-    left: 2rem;
+    // left: 2rem;
     z-index: 1000;
-    background: rgba(255, 255, 255, 0.95);
+    // background: rgba(255, 255, 255, 0.95);
     color: #5393f3;
     border: 2px solid rgba(102, 126, 234, 0.4);
     padding: 0;
-    width: 60px;
-    height: 60px;
+    width: 48px;
+    height: 48px;
     border-radius: 50%;
     cursor: pointer;
     transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);

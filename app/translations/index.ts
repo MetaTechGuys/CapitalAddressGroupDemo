@@ -206,14 +206,14 @@ info3: {
 },
 companies: {
       title: "شرکت‌های گروه",
-      construction: "گروه شرکت‌های ساختمانی",
-      investment: "گروه شرکت‌های سرمایه‌گذاری",
-      petrochemical: "گروه شرکت‌های نفت و پتروشیمی",
-      industrial: "گروه شرکت‌های صنعتی",
-      energy: "گروه شرکت‌های انرژی",
-      trading: "گروه شرکت‌های بازرگانی",
-      tourism: "گروه شرکت‌های گردشگری",
-      cosmetic: "گروه شرکت‌های آرایشی و بهداشتی"
+      construction: "ساختمانی",
+      investment: "سرمایه‌گذاری",
+      petrochemical: "نفت و پتروشیمی",
+      industrial: "صنعتی",
+      energy: "انرژی",
+      trading: "بازرگانی",
+      tourism: "گردشگری",
+      cosmetic: "آرایشی و بهداشتی"
     },
     companyDetails: {
     title: "جزئیات شرکت",
@@ -307,6 +307,187 @@ companies: {
 ما زیبایی را با علم، نوآوری و احترام به سلامت مصرف‌کننده معنا می‌کنیم — و در مسیر خلق تجربه‌ای متمایز از مراقبت فردی گام برمی‌داریم.`
     }
   },
+  contact: {
+  title: "تماس با ما",
+  description: "ارتباط مؤثر با شما را سرلوحه فعالیت خود قرار داده‌ایم. تیم ما همواره آماده پاسخگویی به سؤالات، دریافت پیشنهادات، و رسیدگی به درخواست‌های شماست.",
+  clickToNavigate: "برای مشاهده کلیک کنید",
+  phone: {
+    title: "اطلاعات تماس"
+  },
+  email: {
+    title: "ارتباط مستقیم"
+  },
+  address: {
+    title: "آدرس ما"
+  }
+},
+form: {
+    title: "ارتباط مستقیم با ما",
+    headerDescription: "فرم زیر را تکمیل کنید تا در اسرع وقت با شما تماس بگیریم. نظرات و سوالات شما برای ما ارزشمند است.",
+    name: "نام",
+    namePlaceholder: "نام خود را وارد کنید",
+    phone: "شماره تلفن",
+    phonePlaceholder: "شماره تلفن خود را وارد کنید",
+    email: "ایمیل",
+    emailPlaceholder: "آدرس ایمیل خود را وارد کنید",
+    message: "پیام",
+    messagePlaceholder: "پیام خود را بنویسید...",
+    submit: "ارسال پیام",
+    submitting: "در حال ارسال...",
+    success: "پیام شما با موفقیت ارسال شد!",
+    errors: {
+      nameRequired: "وارد کردن نام الزامی است",
+      phoneRequired: "وارد کردن شماره تلفن الزامی است",
+      emailRequired: "وارد کردن ایمیل الزامی است",
+      emailInvalid: "لطفاً آدرس ایمیل معتبری وارد کنید",
+      descriptionRequired: "وارد کردن پیام الزامی است"
+    }
+  },
+callInfo: {
+  title: "اطلاعات تماس",
+  description: "از طریق هر یک از روش‌های زیر با ما در تماس باشید. ما اینجا هستیم تا کمک کنیم!",
+  sections: {
+    phone: "شماره تلفن‌ها",
+    email: "آدرس‌های ایمیل", 
+    address: "آدرس‌های ما",
+    social: "شبکه‌های اجتماعی"
+  },
+  phone: {
+    main: "دفتر مرکزی",
+    support: "خط پشتیبانی"
+  },
+  email: {
+    general: "استعلامات عمومی",
+    support: "پشتیبانی مشتریان"
+  },
+  address: {
+    main: "دفتر مرکزی",
+    branch: "دفتر شعبه",
+    mainValue: "تهران، ایران - ساختمان دفتر مرکزی، طبقه ۱۰",
+    branchValue: "اصفهان، ایران - دفتر شعبه، مرکز تجاری"
+  }
+},
+location: {
+  title: "موقعیت ما",
+  description: "آدرس دقیق دفتر مرکزی ما را در نقشه مشاهده کنید و راه‌های دسترسی را بررسی نمایید.",
+  markerTitle: "دفتر مرکزی",
+  mapTitle: "نقشه موقعیت",
+  loading: "در حال بارگذاری نقشه...",
+  getDirections: "مسیریابی",
+  openInOSM: "باز کردن در OpenStreetMap",
+  openInGoogleMaps: "باز کردن در Google Maps",
+  coordinates: "مختصات جغرافیایی",
+  address: "آدرس",
+  copyCoordinates: "کپی مختصات",
+  coordinatesCopied: "مختصات کپی شد!"
+},
+blog: {
+  title: "رسانه کپیتال آدرس",
+  description: "در این بخش، می‌توانید تازه‌ترین اخبار، اطلاعیه‌ها، گزارش‌ها و رویدادهای مرتبط با کپیتال آدرس و شرکت‌های زیرمجموعه را دنبال کنید.",
+  clickToNavigate: "برای مشاهده کلیک کنید",
+  latest: {
+    title: "آخرین اخبار"
+  },
+  categories: {
+    title: "بروزترین رویداد ها"
+  }
+},
+blognews: {
+      title: "اخبار کپیتال آدرس",
+      description: "در این بخش، می‌توانید تازه‌ترین اخبار، اطلاعیه‌ها، گزارش‌ها و رویدادهای مرتبط با کپیتال آدرس و شرکت‌های زیرمجموعه را دنبال کنید.",
+      clickToNavigate: "برای مشاهده کلیک کنید",
+      slides: {
+slide1: {
+  title: "استراتژی‌های سرمایه‌گذاری هوشمند",
+  description: "رویکردهای نوآورانه برای ایجاد ثروت از طریق سرمایه‌گذاری‌های استراتژیک در بازارهای نوظهور و فناوری‌های پایدار را کشف کنید.",
+  category: "سرمایه‌گذاری"
+},
+slide2: {
+  title: "تعالی معماری مدرن",
+  description: "طراحی‌های معماری پیشرفته که کارکرد را با جذابیت زیبایی‌شناختی در جدیدترین پروژه‌های ساختمانی ما ترکیب می‌کند، کاوش کنید.",
+  category: "معماری"
+},
+slide3: {
+  title: "راه‌حل‌های انرژی پایدار",
+  description: "پیشگام در انتقال به انرژی‌های تجدیدپذیر با سیستم‌های پیشرفته تولید برق خورشیدی، بادی و ترکیبی.",
+  category: "انرژی"
+},
+slide4: {
+  title: "شبکه‌های تجاری جهانی",
+  description: "گسترش تجارت بین‌المللی از طریق مشارکت‌های استراتژیک و راه‌حل‌های نوآورانه مدیریت زنجیره تأمین.",
+  category: "تجارت"
+},
+slide5: {
+  title: "تجربیات گردشگری ممتاز",
+  description: "ایجاد مقاصد سفر فراموش‌نشدنی که میراث فرهنگی را به نمایش می‌گذارند و در عین حال اقامتگاه‌های لوکس ارائه می‌دهند.",
+  category: "گردشگری"
+},
+slide6: {
+  title: "مرکز نوآوری صنعتی",
+  description: "هدایت پیشرفت فناوری از طریق تأسیسات تولیدی پیشرفته و مراکز توسعه تحقیقات.",
+  category: "صنعتی"
+},
+slide7: {
+  title: "تعالی پتروشیمی",
+  description: "پیشبرد بخش انرژی با فناوری‌های پالایش پیشرفته و روش‌های تولید پتروشیمی پایدار.",
+  category: "پتروشیمی"
+},
+slide8: {
+  title: "انقلاب زیبایی و تندرستی",
+  description: "تحول مراقبت شخصی از طریق فرمولاسیون‌های نوآورانه آرایشی و راه‌حل‌های جامع سلامت و زیبایی.",
+  category: "زیبایی و تندرستی"
+}
+
+      }
+    },
+    weblog: {
+  title: "وبلاگ کپیتال آدرس",
+  description: "در این بخش، می‌توانید مقالات تخصصی، تحلیل‌ها و بینش‌های عمیق در زمینه‌های مختلف فعالیت کپیتال آدرس را مطالعه کنید.",
+  clickToNavigate: "برای مطالعه کلیک کنید",
+  slides: {
+    slide1: {
+      title: "استراتژی‌های سرمایه‌گذاری هوشمند",
+      description: "رویکردهای نوآورانه برای ایجاد ثروت از طریق سرمایه‌گذاری‌های استراتژیک در بازارهای نوظهور و فناوری‌های پایدار را کشف کنید.",
+      category: "سرمایه‌گذاری"
+    },
+    slide2: {
+      title: "تعالی معماری مدرن",
+      description: "طراحی‌های معماری پیشرفته که کارکرد را با جذابیت زیبایی‌شناختی در جدیدترین پروژه‌های ساختمانی ما ترکیب می‌کند، کاوش کنید.",
+      category: "معماری"
+    },
+    slide3: {
+      title: "راه‌حل‌های انرژی پایدار",
+      description: "پیشگام در انتقال به انرژی‌های تجدیدپذیر با سیستم‌های پیشرفته تولید برق خورشیدی، بادی و ترکیبی.",
+      category: "انرژی"
+    },
+    slide4: {
+      title: "شبکه‌های تجاری جهانی",
+      description: "گسترش تجارت بین‌المللی از طریق مشارکت‌های استراتژیک و راه‌حل‌های نوآورانه مدیریت زنجیره تأمین.",
+      category: "تجارت"
+    },
+    slide5: {
+      title: "تجربیات گردشگری ممتاز",
+      description: "ایجاد مقاصد سفر فراموش‌نشدنی که میراث فرهنگی را به نمایش می‌گذارند و در عین حال اقامتگاه‌های لوکس ارائه می‌دهند.",
+      category: "گردشگری"
+    },
+    slide6: {
+      title: "مرکز نوآوری صنعتی",
+      description: "هدایت پیشرفت فناوری از طریق تأسیسات تولیدی پیشرفته و مراکز توسعه تحقیقات.",
+      category: "صنعتی"
+    },
+    slide7: {
+      title: "تعالی پتروشیمی",
+      description: "پیشبرد بخش انرژی با فناوری‌های پالایش پیشرفته و روش‌های تولید پتروشیمی پایدار.",
+      category: "پتروشیمی"
+    },
+    slide8: {
+      title: "انقلاب زیبایی و تندرستی",
+      description: "تحول مراقبت شخصی از طریق فرمولاسیون‌های نوآورانه آرایشی و راه‌حل‌های جامع سلامت و زیبایی.",
+      category: "زیبایی و تندرستی"
+    }
+  }
+},
+
   },
   en: {
   navbar: {
@@ -515,14 +696,14 @@ info3: {
 },
 companies: {
       title: "Group Companies",
-      construction: "Construction Companies Group",
-      investment: "Investment Companies Group",
-      petrochemical: "Oil and Petrochemical Companies Group",
-      industrial: "Industrial Companies Group",
-      energy: "Energy Companies Group",
-      trading: "Trading Companies Group",
-      tourism: "Tourism Companies Group",
-      cosmetic: "Cosmetic and Health Companies Group"
+      construction: "Construction",
+      investment: "Investment",
+      petrochemical: "Oil and Petrochemical",
+      industrial: "Industrial",
+      energy: "Energy",
+      trading: "Trading",
+      tourism: "Tourism",
+      cosmetic: "Cosmetic and Health"
     },
     companyDetails: {
   title: "Company Details",
@@ -632,6 +813,185 @@ Areas of activity:
 We give meaning to beauty with science, innovation and respect for consumer health — and we are moving forward in the path of creating a distinctive experience in personal care.`
   }
 },
+contact: {
+  title: "Contact Us",
+  description: "We have made effective communication with you the cornerstone of our activities. Our team is always ready to answer questions, receive suggestions, and address your requests.",
+  clickToNavigate: "Click to view",
+  phone: {
+    title: "Contact Information"
+  },
+  email: {
+    title: "Direct Communication"
+  },
+  address: {
+    title: "Our Address"
+  }
+},
+form: {
+    title: "Send us your Message",
+    headerDescription: "Fill out the form below and we'll get back to you as soon as possible. Your feedback and inquiries are valuable to us.",
+    name: "Name",
+    namePlaceholder: "Enter your name",
+    phone: "Phone Number",
+    phonePlaceholder: "Enter your phone number",
+    email: "Email",
+    emailPlaceholder: "Enter your email address",
+    message: "Message",
+    messagePlaceholder: "Write your message...",
+    submit: "Send Message",
+    submitting: "Sending...",
+    success: "Your message has been sent successfully!",
+    errors: {
+      nameRequired: "Name is required",
+      phoneRequired: "Phone number is required",
+      emailRequired: "Email is required",
+      emailInvalid: "Please enter a valid email address",
+      descriptionRequired: "Message is required"
+    }
+},
+callInfo: {
+  title: "Contact Information",
+  description: "Get in touch with us through any of the following methods. We're here to help!",
+  sections: {
+    phone: "Phone Numbers",
+    email: "Email Addresses", 
+    address: "Our Locations",
+    social: "Social Media"
+  },
+  phone: {
+    main: "Main Office",
+    support: "Support Line"
+  },
+  email: {
+    general: "General Inquiries",
+    support: "Customer Support"
+  },
+  address: {
+    main: "Head Office",
+    branch: "Branch Office",
+    mainValue: "Tehran, Iran - Main Office Building, Floor 10",
+    branchValue: "Isfahan, Iran - Branch Office, Commercial Center"
+  }
+},
+location: {
+  title: "Our Location",
+  description: "View our exact office location on the map and explore accessibility routes.",
+  markerTitle: "Head Office",
+  mapTitle: "Location Map",
+  loading: "Loading map...",
+  getDirections: "Get Directions",
+  openInOSM: "Open in OpenStreetMap",
+  openInGoogleMaps: "Open in Google Maps",
+  coordinates: "Coordinates",
+  address: "Address",
+  copyCoordinates: "Copy Coordinates",
+  coordinatesCopied: "Coordinates copied!"
+},
+blog: {
+  title: "Capital Address Media",
+  description: "In this section, you can follow the latest news, announcements, reports and events related to Capital Address and its subsidiaries.",
+  clickToNavigate: "Click to view",
+  latest: {
+    title: "Latest News"
+  },
+  categories: {
+    title: "Latest Events"
+  }
+},
+blognews: {
+  title: "Capital Address News",
+  description: "In this section, you can follow the latest news, announcements, reports and events related to Capital Address and its subsidiaries.",
+  clickToNavigate: "Click to view",
+  slides: {
+    slide1: {
+      title: "Smart Investment Strategies",
+      description: "Discover innovative approaches to wealth creation through strategic investments in emerging markets and sustainable technologies.",
+      category: "Investment"
+    },
+    slide2: {
+      title: "Modern Architectural Excellence",
+      description: "Explore advanced architectural designs that combine functionality with aesthetic appeal in our latest building projects.",
+      category: "Architecture"
+    },
+    slide3: {
+      title: "Sustainable Energy Solutions",
+      description: "Leading the transition to renewable energy with advanced solar, wind and hybrid power generation systems.",
+      category: "Energy"
+    },
+    slide4: {
+      title: "Global Trade Networks",
+      description: "Expanding international trade through strategic partnerships and innovative supply chain management solutions.",
+      category: "Trade"
+    },
+    slide5: {
+      title: "Premium Tourism Experiences",
+      description: "Creating unforgettable travel destinations that showcase cultural heritage while providing luxury accommodations.",
+      category: "Tourism"
+    },
+    slide6: {
+      title: "Industrial Innovation Hub",
+      description: "Driving technological advancement through state-of-the-art manufacturing facilities and research development centers.",
+      category: "Industrial"
+    },
+    slide7: {
+      title: "Petrochemical Excellence",
+      description: "Advancing the energy sector with cutting-edge refining technologies and sustainable petrochemical production methods.",
+      category: "Petrochemical"
+    },
+    slide8: {
+      title: "Beauty & Wellness Revolution",
+      description: "Transforming personal care through innovative cosmetic formulations and comprehensive health and beauty solutions.",
+      category: "Beauty & Wellness"
+    }
+  }
+},
+weblog: {
+  title: "Capital Address Weblog",
+  description: "In this section, you can read specialized articles, analyses and deep insights in various fields of Capital Address activities.",
+  clickToNavigate: "Click to read",
+  slides: {
+    slide1: {
+      title: "Smart Investment Strategies",
+      description: "Discover innovative approaches to wealth creation through strategic investments in emerging markets and sustainable technologies.",
+      category: "Investment"
+    },
+    slide2: {
+      title: "Modern Architectural Excellence",
+      description: "Explore advanced architectural designs that combine functionality with aesthetic appeal in our latest building projects.",
+      category: "Architecture"
+    },
+    slide3: {
+      title: "Sustainable Energy Solutions",
+      description: "Leading the transition to renewable energy with advanced solar, wind and hybrid power generation systems.",
+      category: "Energy"
+    },
+    slide4: {
+      title: "Global Trade Networks",
+      description: "Expanding international trade through strategic partnerships and innovative supply chain management solutions.",
+      category: "Trade"
+    },
+    slide5: {
+      title: "Premium Tourism Experiences",
+      description: "Creating unforgettable travel destinations that showcase cultural heritage while providing luxury accommodations.",
+      category: "Tourism"
+    },
+    slide6: {
+      title: "Industrial Innovation Hub",
+      description: "Driving technological advancement through state-of-the-art manufacturing facilities and research development centers.",
+      category: "Industrial"
+    },
+    slide7: {
+      title: "Petrochemical Excellence",
+      description: "Advancing the energy sector with cutting-edge refining technologies and sustainable petrochemical production methods.",
+      category: "Petrochemical"
+    },
+    slide8: {
+      title: "Beauty & Wellness Revolution",
+      description: "Transforming personal care through innovative cosmetic formulations and comprehensive health and beauty solutions.",
+      category: "Beauty & Wellness"
+    }
+  }
+}
 },
   de: {
   navbar: {
@@ -839,16 +1199,17 @@ info3: {
   happyClients: "Kapital- und Ressourcenmanagement",
 },
     companies: {
-      title: "Konzernunternehmen",
-      construction: "Bauunternehmen-Gruppe",
-      investment: "Investmentunternehmen-Gruppe",
-      petrochemical: "Öl- und Petrochemieunternehmen-Gruppe",
-      industrial: "Industrieunternehmen-Gruppe",
-      energy: "Energieunternehmen-Gruppe",
-      trading: "Handelsunternehmen-Gruppe",
-      tourism: "Tourismusunternehmen-Gruppe",
-      cosmetic: "Kosmetik- und Gesundheitsunternehmen-Gruppe"
-    },
+  title: "Konzernunternehmen",
+  construction: "Bau",
+  investment: "Investition",
+  petrochemical: "Öl und Petrochemie",
+  industrial: "Industrie",
+  energy: "Energie",
+  trading: "Handel",
+  tourism: "Tourismus",
+  cosmetic: "Kosmetik und Gesundheit"
+},
+
     companyDetails: {
   title: "Unternehmensdetails",
   learnMore: "Mehr erfahren",
@@ -957,6 +1318,185 @@ Tätigkeitsbereiche:
 Wir geben Schönheit mit Wissenschaft, Innovation und Respekt für die Verbrauchergesundheit Bedeutung — und wir bewegen uns vorwärts auf dem Weg, eine unverwechselbare Erfahrung in der persönlichen Pflege zu schaffen.`
   }
 },
+contact: {
+  title: "Kontaktieren Sie uns",
+  description: "Wir haben die effektive Kommunikation mit Ihnen zum Grundpfeiler unserer Aktivitäten gemacht. Unser Team ist stets bereit, Fragen zu beantworten, Vorschläge entgegenzunehmen und Ihre Anfragen zu bearbeiten.",
+  clickToNavigate: "Klicken Sie zum Anzeigen",
+  phone: {
+    title: "Kontaktinformationen"
+  },
+  email: {
+    title: "Direkte Kommunikation"
+  },
+  address: {
+    title: "Unsere Adresse"
+  }
+},
+form: {
+    title: "Senden Sie uns Ihre Nachricht",
+    headerDescription: "Füllen Sie das untenstehende Formular aus und wir werden uns so schnell wie möglich bei Ihnen melden. Ihr Feedback und Ihre Anfragen sind wertvoll für uns.",
+    name: "Name",
+    namePlaceholder: "Geben Sie Ihren Namen ein",
+    phone: "Telefonnummer",
+    phonePlaceholder: "Geben Sie Ihre Telefonnummer ein",
+    email: "E-Mail",
+    emailPlaceholder: "Geben Sie Ihre E-Mail-Adresse ein",
+    message: "Nachricht",
+    messagePlaceholder: "Schreiben Sie Ihre Nachricht...",
+    submit: "Nachricht senden",
+    submitting: "Wird gesendet...",
+    success: "Ihre Nachricht wurde erfolgreich gesendet!",
+    errors: {
+      nameRequired: "Name ist erforderlich",
+      phoneRequired: "Telefonnummer ist erforderlich",
+      emailRequired: "E-Mail ist erforderlich",
+      emailInvalid: "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+      descriptionRequired: "Nachricht ist erforderlich"
+    }
+},
+callInfo: {
+  title: "Kontaktinformationen",
+  description: "Kontaktieren Sie uns über eine der folgenden Methoden. Wir sind hier, um zu helfen!",
+  sections: {
+    phone: "Telefonnummern",
+    email: "E-Mail-Adressen", 
+    address: "Unsere Standorte",
+    social: "Soziale Medien"
+  },
+  phone: {
+    main: "Hauptbüro",
+    support: "Support-Hotline"
+  },
+  email: {
+    general: "Allgemeine Anfragen",
+    support: "Kundensupport"
+  },
+  address: {
+    main: "Hauptsitz",
+    branch: "Zweigstelle",
+    mainValue: "Teheran, Iran - Hauptgebäude, 10. Stock",
+    branchValue: "Isfahan, Iran - Zweigstelle, Handelszentrum"
+  }
+},
+location: {
+  title: "Unser Standort",
+  description: "Sehen Sie unseren genauen Bürostandort auf der Karte und erkunden Sie Anfahrtswege.",
+  markerTitle: "Hauptsitz",
+  mapTitle: "Standortkarte",
+  loading: "Karte wird geladen...",
+  getDirections: "Route anzeigen",
+  openInOSM: "In OpenStreetMap öffnen",
+  openInGoogleMaps: "In Google Maps öffnen",
+  coordinates: "Koordinaten",
+  address: "Adresse",
+  copyCoordinates: "Koordinaten kopieren",
+  coordinatesCopied: "Koordinaten kopiert!"
+},
+blog: {
+  title: "Capital Address Medien",
+  description: "In diesem Bereich können Sie die neuesten Nachrichten, Ankündigungen, Berichte und Veranstaltungen im Zusammenhang mit Capital Address und seinen Tochtergesellschaften verfolgen.",
+  clickToNavigate: "Zum Anzeigen klicken",
+  latest: {
+    title: "Neueste Nachrichten"
+  },
+  categories: {
+    title: "Neueste Veranstaltungen"
+  }
+},
+blognews: {
+  title: "Capital Address Nachrichten",
+  description: "In diesem Bereich können Sie die neuesten Nachrichten, Ankündigungen, Berichte und Ereignisse im Zusammenhang mit Capital Address und seinen Tochtergesellschaften verfolgen.",
+  clickToNavigate: "Zum Anzeigen klicken",
+  slides: {
+    slide1: {
+      title: "Intelligente Investitionsstrategien",
+      description: "Entdecken Sie innovative Ansätze zur Vermögensbildung durch strategische Investitionen in Schwellenmärkte und nachhaltige Technologien.",
+      category: "Investition"
+    },
+    slide2: {
+      title: "Moderne Architektur-Exzellenz",
+      description: "Erkunden Sie fortschrittliche Architekturentwürfe, die Funktionalität mit ästhetischer Anziehungskraft in unseren neuesten Bauprojekten verbinden.",
+      category: "Architektur"
+    },
+    slide3: {
+      title: "Nachhaltige Energielösungen",
+      description: "Führend beim Übergang zu erneuerbaren Energien mit fortschrittlichen Solar-, Wind- und Hybrid-Stromerzeugungssystemen.",
+      category: "Energie"
+    },
+    slide4: {
+      title: "Globale Handelsnetzwerke",
+      description: "Ausbau des internationalen Handels durch strategische Partnerschaften und innovative Supply-Chain-Management-Lösungen.",
+      category: "Handel"
+    },
+    slide5: {
+      title: "Premium-Tourismus-Erlebnisse",
+      description: "Schaffung unvergesslicher Reiseziele, die das kulturelle Erbe präsentieren und gleichzeitig luxuriöse Unterkünfte bieten.",
+      category: "Tourismus"
+    },
+    slide6: {
+      title: "Industrielles Innovationszentrum",
+      description: "Vorantreibung des technologischen Fortschritts durch hochmoderne Produktionsanlagen und Forschungsentwicklungszentren.",
+      category: "Industrie"
+    },
+    slide7: {
+      title: "Petrochemische Exzellenz",
+      description: "Förderung des Energiesektors mit modernsten Raffinierungstechnologien und nachhaltigen petrochemischen Produktionsmethoden.",
+      category: "Petrochemie"
+    },
+    slide8: {
+      title: "Schönheits- und Wellness-Revolution",
+      description: "Transformation der Körperpflege durch innovative Kosmetikformulierungen und umfassende Gesundheits- und Schönheitslösungen.",
+      category: "Schönheit & Wellness"
+    }
+  }
+},
+weblog: {
+  title: "Capital Address Weblog",
+  description: "In diesem Bereich können Sie spezialisierte Artikel, Analysen und tiefe Einblicke in verschiedene Bereiche der Capital Address-Aktivitäten lesen.",
+  clickToNavigate: "Zum Lesen klicken",
+  slides: {
+    slide1: {
+      title: "Intelligente Investitionsstrategien",
+      description: "Entdecken Sie innovative Ansätze zur Vermögensbildung durch strategische Investitionen in Schwellenmärkte und nachhaltige Technologien.",
+      category: "Investition"
+    },
+    slide2: {
+      title: "Moderne Architektur-Exzellenz",
+      description: "Erkunden Sie fortschrittliche Architekturentwürfe, die Funktionalität mit ästhetischer Anziehungskraft in unseren neuesten Bauprojekten verbinden.",
+      category: "Architektur"
+    },
+    slide3: {
+      title: "Nachhaltige Energielösungen",
+      description: "Führend beim Übergang zu erneuerbaren Energien mit fortschrittlichen Solar-, Wind- und Hybrid-Stromerzeugungssystemen.",
+      category: "Energie"
+    },
+    slide4: {
+      title: "Globale Handelsnetzwerke",
+      description: "Ausbau des internationalen Handels durch strategische Partnerschaften und innovative Supply-Chain-Management-Lösungen.",
+      category: "Handel"
+    },
+    slide5: {
+      title: "Premium-Tourismus-Erlebnisse",
+      description: "Schaffung unvergesslicher Reiseziele, die das kulturelle Erbe präsentieren und gleichzeitig luxuriöse Unterkünfte bieten.",
+      category: "Tourismus"
+    },
+    slide6: {
+      title: "Industrielles Innovationszentrum",
+      description: "Vorantreibung des technologischen Fortschritts durch hochmoderne Produktionsanlagen und Forschungsentwicklungszentren.",
+      category: "Industrie"
+    },
+    slide7: {
+      title: "Petrochemische Exzellenz",
+      description: "Förderung des Energiesektors mit modernsten Raffinierungstechnologien und nachhaltigen petrochemischen Produktionsmethoden.",
+      category: "Petrochemie"
+    },
+    slide8: {
+      title: "Schönheits- und Wellness-Revolution",
+      description: "Transformation der Körperpflege durch innovative Kosmetikformulierungen und umfassende Gesundheits- und Schönheitslösungen.",
+      category: "Schönheit & Wellness"
+    }
+  }
+}
 },
   ar: {
   navbar: {
@@ -1164,16 +1704,16 @@ info3: {
   happyClients: "إدارة رؤوس الأموال والموارد",
 },
 companies: {
-      title: "شركات المجموعة",
-      construction: "مجموعة شركات البناء",
-      investment: "مجموعة شركات الاستثمار",
-      petrochemical: "مجموعة شركات النفط والبتروكيماويات",
-      industrial: "مجموعة الشركات الصناعية",
-      energy: "مجموعة شركات الطاقة",
-      trading: "مجموعة الشركات التجارية",
-      tourism: "مجموعة شركات السياحة",
-      cosmetic: "مجموعة شركات التجميل والصحة"
-    },
+  title: "شركات المجموعة",
+  construction: "البناء",
+  investment: "الاستثمار",
+  petrochemical: "النفط والبتروكيماويات",
+  industrial: "الصناعة",
+  energy: "الطاقة",
+  trading: "التجارة",
+  tourism: "السياحة",
+  cosmetic: "التجميل والصحة"
+},
     companyDetails: {
   title: "تفاصيل الشركة",
   learnMore: "تعلم المزيد",
@@ -1282,6 +1822,187 @@ cosmetic: {
 نحن نعطي معنى للجمال بالعلم والابتكار واحترام صحة المستهلك — ونحن نتقدم في مسار خلق تجربة مميزة في العناية الشخصية.`
 }
   },
+  contact: {
+  title: "اتصل بنا",
+description: "لقد جعلنا التواصل الفعال معكم شعار أنشطتنا. فريقنا مستعد دائماً للإجابة على الأسئلة واستقبال الاقتراحات والاهتمام بطلباتكم.",
+clickToNavigate: "انقر للعرض",  
+phone: {
+    title: "معلومات الاتصال"
+  },
+  email: {
+    title: "التواصل المباشر"
+  },
+  address: {
+    title: "عنواننا"
+  }
+},
+form: {
+    title: "أرسل لنا رسالتك",
+    headerDescription: "املأ النموذج أدناه وسنتواصل معك في أقرب وقت ممكن. ملاحظاتك واستفساراتك مهمة بالنسبة لنا.",
+    name: "الاسم",
+    namePlaceholder: "أدخل اسمك",
+    phone: "رقم الهاتف",
+    phonePlaceholder: "أدخل رقم هاتفك",
+    email: "البريد الإلكتروني",
+    emailPlaceholder: "أدخل عنوان بريدك الإلكتروني",
+    message: "الرسالة",
+    messagePlaceholder: "اكتب رسالتك...",
+    submit: "إرسال الرسالة",
+    submitting: "جاري الإرسال...",
+    success: "تم إرسال رسالتك بنجاح!",
+    errors: {
+      nameRequired: "الاسم مطلوب",
+      phoneRequired: "رقم الهاتف مطلوب",
+      emailRequired: "البريد الإلكتروني مطلوب",
+      emailInvalid: "يرجى إدخال عنوان بريد إلكتروني صحيح",
+      descriptionRequired: "الرسالة مطلوبة"
+    }
+},
+callInfo: {
+  title: "معلومات الاتصال",
+  description: "تواصل معنا من خلال أي من الطرق التالية. نحن هنا للمساعدة!",
+  sections: {
+    phone: "أرقام الهاتف",
+    email: "عناوين البريد الإلكتروني", 
+    address: "مواقعنا",
+    social: "وسائل التواصل الاجتماعي"
+  },
+  phone: {
+    main: "المكتب الرئيسي",
+    support: "خط الدعم"
+  },
+  email: {
+    general: "الاستفسارات العامة",
+    support: "دعم العملاء"
+  },
+  address: {
+    main: "المقر الرئيسي",
+    branch: "المكتب الفرعي",
+    mainValue: "طهران، إيران - مبنى المكتب الرئيسي، الطابق العاشر",
+    branchValue: "أصفهان، إيران - المكتب الفرعي، المركز التجاري"
+  }
+},
+location: {
+  title: "موقعنا",
+  description: "اعرض موقع مكتبنا الدقيق على الخريطة واستكشف طرق الوصول.",
+  markerTitle: "المقر الرئيسي",
+  mapTitle: "خريطة الموقع",
+  loading: "جاري تحميل الخريطة...",
+  getDirections: "الحصول على الاتجاهات",
+  openInOSM: "فتح في OpenStreetMap",
+  openInGoogleMaps: "فتح في خرائط جوجل",
+  coordinates: "الإحداثيات",
+  address: "العنوان",
+  copyCoordinates: "نسخ الإحداثيات",
+  coordinatesCopied: "تم نسخ الإحداثيات!"
+},
+ar: {
+  blog: {
+    title: "وسائل إعلام كابيتال أدرس",
+    description: "في هذا القسم، يمكنكم متابعة أحدث الأخبار والإعلانات والتقارير والأحداث المتعلقة بكابيتال أدرس والشركات التابعة لها.",
+    clickToNavigate: "انقر للعرض",
+    latest: {
+      title: "آخر الأخبار"
+    },
+    categories: {
+      title: "أحدث الأحداث"
+    }
+  }
+},
+blognews: {
+  title: "أخبار كابيتال أدرس",
+  description: "في هذا القسم، يمكنكم متابعة أحدث الأخبار والإعلانات والتقارير والأحداث المتعلقة بكابيتال أدرس والشركات التابعة.",
+  clickToNavigate: "انقر للعرض",
+  slides: {
+    slide1: {
+      title: "استراتيجيات الاستثمار الذكي",
+      description: "اكتشف الأساليب المبتكرة لبناء الثروة من خلال الاستثمارات الاستراتيجية في الأسواق الناشئة والتقنيات المستدامة.",
+      category: "الاستثمار"
+    },
+    slide2: {
+      title: "تميز العمارة الحديثة",
+      description: "استكشف التصاميم المعمارية المتقدمة التي تجمع بين الوظائف والجاذبية الجمالية في أحدث مشاريعنا العمرانية.",
+      category: "العمارة"
+    },
+    slide3: {
+      title: "حلول الطاقة المستدامة",
+      description: "رائدون في التحول إلى الطاقات المتجددة بأنظمة متطورة لتوليد الكهرباء الشمسية والرياح والمختلطة.",
+      category: "الطاقة"
+    },
+    slide4: {
+      title: "الشبكات التجارية العالمية",
+      description: "توسيع التجارة الدولية من خلال الشراكات الاستراتيجية والحلول المبتكرة لإدارة سلسلة التوريد.",
+      category: "التجارة"
+    },
+    slide5: {
+      title: "تجارب سياحية متميزة",
+      description: "إنشاء وجهات سفر لا تُنسى تعرض التراث الثقافي وتوفر في الوقت نفسه أماكن إقامة فاخرة.",
+      category: "السياحة"
+    },
+    slide6: {
+      title: "مركز الابتكار الصناعي",
+      description: "قيادة التقدم التقني من خلال المرافق الإنتاجية المتطورة ومراكز تطوير الأبحاث.",
+      category: "الصناعة"
+    },
+    slide7: {
+      title: "تميز البتروكيماويات",
+      description: "تطوير قطاع الطاقة بتقنيات التكرير المتقدمة وطرق الإنتاج البتروكيماوي المستدام.",
+      category: "البتروكيماويات"
+    },
+    slide8: {
+      title: "ثورة الجمال والصحة",
+      description: "تحويل العناية الشخصية من خلال التركيبات التجميلية المبتكرة والحلول الشاملة للصحة والجمال.",
+      category: "الجمال والصحة"
+    }
+  }
+},
+weblog: {
+  title: "مدونة كابيتال أدرس",
+  description: "في هذا القسم، يمكنكم قراءة المقالات المتخصصة والتحليلات والرؤى العميقة في مختلف مجالات نشاط كابيتال أدرس.",
+  clickToNavigate: "انقر للقراءة",
+  slides: {
+    slide1: {
+      title: "استراتيجيات الاستثمار الذكي",
+      description: "اكتشف الأساليب المبتكرة لبناء الثروة من خلال الاستثمارات الاستراتيجية في الأسواق الناشئة والتقنيات المستدامة.",
+      category: "الاستثمار"
+    },
+    slide2: {
+      title: "تميز العمارة الحديثة",
+      description: "استكشف التصاميم المعمارية المتقدمة التي تجمع بين الوظائف والجاذبية الجمالية في أحدث مشاريعنا العمرانية.",
+      category: "العمارة"
+    },
+    slide3: {
+      title: "حلول الطاقة المستدامة",
+      description: "رائدون في التحول إلى الطاقات المتجددة بأنظمة متطورة لتوليد الكهرباء الشمسية والرياح والمختلطة.",
+      category: "الطاقة"
+    },
+    slide4: {
+      title: "الشبكات التجارية العالمية",
+      description: "توسيع التجارة الدولية من خلال الشراكات الاستراتيجية والحلول المبتكرة لإدارة سلسلة التوريد.",
+      category: "التجارة"
+    },
+    slide5: {
+      title: "تجارب سياحية متميزة",
+      description: "إنشاء وجهات سفر لا تُنسى تعرض التراث الثقافي وتوفر في الوقت نفسه أماكن إقامة فاخرة.",
+      category: "السياحة"
+    },
+    slide6: {
+      title: "مركز الابتكار الصناعي",
+      description: "قيادة التقدم التقني من خلال المرافق الإنتاجية المتطورة ومراكز تطوير الأبحاث.",
+      category: "الصناعة"
+    },
+    slide7: {
+      title: "تميز البتروكيماويات",
+      description: "تطوير قطاع الطاقة بتقنيات التكرير المتقدمة وطرق الإنتاج البتروكيماوي المستدام.",
+      category: "البتروكيماويات"
+    },
+    slide8: {
+      title: "ثورة الجمال والصحة",
+      description: "تحويل العناية الشخصية من خلال التركيبات التجميلية المبتكرة والحلول الشاملة للصحة والجمال.",
+      category: "الجمال والصحة"
+    }
+  }
+},
 },
   zh: {
   navbar: {
@@ -1489,16 +2210,17 @@ info3: {
   happyClients: "资本和资源管理",
 },
 companies: {
-      title: "集团公司",
-      construction: "建筑公司集团",
-      investment: "投资公司集团",
-      petrochemical: "石油和石化公司集团",
-      industrial: "工业公司集团",
-      energy: "能源公司集团",
-      trading: "贸易公司集团",
-      tourism: "旅游公司集团",
-      cosmetic: "化妆品和健康公司集团"
-    },
+  title: "集团公司",
+  construction: "建筑",
+  investment: "投资",
+  petrochemical: "石油和石化",
+  industrial: "工业",
+  energy: "能源",
+  trading: "贸易",
+  tourism: "旅游",
+  cosmetic: "化妆品和健康"
+},
+
 // Chinese translations
 companyDetails: {
   title: "公司详情",
@@ -1608,7 +2330,185 @@ companyDetails: {
 我们用科学、创新和对消费者健康的尊重来诠释美丽——我们在创造独特个人护理体验的道路上前进。`
   }
 },
-
+contact: {
+  title: "联系我们",
+  description: "我们将与您的有效沟通作为我们活动的座右铭。我们的团队始终准备回答问题、接受建议并处理您的请求。",
+  clickToNavigate: "点击查看",
+  phone: {
+    title: "联系信息"
+  },
+  email: {
+    title: "直接沟通"
+  },
+  address: {
+    title: "我们的地址"
+  }
+},
+form: {
+    title: "向我们发送消息",
+    headerDescription: "请填写下面的表格，我们会尽快与您联系。您的反馈和询问对我们很重要。",
+    name: "姓名",
+    namePlaceholder: "请输入您的姓名",
+    phone: "电话号码",
+    phonePlaceholder: "请输入您的电话号码",
+    email: "邮箱",
+    emailPlaceholder: "请输入您的邮箱地址",
+    message: "消息",
+    messagePlaceholder: "请写下您的消息...",
+    submit: "发送消息",
+    submitting: "发送中...",
+    success: "您的消息已成功发送！",
+    errors: {
+      nameRequired: "姓名为必填项",
+      phoneRequired: "电话号码为必填项",
+      emailRequired: "邮箱为必填项",
+      emailInvalid: "请输入有效的邮箱地址",
+      descriptionRequired: "消息为必填项"
+    }
+},
+callInfo: {
+  title: "联系信息",
+  description: "通过以下任何方式与我们联系。我们随时为您提供帮助！",
+  sections: {
+    phone: "电话号码",
+    email: "电子邮件地址", 
+    address: "我们的位置",
+    social: "社交媒体"
+  },
+  phone: {
+    main: "总部",
+    support: "支持热线"
+  },
+  email: {
+    general: "一般咨询",
+    support: "客户支持"
+  },
+  address: {
+    main: "总部",
+    branch: "分公司",
+    mainValue: "伊朗德黑兰 - 总部大楼10楼",
+    branchValue: "伊朗伊斯法罕 - 分公司，商业中心"
+  }
+},
+location: {
+  title: "我们的位置",
+  description: "在地图上查看我们确切的办公地点并探索交通路线。",
+  markerTitle: "总部",
+  mapTitle: "位置地图",
+  loading: "正在加载地图...",
+  getDirections: "获取路线",
+  openInOSM: "在OpenStreetMap中打开",
+  openInGoogleMaps: "在Google地图中打开",
+  coordinates: "坐标",
+  address: "地址",
+  copyCoordinates: "复制坐标",
+  coordinatesCopied: "坐标已复制！"
+},
+blog: {
+  title: "首都地址媒体",
+  description: "在此部分，您可以关注与首都地址及其子公司相关的最新新闻、公告、报告和活动。",
+  clickToNavigate: "点击查看",
+  latest: {
+    title: "最新新闻"
+  },
+  categories: {
+    title: "最新活动"
+  }
+},
+blognews: {
+  title: "资本地址新闻",
+  description: "在此版块，您可以关注资本地址及其子公司的最新新闻、公告、报告和相关活动。",
+  clickToNavigate: "点击查看",
+  slides: {
+    slide1: {
+      title: "智能投资策略",
+      description: "探索通过在新兴市场和可持续技术领域进行战略投资来创造财富的创新方法。",
+      category: "投资"
+    },
+    slide2: {
+      title: "现代建筑卓越",
+      description: "探索将功能性与美学吸引力相结合的先进建筑设计，体现在我们最新的建筑项目中。",
+      category: "建筑"
+    },
+    slide3: {
+      title: "可持续能源解决方案",
+      description: "通过先进的太阳能、风能和混合发电系统，引领向可再生能源的转型。",
+      category: "能源"
+    },
+    slide4: {
+      title: "全球商业网络",
+      description: "通过战略合作伙伴关系和创新的供应链管理解决方案扩展国际贸易。",
+      category: "贸易"
+    },
+    slide5: {
+      title: "卓越旅游体验",
+      description: "创造难忘的旅行目的地，展示文化遗产，同时提供豪华住宿。",
+      category: "旅游"
+    },
+    slide6: {
+      title: "工业创新中心",
+      description: "通过先进的生产设施和研发中心引领技术进步。",
+      category: "工业"
+    },
+    slide7: {
+      title: "石化卓越",
+      description: "通过先进的炼油技术和可持续的石化生产方法推进能源行业发展。",
+      category: "石化"
+    },
+    slide8: {
+      title: "美容健康革命",
+      description: "通过创新的化妆品配方和全面的健康美容解决方案改变个人护理。",
+      category: "美容健康"
+    }
+  }
+},
+weblog: {
+  title: "资本地址博客",
+  description: "在此版块，您可以阅读资本地址各个活动领域的专业文章、分析和深度见解。",
+  clickToNavigate: "点击阅读",
+  slides: {
+    slide1: {
+      title: "智能投资策略",
+      description: "探索通过在新兴市场和可持续技术领域进行战略投资来创造财富的创新方法。",
+      category: "投资"
+    },
+    slide2: {
+      title: "现代建筑卓越",
+      description: "探索将功能性与美学吸引力相结合的先进建筑设计，体现在我们最新的建筑项目中。",
+      category: "建筑"
+    },
+    slide3: {
+      title: "可持续能源解决方案",
+      description: "通过先进的太阳能、风能和混合发电系统，引领向可再生能源的转型。",
+      category: "能源"
+    },
+    slide4: {
+      title: "全球商业网络",
+      description: "通过战略合作伙伴关系和创新的供应链管理解决方案扩展国际贸易。",
+      category: "贸易"
+    },
+    slide5: {
+      title: "卓越旅游体验",
+      description: "创造难忘的旅行目的地，展示文化遗产，同时提供豪华住宿。",
+      category: "旅游"
+    },
+    slide6: {
+      title: "工业创新中心",
+      description: "通过先进的生产设施和研发中心引领技术进步。",
+      category: "工业"
+    },
+    slide7: {
+      title: "石化卓越",
+      description: "通过先进的炼油技术和可持续的石化生产方法推进能源行业发展。",
+      category: "石化"
+    },
+    slide8: {
+      title: "美容健康革命",
+      description: "通过创新的化妆品配方和全面的健康美容解决方案改变个人护理。",
+      category: "美容健康"
+    }
+  }
+},
 },
 };
 

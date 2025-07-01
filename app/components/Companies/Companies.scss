@@ -39,6 +39,7 @@ justify-content: center;
     transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
     border: 1px solid #e5e7eb;
     cursor: pointer;
+    width: 280px;
 
     &:hover {
       transform: translateY(-5px);
