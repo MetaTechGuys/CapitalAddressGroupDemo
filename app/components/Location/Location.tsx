@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from 'react';
 import { useLanguage } from '../../contexts/LanguageContext';
 import './Location.scss';
+import 'leaflet/dist/leaflet.css';
 
 interface LocationProps {
   title?: string;
@@ -29,7 +30,8 @@ const Location: React.FC<LocationProps> = ({
 }) => {
   const { t } = useLanguage();
   const [isClient, setIsClient] = useState(false);
-  const [MapComponents, setMapComponents] = useState<any>(null);
+  // Fix: Replace 'any' with 'unknown'
+  const [MapComponents, setMapComponents] = useState<unknown>(null);
 
   useEffect(() => {
     setIsClient(true);
@@ -46,9 +48,7 @@ const Location: React.FC<LocationProps> = ({
             import('leaflet')
           ]);
           
-          // Import leaflet CSS
-          require('leaflet/dist/leaflet.css');
-          
+          // Fix: Removed require() call - CSS is now imported at top
           setMapComponents({ MapContainer, TileLayer, Marker, Popup, Icon });
         } catch (error) {
           console.error('Failed to load map components:', error);
@@ -118,7 +118,34 @@ const Location: React.FC<LocationProps> = ({
     );
   }
 
-  const { MapContainer, TileLayer, Marker, Popup, Icon } = MapComponents;
+  // Fix: Type assertion for the destructuring at line 119
+  const { MapContainer, TileLayer, Marker, Popup, Icon } = MapComponents as {
+    MapContainer: React.ComponentType<{
+      center: [number, number];
+      zoom: number;
+      style: React.CSSProperties;
+      className: string;
+      children: React.ReactNode;
+    }>;
+    TileLayer: React.ComponentType<{
+      attribution: string;
+      url: string;
+    }>;
+    Marker: React.ComponentType<{
+      position: [number, number];
+      icon: unknown;
+      children: React.ReactNode;
+    }>;
+    Popup: React.ComponentType<{
+      children: React.ReactNode;
+    }>;
+    Icon: new (options: {
+      iconUrl: string;
+      iconSize: [number, number];
+      iconAnchor: [number, number];
+      popupAnchor: [number, number];
+    }) => unknown;
+  };
 
   // Custom marker icon - only create when components are loaded
   const customIcon = new Icon({

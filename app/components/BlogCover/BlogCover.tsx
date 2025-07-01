@@ -6,7 +6,7 @@ interface blogCoverProps {
   posterImage?: string;
 }
 
-const blogCover: React.FC<blogCoverProps> = ({
+const BlogCover: React.FC<blogCoverProps> = ({
   videoSrc = "/videos/blog-cover.webm",
   posterImage = "/images/blog-cover-poster.jpg"
 }) => {
@@ -36,4 +36,4 @@ const blogCover: React.FC<blogCoverProps> = ({
   );
 };
 
-export default blogCover;
+export default BlogCover;
