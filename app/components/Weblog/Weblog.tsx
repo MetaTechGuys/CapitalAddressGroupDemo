@@ -30,6 +30,7 @@ const Weblog: React.FC<WeblogProps> = ({
   const { t } = useLanguage();
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isPlaying, setIsPlaying] = useState(true);
+  const [imageLoaded, setImageLoaded] = useState(false);
   const intervalRef = useRef<NodeJS.Timeout | null>(null);
   const sliderRef = useRef<HTMLDivElement>(null);
 
@@ -149,6 +150,10 @@ const Weblog: React.FC<WeblogProps> = ({
     setIsPlaying(!isPlaying);
   };
 
+  const handleImageLoad = () => {
+    setImageLoaded(true);
+  };
+
   return (
     <div className="weblog">
       <div className="weblog__header">
@@ -171,34 +176,37 @@ const Weblog: React.FC<WeblogProps> = ({
               className="weblog__image"
               priority
               sizes="100vw"
+              onLoad={handleImageLoad}
             />
             <div className="weblog__overlay"></div>
           </div>
           
-          <div className="weblog__content">
-            <div className="weblog__meta">
-              <span className="weblog__category">
-                {t(weblogSlides[currentSlide].category || "") || "Category"}
-              </span>
-              <span className="weblog__date">
-                {weblogSlides[currentSlide].date}
-              </span>
+          <div className={`weblog__content ${imageLoaded ? 'weblog__content--visible' : ''}`}>
+            <div className="weblog__text" key={currentSlide}>
+              <div className="weblog__meta">
+                <span className="weblog__category">
+                  {t(weblogSlides[currentSlide].category || "") || "Category"}
+                </span>
+                <span className="weblog__date">
+                  {weblogSlides[currentSlide].date}
+                </span>
+              </div>
+              <h3 className="weblog__slide-title">
+                {t(weblogSlides[currentSlide].titleKey) || `Slide ${weblogSlides[currentSlide].id} Title`}
+              </h3>
+              <p className="weblog__slide-description">
+                {t(weblogSlides[currentSlide].descriptionKey) || `Description for slide ${weblogSlides[currentSlide].id}`}
+              </p>
+              <button 
+                className="weblog__read-more"
+                onClick={() => handleSlideClick(weblogSlides[currentSlide].id)}
+              >
+                {t("weblog.clickToNavigate") || "Read More"}
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
+                </svg>
+              </button>
             </div>
-            <h3 className="weblog__slide-title">
-              {t(weblogSlides[currentSlide].titleKey) || `Slide ${weblogSlides[currentSlide].id} Title`}
-            </h3>
-            <p className="weblog__slide-description">
-              {t(weblogSlides[currentSlide].descriptionKey) || `Description for slide ${weblogSlides[currentSlide].id}`}
-            </p>
-            <button 
-              className="weblog__read-more"
-              onClick={() => handleSlideClick(weblogSlides[currentSlide].id)}
-            >
-              {t("weblog.clickToNavigate") || "Read More"}
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
-              </svg>
-            </button>
           </div>
         </div>
 

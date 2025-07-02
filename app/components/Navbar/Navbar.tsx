@@ -73,7 +73,7 @@ const Navbar = () => {
         },
         {
           label: t("navbar.dropdown.services.property_management"),
-          href: "/services/property-management",
+          href: "/projects",
         },
         {
           label: t("navbar.dropdown.services.investment_advisory"),

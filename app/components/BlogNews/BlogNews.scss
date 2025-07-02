@@ -101,9 +101,27 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    
-    // Animation for content appearance
-    animation: slideInUp 0.8s ease-out;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.4s ease, visibility 0.4s ease;
+
+    // Only show when image is loaded
+    &--visible {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+
+  &__text {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: none;
+  }
+
+  &__content--visible &__text {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
   }
 
   &__meta {
