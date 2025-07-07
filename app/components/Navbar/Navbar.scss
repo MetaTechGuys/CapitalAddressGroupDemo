@@ -596,6 +596,7 @@
   &__language-text {
     font-size: 0.875rem;
     font-weight: 500;
+    color: #fff;
   }
 
   &__language-menu {
@@ -1397,4 +1398,156 @@
       }
     }
   }
+}
+.navbar {
+  &__theme-toggle {
+    position: relative;
+    padding: 0.5rem;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 80px;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.1);
+      border-color: rgba(255, 255, 255, 0.3);
+      transform: scale(1.05);
+    }
+
+    &.light {
+      border-color: var(--primary);
+      // background: rgba(255, 193, 7, 0.1);
+    }
+
+    &.dark {
+      border-color: #6366f1;
+      // background: rgba(99, 102, 241, 0.1);
+    }
+
+    @media (max-width: 768px) {
+      min-width: 70px;
+      padding: 0.4rem;
+    }
+  }
+
+  &__theme-toggle-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.4rem;
+    position: relative;
+  }
+
+  &__theme-toggle-track {
+    position: relative;
+    width: 24px;
+    height: 12px;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 6px;
+    transition: all 0.3s ease;
+
+    .navbar__theme-toggle.light & {
+      background: #ffc107;
+    }
+
+    .navbar__theme-toggle.dark & {
+      background: #6366f1;
+    }
+  }
+
+  &__theme-toggle-thumb {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+    .navbar__theme-toggle.dark & {
+      transform: translateX(12px);
+      background: #1f2937;
+    }
+  }
+
+  &__theme-icon {
+    transition: all 0.3s ease;
+    opacity: 0.5;
+    transform: scale(0.8);
+
+    &.active {
+      opacity: 1;
+      transform: scale(1);
+    }
+
+    &--sun {
+      color: #ffc107;
+
+      &.active {
+        color: #ffc107;
+        filter: drop-shadow(0 0 8px rgba(255, 193, 7, 0.5));
+      }
+    }
+
+    &--moon {
+      color: #6366f1;
+
+      &.active {
+        color: #4f46e5;
+        filter: drop-shadow(0 0 8px rgba(99, 102, 241, 0.5));
+      }
+    }
+  }
+}
+
+// Theme-specific styles
+[data-theme="dark"] {
+  .navbar {
+    &__theme-toggle {
+      border-color: rgba(255, 255, 255, 0.15);
+      
+      &:hover {
+        background: rgba(255, 255, 255, 0.08);
+        border-color: rgba(255, 255, 255, 0.25);
+      }
+    }
+  }
+}
+
+[data-theme="light"] {
+  .navbar {
+    &__theme-toggle {
+      border-color: rgba(0, 0, 0, 0.15);
+      
+      &:hover {
+        background: rgba(0, 0, 0, 0.05);
+        border-color: rgba(0, 0, 0, 0.25);
+      }
+    }
+  }
+}
+
+// Animation for theme change
+@keyframes themeChange {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+.navbar__theme-toggle:active {
+  animation: themeChange 0.2s ease;
+}
+
+// Focus states for accessibility
+.navbar__theme-toggle:focus {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+
+.navbar__theme-toggle:focus:not(:focus-visible) {
+  outline: none;
 }
