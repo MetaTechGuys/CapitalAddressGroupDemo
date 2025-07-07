@@ -125,6 +125,7 @@
     margin-bottom: 1.5rem;
     opacity: 0.9;
     animation: fadeInUp 0.8s ease-out 0.4s both;
+    color: #fff;
 
     @media (max-width: 768px) {
       font-size: 1.2rem;
@@ -142,6 +143,7 @@
     max-width: 800px;
     opacity: 0.9;
     animation: fadeInUp 0.8s ease-out 0.6s both;
+    color: #fff;
 
     @media (max-width: 768px) {
       font-size: 1rem;
@@ -190,6 +192,7 @@
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 0.5px;
+    color: #fff;
   }
 
   &__actions {

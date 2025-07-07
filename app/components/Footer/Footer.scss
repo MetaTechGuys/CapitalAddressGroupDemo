@@ -236,7 +236,7 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 2rem;
-    border-top: 1px solid var(--border, #333333);
+    border-top: 2px solid #b8b8b8;
     flex-wrap: wrap;
     gap: 1rem;
 
@@ -518,7 +518,7 @@
     }
 
     &__bottom {
-      border-top: 1px solid #ccc !important;
+      border-top: 1px solid #b8b8b8 !important;
     }
   }
 }
@@ -575,7 +575,7 @@
     }
 
     &__bottom {
-      border-top: 2px solid var(--border, #ffffff) !important;
+      border-top: 2px solid #b8b8b8 !important;
     }
   }
 }
@@ -1039,7 +1039,7 @@
   }
 
   &__bottom {
-    border-top-color: var(--footer-border);
+    border-top-color: #b8b8b8;
   }
 }
 
@@ -1320,7 +1320,7 @@
 [data-theme="light"] {
   .footer {
     &__logos-section {
-      border-bottom-color: #e5e5e5;
+      border-bottom-color: #8b8b8b;
       background: rgba(255, 255, 255, 0.02);
     }
 
