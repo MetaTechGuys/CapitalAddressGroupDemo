@@ -95,7 +95,7 @@ const Projects: React.FC<ProjectsProps> = ({ onProjectClick, activeProjectId, co
   };
 
   const filteredProjects = companyId 
-    ? projects.filter(project => {
+    ? projects.filter(() => {
         return true;
       })
     : projects;
