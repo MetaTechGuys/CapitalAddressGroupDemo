@@ -155,7 +155,7 @@ export const translations = {
       privacyPolicy: "سیاست حفظ حریم خصوصی",
       termsOfService: "شرایط خدمات",
       allRightsReserved: "تمام حقوق محفوظ است.",
-      ourPartners: "شرکت های ما",
+      ourPartners: "همکار های ما",
     },
     info: {
       ourJourney: "درباره ما",
@@ -732,6 +732,7 @@ contact: {
       privacyPolicy: "Privacy Policy",
       termsOfService: "Terms of Service",
       allRightsReserved: "All rights reserved.",
+      ourPartners: "Our Partners",
     },
     info: {
       ourJourney: "About Us",
@@ -1327,6 +1328,7 @@ contact: {
       privacyPolicy: "Datenschutzrichtlinie",
       termsOfService: "Nutzungsbedingungen",
       allRightsReserved: "Alle Rechte vorbehalten.",
+      ourPartners: "Unsere Partner",
     },
     info: {
       ourJourney: "Über uns",
@@ -1917,6 +1919,7 @@ contact: {
       privacyPolicy: "سياسة الخصوصية",
       termsOfService: "شروط الخدمة",
       allRightsReserved: "جميع الحقوق محفوظة.",
+      ourPartners: "شركاؤنا",
     },
     info: {
       ourJourney: "من نحن",
@@ -2501,6 +2504,7 @@ contact: {
       privacyPolicy: "隐私政策",
       termsOfService: "服务条款",
       allRightsReserved: "版权所有。",
+      ourPartners: "我们的合作伙伴",
     },
     info: {
       ourJourney: "关于我们",
