@@ -59,7 +59,6 @@ const Navbar = () => {
           href: "/about/mission",
         },
         { label: t("navbar.dropdown.about.careers"), href: "/about/careers" },
-        { label: t("navbar.dropdown.about.awards"), href: "/about/awards" },
       ],
     },
     {
@@ -83,10 +82,6 @@ const Navbar = () => {
           label: t("navbar.dropdown.services.consulting"),
           href: "/services/consulting",
         },
-        {
-          label: t("navbar.dropdown.services.valuation"),
-          href: "/services/valuation",
-        },
       ],
     },
     {
@@ -106,10 +101,6 @@ const Navbar = () => {
         {
           label: t("navbar.dropdown.contact.partnership"),
           href: "/contact/partnership",
-        },
-        {
-          label: t("navbar.dropdown.contact.schedule_meeting"),
-          href: "/contact/meeting",
         },
       ],
     },

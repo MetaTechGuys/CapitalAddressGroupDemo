@@ -1,16 +1,16 @@
 .projects {
   padding: 4.8rem 0;
-  
+  align-items: center;
   &__grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
     gap: 2rem;
     max-width: 1800px;
-    margin: 0 auto;
+    // margin: 0 auto;
     padding: 0 1rem;
 
     @media (max-width: 768px) {
-      grid-template-columns: 1fr;
+      grid-template-columns: 280px;
       gap: 1.5rem;
       padding: 0 0.5rem;
     }

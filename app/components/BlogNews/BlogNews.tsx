@@ -30,6 +30,7 @@ const BlogNews: React.FC<BlogNewsProps> = ({
   const { t } = useLanguage();
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isPlaying, setIsPlaying] = useState(true);
+  const [imageLoaded, setImageLoaded] = useState(false);
   const intervalRef = useRef<NodeJS.Timeout | null>(null);
   const sliderRef = useRef<HTMLDivElement>(null);
 
@@ -149,6 +150,10 @@ const BlogNews: React.FC<BlogNewsProps> = ({
     setIsPlaying(!isPlaying);
   };
 
+    const handleImageLoad = () => {
+    setImageLoaded(true);
+  };
+
   return (
     <div className="blog-news">
       <div className="blog-news__header">
@@ -171,11 +176,13 @@ const BlogNews: React.FC<BlogNewsProps> = ({
               className="blog-news__image"
               priority
               sizes="100vw"
+              onLoad={handleImageLoad}
             />
             <div className="blog-news__overlay"></div>
           </div>
           
-          <div className="blog-news__content">
+            <div className={`blog-news__content ${imageLoaded ? 'blog-news__content--visible' : ''}`}>
+            <div className="blog-news__text" key={currentSlide}>
             <div className="blog-news__meta">
               <span className="blog-news__category">
                 {t(blogSlides[currentSlide].category || "") || "Category"}
@@ -200,6 +207,7 @@ const BlogNews: React.FC<BlogNewsProps> = ({
               </svg>
             </button>
           </div>
+        </div>
         </div>
 
         {/* Navigation Arrows */}

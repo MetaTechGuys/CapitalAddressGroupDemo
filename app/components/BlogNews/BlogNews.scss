@@ -22,6 +22,7 @@
     font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 0.5rem;
+    margin-top: 1.5rem;
     color: #ffffff;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
   }
@@ -193,6 +194,7 @@
     text-transform: uppercase;
     letter-spacing: 0.5px;
     align-self: flex-start;
+    margin-bottom: 2.4rem;
 
     &:hover {
       background: rgba(255, 255, 255, 0.25);
@@ -228,7 +230,6 @@
     transition: all 0.3s ease;
     backdrop-filter: blur(15px);
     z-index: 3;
-    opacity: 0;
 
     &:hover {
       background: rgba(255, 255, 255, 0.2);

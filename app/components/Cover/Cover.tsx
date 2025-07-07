@@ -32,7 +32,6 @@ const Cover: React.FC<CoverProps> = ({
           sizes="100vw"
           style={{
             width: '100%',
-            height: 'auto',
             filter:'grayscale(1)'
           }}
         />

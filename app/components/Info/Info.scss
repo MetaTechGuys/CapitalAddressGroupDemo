@@ -173,14 +173,14 @@
   }
 
   &__stat-number {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     font-weight: 700;
     color: #3498db;
     line-height: 1;
     margin-bottom: 0.25rem;
 
     @media (max-width: 768px) {
-      font-size: 2rem;
+      font-size: 1.2rem;
     }
   }
 
@@ -513,7 +513,7 @@
     }
 
     &__title {
-      font-size: 1.6rem;
+      font-size: 1.8rem;
       margin-bottom: 0.75rem;
     }
 
@@ -532,7 +532,7 @@
     }
 
     &__stat-number {
-      font-size: 1.8rem;
+      font-size: 1.4rem;
     }
 
     &__stat-label {
