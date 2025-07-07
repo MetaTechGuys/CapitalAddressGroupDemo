@@ -193,8 +193,8 @@
   --ring: #3498db;
 
   /* Custom light theme variables */
-  --navbar-bg: rgba(240, 240, 240, 0.2);
-  --navbar-text: #fff;
+  --navbar-bg: rgba(200, 200, 200, 0.2);
+  --navbar-text: #eeeeee;
   --navbar-hover: #3498db;
   --text-primary: #086fdd;
   --text-secondary: #7f8c8d;
@@ -361,7 +361,6 @@ body {
   color: var(--foreground);
   background: var(--background);
   transition: color 0.3s ease, background-color 0.3s ease;
-  padding-top: 70px; /* Account for fixed navbar */
 }
 
 a {

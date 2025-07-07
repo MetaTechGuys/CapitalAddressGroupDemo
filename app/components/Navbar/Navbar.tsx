@@ -439,6 +439,14 @@ const Navbar = () => {
               
             </div>
           </button>
+          <div
+          className={`navbar__toggle ${isMobileMenuOpen ? "active" : ""}`}
+          onClick={toggleMobileMenu}
+        >
+          <span className="navbar__toggle-bar"></span>
+          <span className="navbar__toggle-bar"></span>
+          <span className="navbar__toggle-bar"></span>
+        </div>
 </div>
       </div>
     </nav>
