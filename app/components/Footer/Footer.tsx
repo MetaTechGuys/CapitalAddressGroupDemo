@@ -18,14 +18,14 @@ const Footer = () => {
 
   // Logo data - add your actual logo paths here
   const partnerLogos = [
-    { id: 1, src: '/images/logo-1.png', alt: 'Partner 1', name: 'Partner Company 1' },
-    { id: 2, src: '/images/logo-2.png', alt: 'Partner 2', name: 'Partner Company 2' },
-    { id: 3, src: '/images/logo-3.png', alt: 'Partner 3', name: 'Partner Company 3' },
-    { id: 4, src: '/images/logo-4.png', alt: 'Partner 4', name: 'Partner Company 4' },
-    { id: 5, src: '/images/logo-5.png', alt: 'Partner 5', name: 'Partner Company 5' },
-    { id: 6, src: '/images/logo-6.png', alt: 'Partner 6', name: 'Partner Company 6' },
-    { id: 7, src: '/images/logo-7.png', alt: 'Partner 7', name: 'Partner Company 7' },
-    { id: 8, src: '/images/logo-8.png', alt: 'Partner 8', name: 'Partner Company 8' },
+    { id: 1, src: '/images/logo-1.webp', alt: 'Partner 1', name: 'Partner Company 1' },
+    { id: 2, src: '/images/logo-2.webp', alt: 'Partner 2', name: 'Partner Company 2' },
+    { id: 3, src: '/images/logo-3.webp', alt: 'Partner 3', name: 'Partner Company 3' },
+    { id: 4, src: '/images/logo-4.webp', alt: 'Partner 4', name: 'Partner Company 4' },
+    { id: 5, src: '/images/logo-5.webp', alt: 'Partner 5', name: 'Partner Company 5' },
+    { id: 6, src: '/images/logo-6.webp', alt: 'Partner 6', name: 'Partner Company 6' },
+    { id: 7, src: '/images/logo-7.webp', alt: 'Partner 7', name: 'Partner Company 7' },
+    { id: 8, src: '/images/logo-8.webp', alt: 'Partner 8', name: 'Partner Company 8' },
   ];
 
   return (
