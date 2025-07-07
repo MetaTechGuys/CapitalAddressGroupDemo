@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import Image from 'next/image';
 import { useLanguage } from '../../contexts/LanguageContext';
 import './Footer.scss';
 
@@ -15,9 +16,47 @@ const Footer = () => {
     return null;
   }
 
+  // Logo data - add your actual logo paths here
+  const partnerLogos = [
+    { id: 1, src: '/images/logo-1.png', alt: 'Partner 1', name: 'Partner Company 1' },
+    { id: 2, src: '/images/logo-2.png', alt: 'Partner 2', name: 'Partner Company 2' },
+    { id: 3, src: '/images/logo-3.png', alt: 'Partner 3', name: 'Partner Company 3' },
+    { id: 4, src: '/images/logo-4.png', alt: 'Partner 4', name: 'Partner Company 4' },
+    { id: 5, src: '/images/logo-5.png', alt: 'Partner 5', name: 'Partner Company 5' },
+    { id: 6, src: '/images/logo-6.png', alt: 'Partner 6', name: 'Partner Company 6' },
+    { id: 7, src: '/images/logo-7.png', alt: 'Partner 7', name: 'Partner Company 7' },
+    { id: 8, src: '/images/logo-8.png', alt: 'Partner 8', name: 'Partner Company 8' },
+  ];
+
   return (
     <footer className="footer">
       <div className="footer__container">
+        {/* Logo Slider Section */}
+        <div className="footer__logos-section">
+          <h3 className="footer__logos-title">{t('footer.ourPartners')}</h3>
+          <div className="footer__logos-slider">
+            <div className="footer__logos-track">
+              {/* Create enough duplicates for seamless infinite scroll */}
+              {Array.from({ length: 4 }, (_, setIndex) => 
+                partnerLogos.map((logo, logoIndex) => (
+                  <div key={`set${setIndex}-logo${logoIndex}`} className="footer__logo-item">
+                    <Image 
+                      src={logo.src} 
+                      alt={logo.alt}
+                      width={120}
+                      height={60}
+                      className="footer__logo-image"
+                      title={logo.name}
+                      loading="lazy"
+                      sizes="(max-width: 768px) 110px, (max-width: 480px) 90px, 140px"
+                    />
+                  </div>
+                ))
+              )}
+            </div>
+          </div>
+        </div>
+
         <div className="footer__content">
           <div className="footer__section">
             <h3 className="footer__title">{t('hero.title')}</h3>

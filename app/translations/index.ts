@@ -155,6 +155,7 @@ export const translations = {
       privacyPolicy: "سیاست حفظ حریم خصوصی",
       termsOfService: "شرایط خدمات",
       allRightsReserved: "تمام حقوق محفوظ است.",
+      ourPartners: "شرکت های ما",
     },
     info: {
       ourJourney: "درباره ما",

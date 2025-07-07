@@ -7,6 +7,7 @@
   justify-content: center;
   transition: all 0.3s ease;
   border-top: 1px solid var(--border, #333333);
+  align-items: center;
 
   // Theme-specific adjustments
   [data-theme="dark"] & {
@@ -23,7 +24,7 @@
 
   &__container {
     max-width: 1200px;
-    margin: 0 auto;
+    // margin: 0 auto;
     padding: 0 1rem;
 
     @media (min-width: 768px) {
@@ -441,7 +442,6 @@
     }
 
     &__contact-label {
-      margin-left: 0.5rem;
       margin-right: 0;
       
       @media (max-width: 768px) {
@@ -1080,6 +1080,511 @@
 
     &__content {
       gap: 4rem;
+    }
+  }
+}
+.footer {
+  &__logos-section {
+    margin-bottom: 3rem;
+    padding: 2rem 0;
+    border-bottom: 1px solid var(--border, #333333);
+    overflow: hidden;
+
+    @media (max-width: 768px) {
+      margin-bottom: 2rem;
+      padding: 1.5rem 0;
+    }
+  }
+
+  &__logos-title {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: var(--text-primary, #ffffff);
+    transition: color 0.3s ease;
+
+    @media (max-width: 768px) {
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  &__logos-slider {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    
+    // Fade edges using pseudo-elements
+    &::before,
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      width: 100px;
+      height: 100%;
+      z-index: 2;
+      pointer-events: none;
+    }
+
+    &::before {
+      left: 0;
+      background: linear-gradient(
+        to right,
+        var(--bg-secondary, #1a1a1a) 0%,
+        var(--bg-secondary, #1a1a1a) 10%,
+        transparent 100%
+      );
+    }
+     &::after {
+      right: 0;
+      background: linear-gradient(
+        to left,
+        var(--bg-secondary, #1a1a1a) 0%,
+        var(--bg-secondary, #1a1a1a) 10%,
+        transparent 100%
+      );
+    }
+  }
+
+  &__logos-track {
+    display: flex;
+    align-items: center;
+    width: max-content;
+    animation: infiniteLogoScroll 20s linear infinite;
+    
+    &:hover {
+      animation-play-state: paused;
+    }
+  }
+
+  &__logo-item {
+    flex-shrink: 0;
+    width: 140px;
+    height: 70px;
+    margin: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    padding: 0.75rem;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.1);
+      border-color: rgba(255, 255, 255, 0.2);
+      transform: translateY(-2px);
+    }
+
+    @media (max-width: 768px) {
+      width: 110px;
+      height: 55px;
+      margin: 0 1.5rem;
+      padding: 0.5rem;
+    }
+
+    @media (max-width: 480px) {
+      width: 90px;
+      height: 45px;
+      margin: 0 1rem;
+      padding: 0.4rem;
+    }
+  }
+
+  &__logo-image {
+    width: auto !important;
+    height: auto !important;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    filter: brightness(0.8) contrast(1.2);
+    transition: all 0.3s ease;
+
+    .footer__logo-item:hover & {
+      filter: brightness(1) contrast(1);
+      transform: scale(1.05);
+    }
+
+    // For dark logos on dark background
+    [data-theme="dark"] & {
+      filter: brightness(1.2) contrast(1.1) invert(1);
+    }
+
+    // For light logos on light background
+    [data-theme="light"] & {
+      filter: brightness(0.7) contrast(1.2);
+    }
+  }
+}
+
+// True infinite scroll animation - moves exactly one set of logos
+@keyframes infiniteLogoScroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-25% * 1)); // Move by 25% since we have 4 sets (100% / 4 = 25%)
+  }
+}
+
+// Responsive animation speeds
+@media (max-width: 1200px) {
+  .footer {
+    &__logos-track {
+      animation-duration: 35s;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    &__logos-track {
+      animation-duration: 30s;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    &__logos-track {
+      animation-duration: 25s;
+    }
+  }
+}
+
+// Pause animation on reduced motion preference
+@media (prefers-reduced-motion: reduce) {
+  .footer {
+    &__logos-track {
+      animation: none !important;
+    }
+
+    &__logos-slider {
+      &::before,
+      &::after {
+        display: none !important;
+      }
+    }
+
+    &__logo-item {
+      animation: none !important;
+    }
+  }
+}
+
+// Theme-specific styles
+[data-theme="dark"] {
+  .footer {
+    &__logos-section {
+      border-bottom-color: #333333;
+    }
+
+    &__logos-title {
+      color: #ffffff;
+    }
+
+    &__logo-item {
+      background: rgba(255, 255, 255, 0.03);
+      border-color: rgba(255, 255, 255, 0.08);
+
+      &:hover {
+        background: rgba(255, 255, 255, 0.08);
+        border-color: rgba(255, 255, 255, 0.15);
+      }
+    }
+
+    &__logos-slider {
+      &::before {
+        background: linear-gradient(
+          to right,
+          #1a1a1a 0%,
+          #1a1a1a 10%,
+          transparent 100%
+        );
+      }
+
+      &::after {
+        background: linear-gradient(
+          to left,
+          #1a1a1a 0%,
+          #1a1a1a 10%,
+          transparent 100%
+        );
+      }
+    }
+  }
+}
+
+[data-theme="light"] {
+  .footer {
+    &__logos-section {
+      border-bottom-color: #e5e5e5;
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    &__logos-title {
+      color: #333333;
+    }
+
+    &__logo-item {
+      background: rgba(0, 0, 0, 0.03);
+      border-color: rgba(0, 0, 0, 0.2);
+
+      &:hover {
+        background: rgba(0, 0, 0, 0.08);
+        border-color: rgba(0, 0, 0, 0.15);
+      }
+    }
+
+    &__logos-slider {
+      &::before {
+        background: linear-gradient(
+          to right,
+          #ffffff 0%,
+          #ffffff 10%,
+          transparent 100%
+        );
+      }
+
+      &::after {
+        background: linear-gradient(
+          to left,
+          #ffffff 0%,
+          #ffffff 10%,
+          transparent 100%
+        );
+      }
+    }
+  }
+}
+
+// RTL Support
+[dir="rtl"] {
+  .footer {
+    &__logos-track {
+      animation-name: infiniteLogoScrollRTL;
+    }
+
+    &__logos-slider {
+      &::before {
+        right: 0;
+        left: auto;
+        background: linear-gradient(
+          to left,
+          var(--bg-secondary, #1a1a1a) 0%,
+          var(--bg-secondary, #1a1a1a) 10%,
+          transparent 100%
+        );
+      }
+
+      &::after {
+        left: 0;
+        right: auto;
+        background: linear-gradient(
+          to right,
+          var(--bg-secondary, #1a1a1a) 0%,
+          var(--bg-secondary, #1a1a1a) 10%,
+          transparent 100%
+        );
+      }
+    }
+  }
+}
+
+// RTL animation
+@keyframes infiniteLogoScrollRTL {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(25% * 1)); // Move by 25% in opposite direction
+  }
+}
+
+// High contrast mode support
+@media (prefers-contrast: high) {
+  .footer {
+    &__logo-item {
+      background: #000000 !important;
+      border: 2px solid #ffffff !important;
+    }
+
+    &__logo-image {
+      filter: contrast(2) brightness(1.2) !important;
+    }
+
+    &__logos-slider {
+      &::before,
+      &::after {
+        display: none !important;
+      }
+    }
+  }
+}
+
+// Print styles
+@media print {
+  .footer {
+    &__logos-section {
+      display: none !important;
+    }
+  }
+}
+
+// Performance optimizations
+.footer {
+  &__logos-track {
+    will-change: transform;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    contain: layout style paint;
+  }
+
+  &__logo-item {
+    will-change: transform, background-color;
+    transform: translateZ(0);
+    contain: layout style paint;
+  }
+
+  &__logo-image {
+    will-change: transform, filter;
+    transform: translateZ(0);
+  }
+}
+
+// Hover effects for the entire slider
+.footer {
+  &__logos-slider:hover {
+    .footer__logos-track {
+      animation-play-state: paused;
+    }
+
+    .footer__logo-item {
+      transform: translateY(-2px);
+      
+      &:hover {
+        transform: translateY(-4px) scale(1.05);
+      }
+    }
+  }
+}
+
+// Focus states for accessibility
+.footer {
+  &__logo-item:focus-within {
+    outline: 2px solid rgba(255, 255, 255, 0.8);
+    outline-offset: 2px;
+    background: rgba(255, 255, 255, 0.15);
+  }
+}
+
+// Container queries support
+@supports (container-type: inline-size) {
+  .footer {
+    container-type: inline-size;
+  }
+
+  @container (max-width: 768px) {
+    .footer__logo-item {
+      width: 100px;
+      height: 50px;
+      margin: 0 1.2rem;
+    }
+
+    .footer__logos-track {
+      animation-duration: 28s;
+    }
+  }
+
+  @container (max-width: 480px) {
+    .footer__logo-item {
+      width: 80px;
+      height: 40px;
+      margin: 0 0.8rem;
+    }
+
+    .footer__logos-track {
+      animation-duration: 22s;
+    }
+  }
+}
+
+// Smooth logo appearance on load
+.footer {
+  &__logo-item {
+    opacity: 0;
+    animation: logoFadeIn 0.6s ease-out forwards;
+  }
+
+  @for $i from 1 through 32 { // 8 logos × 4 sets = 32 items
+    &__logo-item:nth-child(#{$i}) {
+      animation-delay: #{($i - 1) * 0.05}s;
+    }
+  }
+}
+
+@keyframes logoFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+// Reduced motion fallback - static grid
+@media (prefers-reduced-motion: reduce) {
+  .footer {
+    &__logos-track {
+      display: grid !important;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 1rem;
+      animation: none !important;
+      width: 100% !important;
+    }
+
+    &__logo-item {
+      margin: 0 !important;
+      animation: logoFadeIn 0.6s ease-out forwards !important;
+      opacity: 1 !important;
+    }
+
+    &__logos-slider {
+      &::before,
+      &::after {
+        display: none !important;
+      }
+    }
+  }
+}
+
+// Ensure proper stacking context
+.footer {
+  &__logos-section {
+    isolation: isolate;
+  }
+
+  &__logos-slider {
+    isolation: isolate;
+  }
+}
+
+// Safe area insets for devices with notches
+@supports (padding: max(0px)) {
+  .footer {
+    &__logos-section {
+      padding-left: max(2rem, env(safe-area-inset-left));
+      padding-right: max(2rem, env(safe-area-inset-right));
+
+      @media (max-width: 768px) {
+        padding-left: max(1rem, env(safe-area-inset-left));
+        padding-right: max(1rem, env(safe-area-inset-right));
+      }
     }
   }
 }
