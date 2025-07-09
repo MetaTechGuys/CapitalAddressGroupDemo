@@ -127,7 +127,7 @@ const Cards = () => {
     }
   }, [isRTL]);
 
-  const maxSlide = Math.max(0, cards.length - slidesToShow);
+  // const maxSlide = Math.max(0, cards.length - slidesToShow);
 
   // Auto-play functionality
   useEffect(() => {
