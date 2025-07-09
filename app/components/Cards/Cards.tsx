@@ -33,7 +33,7 @@ const Cards = () => {
       backDescription: t('cards.card1.backDescription'),
       buttonText: t('cards.card1.buttonText'),
       buttonLink: '/services/card1',
-      gradient: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)'
+      gradient: 'linear-gradient(135deg,rgb(149, 165, 235) 0%,rgb(109, 54, 163) 100%)'
     },
     {
       id: 'card2',
@@ -42,7 +42,7 @@ const Cards = () => {
       backDescription: t('cards.card2.backDescription'),
       buttonText: t('cards.card2.buttonText'),
       buttonLink: '/services/card2',
-      gradient: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)'
+      gradient: 'linear-gradient(135deg,rgb(244, 163, 253) 0%,rgb(252, 48, 75) 100%)'
     },
     {
       id: 'card3',
@@ -51,7 +51,7 @@ const Cards = () => {
       backDescription: t('cards.card3.backDescription'),
       buttonText: t('cards.card3.buttonText'),
       buttonLink: '/services/card3',
-      gradient: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)'
+      gradient: 'linear-gradient(135deg,rgb(161, 208, 250) 0%,rgb(0, 105, 110) 100%)'
     },
     {
       id: 'card4',
@@ -60,7 +60,7 @@ const Cards = () => {
       backDescription: t('cards.card4.backDescription'),
       buttonText: t('cards.card4.buttonText'),
       buttonLink: '/services/card4',
-      gradient: 'linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)'
+      gradient: 'linear-gradient(135deg, rgb(0, 255, 208) 0%,rgb(8, 160, 59) 100%)'
     },
     {
       id: 'card5',
@@ -69,7 +69,7 @@ const Cards = () => {
       backDescription: t('cards.card5.backDescription'),
       buttonText: t('cards.card5.buttonText'),
       buttonLink: '/services/card5',
-      gradient: 'linear-gradient(135deg, #fa709a 0%, #fee140 100%)'
+      gradient: 'linear-gradient(135deg,rgb(245, 220, 77) 0%,rgb(201, 20, 74) 100%)'
     },
     {
       id: 'card6',
@@ -78,7 +78,7 @@ const Cards = () => {
       backDescription: t('cards.card6.backDescription'),
       buttonText: t('cards.card6.buttonText'),
       buttonLink: '/services/card6',
-      gradient: 'linear-gradient(135deg,#75e4dc 0%,#fc93b3 100%)'
+      gradient: 'linear-gradient(135deg,rgb(176, 224, 195) 0%,rgb(11, 83, 79) 100%)'
     },
     {
       id: 'card7',
@@ -87,7 +87,7 @@ const Cards = () => {
       backDescription: t('cards.card7.backDescription'),
       buttonText: t('cards.card7.buttonText'),
       buttonLink: '/services/card7',
-      gradient: 'linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)'
+      gradient: 'linear-gradient(135deg,rgb(231, 158, 161) 0%,rgb(109, 19, 38) 100%)'
     },
     {
       id: 'card8',
@@ -96,7 +96,7 @@ const Cards = () => {
       backDescription: t('cards.card8.backDescription'),
       buttonText: t('cards.card8.buttonText'),
       buttonLink: '/services/card8',
-      gradient: 'linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%)'
+      gradient: 'linear-gradient(135deg,rgb(151, 111, 243) 0%,rgb(129, 23, 99) 100%)'
     }
   ];
 
