@@ -54,11 +54,11 @@ const Navbar = () => {
       dropdown: [
         { label: t("navbar.dropdown.about.our_story"), href: "/aboutus" },
         { label: t("navbar.dropdown.about.team"), href: "/about/team" },
+        { label: t("navbar.dropdown.about.careers"), href: "/careers" },
         {
           label: t("navbar.dropdown.about.mission_vision"),
           href: "/about/mission",
         },
-        { label: t("navbar.dropdown.about.careers"), href: "/about/careers" },
       ],
     },
     {
@@ -75,12 +75,12 @@ const Navbar = () => {
           href: "/projects",
         },
         {
-          label: t("navbar.dropdown.services.investment_advisory"),
-          href: "/services/investment",
+          label: t("navbar.dropdown.services.consulting"),
+          href: "/consulate",
         },
         {
-          label: t("navbar.dropdown.services.consulting"),
-          href: "/services/consulting",
+          label: t("navbar.dropdown.services.investment_advisory"),
+          href: "/services/investment",
         },
       ],
     },

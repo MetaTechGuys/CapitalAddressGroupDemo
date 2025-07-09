@@ -570,7 +570,185 @@ projectDetails: {
   },
   learnMore: "بیشتر بدانید",
   backToProjects: "بازگشت به پروژه‌ها"
+},
+  cover: {
+    welcome: "مشاورین ما",
+    mainTitle: "در دنیای پیچیده و پویای سرمایه‌گذاری، توسعه کسب‌وکار و نوآوری‌های بین‌المللی نیازمند بهره‌گیری از دانش، تجربه و دیدگاه‌های تخصصی است.",
+    subtitle: "هلدینگ ما با همراهی تیمی از مشاورین برجسته و متعهد با سابقه‌ای درخشان در حوزه‌های مالی، حقوقی، برندینگ، بازارهای بین‌المللی و توسعه استراتژیک، نقش کلیدی در هدایت و پشتیبانی پروژه‌های کلان دارد.",
+    description: "مشاوران ما از طریق تحلیل دقیق، راهکارهای نوین و ریسک‌سنجی تخصصی، بهترین مسیر را برای رشد پایدار و موفقیت جهانی هموار سازند.",
+    projectsCompletedNumber: "سرمایه گذاران",
+    projectsCompleted: "دقیق",
+    yearsExperienceNumber: "کارآفرینان",
+    yearsExperience: "حرفه ای",
+    satisfiedClientsNumber: "مدیران",
+    satisfiedClients: "متخصص",
+    exploreServices: "بیشتر بدانید",
+    getInTouch: "ارتباط با ما",
+    scrollToDiscover: "برای کاوش اسکرول کنید"
+  },
+  company: {
+    vision: {
+  title: "چشم‌انداز ما",
+  description: "پیشرو بودن در صنعت املاک و مستغلات که جوامع را متحول کرده و از طریق راه‌حل‌های نوآورانه املاک و خدمات استثنایی به مشتریان، ارزش پایدار خلق می‌کند.",
+  alt: "چشم‌انداز شرکت - رشد آینده"
+},
+mission: {
+  title: "ماموریت ما",
+  description: "ما متعهد به ارائه خدمات جامع املاک و مستغلات هستیم که از انتظارات فراتر رفته، اعتماد ایجاد کرده و ارزش بلندمدت برای مشتریان و جوامع خود خلق می‌کند.",
+  alt: "ماموریت شرکت - موفقیت مشتریان"
+},
+values: {
+  title: "ارزش‌های ما",
+  description: "صداقت، شفافیت، تعالی و نوآوری راهنمای هر تصمیمی است که می‌گیریم. ما به ارتباط صادقانه و ارائه نتایجی که اهمیت دارند، اعتقاد داریم.",
+  alt: "ارزش‌های شرکت - اصول بنیادین"
+},
+culture: {
+  title: "فرهنگ ما",
+  description: "ما محیطی مشارکتی را پرورش می‌دهیم که در آن خلاقیت شکوفا شده، تنوع جشن گرفته می‌شود و هر عضو تیم برای مشارکت در موفقیت مشترک ما توانمند می‌شود.",
+  alt: "فرهنگ شرکت - همکاری تیمی"
 }
+
+  },
+  coverPer: {
+    welcome: "برترین مشاوران",
+    mainTitle: "در هر پروژه، از چشم‌اندازهای شخصی‌سازی‌شده مشاوران مستقل گرفته تا توان عملیاتی و ساختاریافته شرکت‌های حرفه‌ای بهره‌مند شویم.",
+    subtitle: "مشاوران فردی: متخصصان با تجربه در حوزه‌های مالی، حقوقی، فناوری، توسعه برند، سرمایه‌گذاری و... که با بینش عمیق و انعطاف‌پذیری بالا، مسیر تصمیم‌گیری را شفاف‌تر می‌سازند.",
+    description: "شرکت‌های مشاور: نهادهای تخصصی با پشتوانه فنی، تیم‌های چندرشته‌ای و سابقه پروژه‌های بین‌المللی که در کنار ما برای دستیابی به راهکارهای جامع، اجرایی و مقیاس‌پذیر تلاش می‌کنند.",
+    projectsCompletedNumber: "رشد",
+    projectsCompleted: "کیفیت",
+    yearsExperienceNumber: "نوآوری",
+    yearsExperience: "دقت",
+    satisfiedClientsNumber: "توسعه جهانی",
+    satisfiedClients: "سرعت",
+    exploreServices: "بیشتر بدانید",
+    getInTouch: "ارتباط با ما",
+    scrollToDiscover: "برای کاوش اسکرول کنید"
+  },
+    leadership: {
+  title: "تعالی رهبری",
+  description: "هدایت تیم‌ها با چشم‌انداز و پیشبرد تصمیمات استراتژیک که آینده شرکت را شکل می‌دهد.",
+  alt: "تعالی رهبری"
+},
+innovation: {
+  title: "نوآوری خلاق",
+  description: "ارائه دیدگاه‌های تازه و راه‌حل‌هایی برای چالش‌های پیچیده از طریق تفکر خلاقانه.",
+  alt: "نوآوری خلاق"
+},
+expertise: {
+  title: "تخصص بازار",
+  description: "دانش عمیق از بازارها، روندها و مقررات که تصمیمات آگاهانه را تضمین می‌کند.",
+  alt: "تخصص بازار"
+},
+collaboration: {
+  title: "همکاری تیمی",
+  description: "کار یکپارچه با یکدیگر، به اشتراک گذاری دانش برای ارائه نتایج استثنایی.",
+  alt: "همکاری تیمی"
+},
+dedication: {
+  title: "تعهد به مشتری",
+  description: "تعهد تزلزل‌ناپذیر به موفقیت مشتری، فراتر رفتن برای تجاوز از انتظارات.",
+  alt: "تعهد به مشتری"
+},
+growth: {
+  title: "رشد مستمر",
+  description: "یادگیری، تطبیق و تکامل مداوم برای پیشی گرفتن از تحولات صنعت.",
+  alt: "رشد مستمر"
+},
+integrity: {
+  title: "صداقت حرفه‌ای",
+  description: "حفظ بالاترین استانداردهای اخلاقی و صداقت در تمام شیوه‌های کسب‌وکار.",
+  alt: "صداقت حرفه‌ای"
+},
+passion: {
+  title: "اشتیاق صنعتی",
+  description: "انگیزه از شور واقعی برای کمک به مشتریان در دستیابی به رویاهای املاک خود.",
+  alt: "اشتیاق صنعتی"
+},
+excellence: {
+  title: "تعالی خدمات",
+  alt: "تعالی خدمات"
+},
+logo: {
+  title: "در هر قدم همراه شما",
+  description: "ما در کنار شما هستیم تا شما را در طول فرآیند راهنمایی کنیم. هیچ سوالی کوچک نیست. شب‌های بی‌خوابی نخواهید داشت. به خودتان اعتماد داشته باشید."
+},carCover: {
+  title: "رویاهای خود را به جلو ببرید",
+  subtitle: "ما فرصتی می‌سازیم برای رشد، معنا، و ساختن چیزی ماندگار.",
+  description: "محیطی که در آن همکاری، خلاقیت، یادگیری و تأثیر واقعی معنا داشته باشد.",
+  ourServices: "همکاری با ما",
+  getInTouch: "ارتباط با ما"
+},cards: {
+  mainTitle: "فرصت‌های شغلی",
+  mainDescription: "به تیم حرفه‌ای ما بپیوندید و آینده‌ای درخشان در صنعت املاک بسازید",
+  card1: {
+    title: "مشاور املاک ارشد",
+    frontText: "رهبری فروش و مشاوره املاک",
+    backDescription: "به دنبال مشاور املاک با تجربه برای راهنمایی مشتریان در خرید و فروش املاک. نیاز به مهارت‌های ارتباطی قوی و دانش بازار املاک.",
+    buttonText: "مشاهده جزئیات"
+  },
+  card2: {
+    title: "مدیر بازاریابی دیجیتال",
+    frontText: "استراتژی‌های بازاریابی آنلاین",
+    backDescription: "مسئولیت توسعه و اجرای کمپین‌های بازاریابی دیجیتال، مدیریت شبکه‌های اجتماعی و افزایش حضور آنلاین شرکت.",
+    buttonText: "درخواست شغل"
+  },
+  card3: {
+    title: "تحلیلگر مالی املاک",
+    frontText: "تجزیه و تحلیل سرمایه‌گذاری",
+    backDescription: "ارزیابی پروژه‌های املاک، تحلیل ریسک و بازده سرمایه‌گذاری، تهیه گزارش‌های مالی تخصصی برای مشتریان.",
+    buttonText: "اطلاعات بیشتر"
+  },
+  card4: {
+    title: "معمار پروژه",
+    frontText: "طراحی و نظارت ساخت",
+    backDescription: "طراحی معماری پروژه‌های مسکونی و تجاری، نظارت بر اجرای ساخت و هماهنگی با تیم‌های مهندسی.",
+    buttonText: "ارسال رزومه"
+  },
+  card5: {
+    title: "مدیر روابط مشتریان",
+    frontText: "خدمات پس از فروش",
+    backDescription: "مدیریت روابط با مشتریان، پیگیری رضایت مندی، حل مشکلات و ارائه خدمات پشتیبانی جامع.",
+    buttonText: "تماس بگیرید"
+  },
+  card6: {
+    title: "کارشناس حقوقی املاک",
+    frontText: "مشاوره و پشتیبانی حقوقی",
+    backDescription: "بررسی اسناد املاک، تنظیم قراردادها، مشاوره حقوقی به مشتریان و پیگیری امور قضایی.",
+    buttonText: "کسب اطلاعات"
+  },
+  card7: {
+    title: "مهندس عمران",
+    frontText: "نظارت فنی پروژه‌ها",
+    backDescription: "نظارت بر اجرای پروژه‌های ساختمانی، کنترل کیفیت، برنامه‌ریزی زمان‌بندی و هماهنگی با پیمانکاران.",
+    buttonText: "درخواست مصاحبه"
+  },
+  card8: {
+    title: "متخصص ارزیابی املاک",
+    frontText: "تخمین ارزش ملک",
+    backDescription: "ارزیابی دقیق املاک مسکونی و تجاری، تهیه گزارش‌های کارشناسی، تحلیل بازار و قیمت‌گذاری.",
+    buttonText: "اطلاعات شغل"
+  }
+},carForm: {
+  title: "فرم ارسال رزومه",
+  description: "لطفاً اطلاعات خود را تکمیل کنید تا بتوانیم با شما تماس بگیریم",
+  name: "نام و نام خانوادگی",
+  namePlaceholder: "نام کامل خود را وارد کنید",
+  email: "آدرس ایمیل",
+  emailPlaceholder: "example@email.com",
+  phone: "شماره تلفن",
+  phonePlaceholder: "09123456789",
+  link: "لینک رزومه",
+  linkPlaceholder: "https://example.com/",
+  birthdate: "تاریخ تولد",
+  jobTitle: "عنوان شغلی",
+  titlePlaceholder: "مثال: مهندس، پزشک، معلم",
+  message: "پیام اضافی",
+  messagePlaceholder: "توضیحات اضافی، درخواست‌های خاص یا سوالات خود را بنویسید...",
+  submit: "ارسال درخواست",
+  submitting: "در حال ارسال...",
+  successMessage: "درخواست شما با موفقیت ارسال شد. به زودی با شما تماس خواهیم گرفت.",
+  errorMessage: "خطایی در ارسال درخواست رخ داد. لطفاً دوباره تلاش کنید."
+},
 
   },
   en: {
@@ -1162,8 +1340,184 @@ projectDetails: {
   },
   learnMore: "Learn More",
   backToProjects: "Back to Projects"
-}
-
+},
+cover: {
+  welcome: "Our Consultants",
+  mainTitle: "In the complex and dynamic world of investment, business development, and international innovation, leveraging specialized knowledge, experience, and perspectives is essential.",
+  subtitle: "Our holding company, alongside a team of distinguished and committed consultants with outstanding track records in finance, legal, branding, international markets, and strategic development, plays a key role in guiding and supporting major projects.",
+  description: "Our consultants pave the best path for sustainable growth and global success through precise analysis, innovative solutions, and specialized risk assessment.",
+  projectsCompletedNumber: "Investors",
+  projectsCompleted: "Precise",
+  yearsExperienceNumber: "Entrepreneurs", 
+  yearsExperience: "Professional",
+  satisfiedClientsNumber: "Managers",
+  satisfiedClients: "Specialist",
+  exploreServices: "Learn More",
+  getInTouch: "Contact Us",
+  scrollToDiscover: "Scroll to Explore"
+},
+company: {
+  vision: {
+    title: "Our Vision",
+    description: "To be a leader in the real estate industry that transforms communities and creates sustainable value through innovative property solutions and exceptional customer service.",
+    alt: "Company Vision - Future Growth"
+  },
+  mission: {
+    title: "Our Mission", 
+    description: "We are committed to providing comprehensive real estate services that exceed expectations, build trust, and create long-term value for our clients and communities.",
+    alt: "Company Mission - Customer Success"
+  },
+  values: {
+    title: "Our Values",
+    description: "Integrity, transparency, excellence, and innovation guide every decision we make. We believe in honest communication and delivering results that matter.",
+    alt: "Company Values - Core Principles"
+  },
+  culture: {
+    title: "Our Culture",
+    description: "We foster a collaborative environment where creativity flourishes, diversity is celebrated, and every team member is empowered to contribute to our shared success.",
+    alt: "Company Culture - Team Collaboration"
+  }
+},
+coverPer: {
+  welcome: "Top Consultants",
+  mainTitle: "In every project, we benefit from personalized perspectives of independent consultants to the operational and structured capabilities of professional companies.",
+  subtitle: "Individual Consultants: Experienced specialists in finance, legal, technology, brand development, investment, etc., who make the decision-making process more transparent with deep insight and high flexibility.",
+  description: "Consulting Companies: Specialized institutions with technical backing, multidisciplinary teams, and international project experience that work with us to achieve comprehensive, executable, and scalable solutions.",
+  projectsCompletedNumber: "Growth",
+  projectsCompleted: "Quality",
+  yearsExperienceNumber: "Innovation",
+  yearsExperience: "Precision",
+  satisfiedClientsNumber: "Global Development",
+  satisfiedClients: "Speed",
+  exploreServices: "Learn More",
+  getInTouch: "Contact Us", 
+  scrollToDiscover: "Scroll to Explore"
+},
+leadership: {
+  title: "Leadership Excellence",
+  description: "Guiding teams with vision and advancing strategic decisions that shape the company's future.",
+  alt: "Leadership Excellence"
+},
+innovation: {
+  title: "Creative Innovation",
+  description: "Providing fresh perspectives and solutions to complex challenges through creative thinking.",
+  alt: "Creative Innovation"
+},
+expertise: {
+  title: "Market Expertise", 
+  description: "Deep knowledge of markets, trends, and regulations that ensures informed decisions.",
+  alt: "Market Expertise"
+},
+collaboration: {
+  title: "Team Collaboration",
+  description: "Working seamlessly together, sharing knowledge to deliver exceptional results.",
+  alt: "Team Collaboration"
+},
+dedication: {
+  title: "Client Dedication",
+  description: "Unwavering commitment to client success, going beyond to exceed expectations.",
+  alt: "Client Dedication"
+},
+growth: {
+  title: "Continuous Growth",
+  description: "Continuous learning, adaptation, and evolution to stay ahead of industry developments.",
+  alt: "Continuous Growth"
+},
+integrity: {
+  title: "Professional Integrity",
+  description: "Maintaining the highest ethical standards and honesty in all business practices.",
+  alt: "Professional Integrity"
+},
+passion: {
+  title: "Industry Passion",
+  description: "Motivation from genuine enthusiasm for helping clients achieve their real estate dreams.",
+  alt: "Industry Passion"
+},
+excellence: {
+  title: "Service Excellence",
+  description: "Striving for perfection in every detail, delivering superior quality that sets new standards.",
+  alt: "Service Excellence"
+},logo: {
+  title: "With you every step of the way",
+  description: "you’ll have us to guide you through the process. No question is too small. No sleepless nights. Have confidence in yourself."
+},carCover: {
+  title: "Drive Your Dreams Forward",
+  subtitle: "We create opportunities for growth, meaning, and building something lasting.",
+  description: "An environment where collaboration, creativity, learning, and real impact have meaning.",
+  ourServices: "Work With Us",
+  getInTouch: "Contact Us"
+},cards: {
+  mainTitle: "Job Opportunities",
+  mainDescription: "Join our professional team and build a bright future in the real estate industry",
+  card1: {
+    title: "Senior Real Estate Consultant",
+    frontText: "Leading sales and real estate consulting",
+    backDescription: "Looking for an experienced real estate consultant to guide clients in buying and selling properties. Requires strong communication skills and real estate market knowledge.",
+    buttonText: "View Details"
+  },
+  card2: {
+    title: "Digital Marketing Manager",
+    frontText: "Online marketing strategies",
+    backDescription: "Responsible for developing and implementing digital marketing campaigns, managing social networks and increasing the company's online presence.",
+    buttonText: "Apply for Job"
+  },
+  card3: {
+    title: "Real Estate Financial Analyst",
+    frontText: "Investment analysis",
+    backDescription: "Evaluating real estate projects, analyzing investment risk and return, preparing specialized financial reports for clients.",
+    buttonText: "More Information"
+  },
+  card4: {
+    title: "Project Architect",
+    frontText: "Design and construction supervision",
+    backDescription: "Architectural design of residential and commercial projects, supervision of construction implementation and coordination with engineering teams.",
+    buttonText: "Submit Resume"
+  },
+  card5: {
+    title: "Customer Relations Manager",
+    frontText: "After-sales services",
+    backDescription: "Managing customer relationships, following up on satisfaction, solving problems and providing comprehensive support services.",
+    buttonText: "Contact Us"
+  },
+  card6: {
+    title: "Real Estate Legal Specialist",
+    frontText: "Legal consulting and support",
+    backDescription: "Reviewing property documents, drafting contracts, providing legal advice to clients and following up on judicial matters.",
+    buttonText: "Get Information"
+  },
+  card7: {
+    title: "Civil Engineer",
+    frontText: "Technical supervision of projects",
+    backDescription: "Supervising the implementation of construction projects, quality control, scheduling and coordination with contractors.",
+    buttonText: "Request Interview"
+  },
+  card8: {
+    title: "Property Valuation Specialist",
+    frontText: "Property value estimation",
+    backDescription: "Accurate evaluation of residential and commercial properties, preparing expert reports, market analysis and pricing.",
+    buttonText: "Job Information"
+  }
+},carForm: {
+  title: "Resume Submission Form",
+  description: "Please complete your information so we can contact you",
+  name: "Full Name",
+  namePlaceholder: "Enter your full name",
+  email: "Email Address",
+  emailPlaceholder: "example@email.com",
+  phone: "Phone Number",
+  phonePlaceholder: "09123456789",
+  link: "Resume Link",
+  linkPlaceholder: "https://example.com/",
+  birthdate: "Date of Birth",
+  jobTitle: "Job Title",
+  titlePlaceholder: "Example: Engineer, Doctor, Teacher",
+  message: "Additional Message",
+  messagePlaceholder: "Write additional details, special requests or your questions...",
+  submit: "Submit Request",
+  submitting: "Submitting...",
+  successMessage: "Your request has been successfully submitted. We will contact you soon.",
+  errorMessage: "An error occurred while submitting the request. Please try again."
+},
 
 
   },
@@ -1760,7 +2114,186 @@ projectDetails: {
   },
   learnMore: "Mehr erfahren",
   backToProjects: "Zurück zu Projekten"
-}
+},
+cover: {
+  welcome: "Unsere Berater",
+  mainTitle: "In der komplexen und dynamischen Welt der Investitionen, Geschäftsentwicklung und internationalen Innovation ist die Nutzung von Fachwissen, Erfahrung und spezialisierten Perspektiven unerlässlich.",
+  subtitle: "Unsere Holding-Gesellschaft spielt zusammen mit einem Team von herausragenden und engagierten Beratern mit außergewöhnlichen Erfolgsbilanzen in Finanzen, Recht, Branding, internationalen Märkten und strategischer Entwicklung eine Schlüsselrolle bei der Führung und Unterstützung großer Projekte.",
+  description: "Unsere Berater ebnen durch präzise Analyse, innovative Lösungen und spezialisierte Risikobewertung den besten Weg für nachhaltiges Wachstum und globalen Erfolg.",
+  projectsCompletedNumber: "Investoren",
+  projectsCompleted: "Präzise",
+  yearsExperienceNumber: "Unternehmer",
+  yearsExperience: "Professionell",
+  satisfiedClientsNumber: "Manager",
+  satisfiedClients: "Spezialist",
+  exploreServices: "Mehr erfahren",
+  getInTouch: "Kontaktieren Sie uns",
+  scrollToDiscover: "Scrollen zum Erkunden"
+},
+company: {
+  vision: {
+    title: "Unsere Vision",
+    description: "Führend in der Immobilienbranche zu sein, die Gemeinden transformiert und nachhaltigen Wert durch innovative Immobilienlösungen und außergewöhnlichen Kundenservice schafft.",
+    alt: "Unternehmensvision - Zukünftiges Wachstum"
+  },
+  mission: {
+    title: "Unsere Mission",
+    description: "Wir verpflichten uns, umfassende Immobiliendienstleistungen zu erbringen, die Erwartungen übertreffen, Vertrauen aufbauen und langfristigen Wert für unsere Kunden und Gemeinden schaffen.",
+    alt: "Unternehmensmission - Kundenerfolg"
+  },
+  values: {
+    title: "Unsere Werte",
+    description: "Integrität, Transparenz, Exzellenz und Innovation leiten jede Entscheidung, die wir treffen. Wir glauben an ehrliche Kommunikation und die Lieferung von Ergebnissen, die wichtig sind.",
+    alt: "Unternehmenswerte - Grundprinzipien"
+  },
+  culture: {
+    title: "Unsere Kultur",
+    description: "Wir fördern ein kollaboratives Umfeld, in dem Kreativität gedeiht, Vielfalt gefeiert wird und jedes Teammitglied ermächtigt wird, zu unserem gemeinsamen Erfolg beizutragen.",
+    alt: "Unternehmenskultur - Teamzusammenarbeit"
+  }
+},
+coverPer: {
+  welcome: "Top-Berater",
+  mainTitle: "In jedem Projekt profitieren wir von personalisierten Perspektiven unabhängiger Berater bis hin zu den operativen und strukturierten Fähigkeiten professioneller Unternehmen.",
+  subtitle: "Einzelberater: Erfahrene Spezialisten in Finanzen, Recht, Technologie, Markenentwicklung, Investitionen usw., die den Entscheidungsprozess mit tiefen Einblicken und hoher Flexibilität transparenter machen.",
+  description: "Beratungsunternehmen: Spezialisierte Institutionen mit technischer Unterstützung, multidisziplinären Teams und internationaler Projekterfahrung, die mit uns zusammenarbeiten, um umfassende, umsetzbare und skalierbare Lösungen zu erreichen.",
+  projectsCompletedNumber: "Wachstum",
+  projectsCompleted: "Qualität",
+  yearsExperienceNumber: "Innovation",
+  yearsExperience: "Präzision",
+  satisfiedClientsNumber: "Globale Entwicklung",
+  satisfiedClients: "Geschwindigkeit",
+  exploreServices: "Mehr erfahren",
+  getInTouch: "Kontaktieren Sie uns",
+  scrollToDiscover: "Scrollen zum Erkunden"
+},
+leadership: {
+  title: "Führungsexzellenz",
+  description: "Teams mit Vision führen und strategische Entscheidungen vorantreiben, die die Zukunft des Unternehmens prägen.",
+  alt: "Führungsexzellenz"
+},
+innovation: {
+  title: "Kreative Innovation",
+  description: "Frische Perspektiven und Lösungen für komplexe Herausforderungen durch kreatives Denken bieten.",
+  alt: "Kreative Innovation"
+},
+expertise: {
+  title: "Marktexpertise",
+  description: "Tiefes Wissen über Märkte, Trends und Vorschriften, das fundierte Entscheidungen gewährleistet.",
+  alt: "Marktexpertise"
+},
+collaboration: {
+  title: "Teamzusammenarbeit",
+  description: "Nahtlos zusammenarbeiten, Wissen teilen, um außergewöhnliche Ergebnisse zu liefern.",
+  alt: "Teamzusammenarbeit"
+},
+dedication: {
+  title: "Kundenengagement",
+  description: "Unerschütterliches Engagement für den Kundenerfolg, über das Erwartete hinausgehen.",
+  alt: "Kundenengagement"
+},
+growth: {
+  title: "Kontinuierliches Wachstum",
+  description: "Kontinuierliches Lernen, Anpassung und Entwicklung, um den Branchenentwicklungen voraus zu sein.",
+  alt: "Kontinuierliches Wachstum"
+},
+integrity: {
+  title: "Professionelle Integrität",
+  description: "Aufrechterhaltung höchster ethischer Standards und Ehrlichkeit in allen Geschäftspraktiken.",
+  alt: "Professionelle Integrität"
+},
+passion: {
+  title: "Branchenleidenschaft",
+  description: "Motivation aus echter Begeisterung, Kunden bei der Verwirklichung ihrer Immobilienträume zu helfen.",
+  alt: "Branchenleidenschaft"
+},
+excellence: {
+  title: "Serviceexzellenz",
+  description: "Nach Perfektion in jedem Detail streben, überlegene Qualität liefern, die neue Standards setzt.",
+  alt: "Serviceexzellenz"
+},logo: {
+  title: "Bei jedem Schritt an Ihrer Seite",
+  description: "Sie haben uns, um Sie durch den Prozess zu führen. Keine Frage ist zu klein. Keine schlaflosen Nächte. Haben Sie Vertrauen in sich selbst."
+},carCover: {
+  title: "Verwirklichen Sie Ihre Träume",
+  subtitle: "Wir schaffen Möglichkeiten für Wachstum, Sinn und den Aufbau von etwas Dauerhaftem.",
+  description: "Eine Umgebung, in der Zusammenarbeit, Kreativität, Lernen und echter Einfluss Bedeutung haben.",
+  ourServices: "Arbeiten Sie mit uns",
+  getInTouch: "Kontaktieren Sie uns"
+},cards: {
+  mainTitle: "Stellenangebote",
+  mainDescription: "Treten Sie unserem professionellen Team bei und bauen Sie eine glänzende Zukunft in der Immobilienbranche auf",
+  card1: {
+    title: "Senior Immobilienberater",
+    frontText: "Führung von Verkauf und Immobilienberatung",
+    backDescription: "Suchen einen erfahrenen Immobilienberater zur Beratung von Kunden beim Kauf und Verkauf von Immobilien. Erfordert starke Kommunikationsfähigkeiten und Immobilienmarktkenntnisse.",
+    buttonText: "Details anzeigen"
+  },
+  card2: {
+    title: "Digital Marketing Manager",
+    frontText: "Online-Marketing-Strategien",
+    backDescription: "Verantwortlich für die Entwicklung und Umsetzung digitaler Marketingkampagnen, Verwaltung sozialer Netzwerke und Steigerung der Online-Präsenz des Unternehmens.",
+    buttonText: "Für Stelle bewerben"
+  },
+  card3: {
+    title: "Immobilien-Finanzanalyst",
+    frontText: "Investitionsanalyse",
+    backDescription: "Bewertung von Immobilienprojekten, Analyse von Investitionsrisiken und -renditen, Erstellung spezialisierter Finanzberichte für Kunden.",
+    buttonText: "Weitere Informationen"
+  },
+  card4: {
+    title: "Projektarchitekt",
+    frontText: "Design und Bauüberwachung",
+    backDescription: "Architektonisches Design von Wohn- und Gewerbeprojekten, Überwachung der Bauausführung und Koordination mit Ingenieursteams.",
+    buttonText: "Lebenslauf einreichen"
+  },
+  card5: {
+    title: "Kundenbeziehungsmanager",
+    frontText: "After-Sales-Services",
+    backDescription: "Verwaltung von Kundenbeziehungen, Nachverfolgung der Zufriedenheit, Problemlösung und Bereitstellung umfassender Support-Services.",
+    buttonText: "Kontaktieren Sie uns"
+  },
+  card6: {
+    title: "Immobilien-Rechtsexperte",
+    frontText: "Rechtsberatung und -unterstützung",
+    backDescription: "Überprüfung von Immobiliendokumenten, Vertragserstellung, Rechtsberatung für Kunden und Verfolgung gerichtlicher Angelegenheiten.",
+    buttonText: "Informationen erhalten"
+  },
+  card7: {
+    title: "Bauingenieur",
+    frontText: "Technische Projektüberwachung",
+    backDescription: "Überwachung der Umsetzung von Bauprojekten, Qualitätskontrolle, Zeitplanung und Koordination mit Auftragnehmern.",
+    buttonText: "Interview anfordern"
+  },
+  card8: {
+    title: "Immobilienbewertungsspezialist",
+    frontText: "Immobilienwertschätzung",
+    backDescription: "Genaue Bewertung von Wohn- und Gewerbeimmobilien, Erstellung von Expertengutachten, Marktanalyse und Preisgestaltung.",
+    buttonText: "Stelleninformationen"
+  }
+},carForm: {
+  title: "Lebenslauf-Einreichungsformular",
+  description: "Bitte vervollständigen Sie Ihre Informationen, damit wir Sie kontaktieren können",
+  name: "Vollständiger Name",
+  namePlaceholder: "Geben Sie Ihren vollständigen Namen ein",
+  email: "E-Mail-Adresse",
+  emailPlaceholder: "example@email.com",
+  phone: "Telefonnummer",
+  phonePlaceholder: "09123456789",
+  link: "Lebenslauf-Link",
+  linkPlaceholder: "https://example.com/",
+  birthdate: "Geburtsdatum",
+  jobTitle: "Berufsbezeichnung",
+  titlePlaceholder: "Beispiel: Ingenieur, Arzt, Lehrer",
+  message: "Zusätzliche Nachricht",
+  messagePlaceholder: "Schreiben Sie zusätzliche Details, spezielle Anfragen oder Ihre Fragen...",
+  submit: "Anfrage senden",
+  submitting: "Wird gesendet...",
+  successMessage: "Ihre Anfrage wurde erfolgreich gesendet. Wir werden uns bald bei Ihnen melden.",
+  errorMessage: "Beim Senden der Anfrage ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut."
+},
+
+
   },
   ar: {
     navbar: {
@@ -2348,7 +2881,186 @@ projectDetails: {
   },
   learnMore: "اعرف المزيد",
   backToProjects: "العودة للمشاريع"
-}
+},
+cover: {
+  welcome: "مستشارونا",
+  mainTitle: "في عالم الاستثمار والتطوير التجاري والابتكار الدولي المعقد والديناميكي، يعد الاستفادة من المعرفة والخبرة والمنظورات المتخصصة أمراً ضرورياً.",
+  subtitle: "تلعب شركتنا القابضة، إلى جانب فريق من المستشارين المتميزين والملتزمين ذوي السجلات الاستثنائية في المالية والقانون والعلامات التجارية والأسواق الدولية والتطوير الاستراتيجي، دوراً رئيسياً في توجيه ودعم المشاريع الكبرى.",
+  description: "يمهد مستشارونا أفضل طريق للنمو المستدام والنجاح العالمي من خلال التحليل الدقيق والحلول المبتكرة وتقييم المخاطر المتخصص.",
+  projectsCompletedNumber: "المستثمرون",
+  projectsCompleted: "دقيق",
+  yearsExperienceNumber: "رجال الأعمال",
+  yearsExperience: "محترف",
+  satisfiedClientsNumber: "المديرون",
+  satisfiedClients: "متخصص",
+  exploreServices: "اعرف المزيد",
+  getInTouch: "اتصل بنا",
+  scrollToDiscover: "مرر للاستكشاف"
+},
+company: {
+  vision: {
+    title: "رؤيتنا",
+    description: "أن نكون رائدين في صناعة العقارات التي تحول المجتمعات وتخلق قيمة مستدامة من خلال حلول عقارية مبتكرة وخدمة عملاء استثنائية.",
+    alt: "رؤية الشركة - النمو المستقبلي"
+  },
+  mission: {
+    title: "مهمتنا",
+    description: "نحن ملتزمون بتقديم خدمات عقارية شاملة تتجاوز التوقعات وتبني الثقة وتخلق قيمة طويلة الأمد لعملائنا ومجتمعاتنا.",
+    alt: "مهمة الشركة - نجاح العملاء"
+  },
+  values: {
+    title: "قيمنا",
+    description: "النزاهة والشفافية والتميز والابتكار توجه كل قرار نتخذه. نؤمن بالتواصل الصادق وتقديم النتائج التي تهم.",
+    alt: "قيم الشركة - المبادئ الأساسية"
+  },
+  culture: {
+    title: "ثقافتنا",
+    description: "نعزز بيئة تعاونية حيث تزدهر الإبداع ويُحتفل بالتنوع ويتم تمكين كل عضو في الفريق للمساهمة في نجاحنا المشترك.",
+    alt: "ثقافة الشركة - التعاون الجماعي"
+  }
+},
+coverPer: {
+  welcome: "كبار المستشارين",
+  mainTitle: "في كل مشروع، نستفيد من المنظورات الشخصية للمستشارين المستقلين إلى القدرات التشغيلية والمنظمة للشركات المهنية.",
+  subtitle: "المستشارون الأفراد: متخصصون ذوو خبرة في المالية والقانون والتكنولوجيا وتطوير العلامات التجارية والاستثمار وغيرها، الذين يجعلون عملية اتخاذ القرار أكثر شفافية بفهم عميق ومرونة عالية.",
+  description: "شركات الاستشارات: مؤسسات متخصصة بدعم تقني وفرق متعددة التخصصات وخبرة مشاريع دولية تعمل معنا لتحقيق حلول شاملة وقابلة للتنفيذ وقابلة للتوسع.",
+  projectsCompletedNumber: "النمو",
+  projectsCompleted: "الجودة",
+  yearsExperienceNumber: "الابتكار",
+  yearsExperience: "الدقة",
+  satisfiedClientsNumber: "التطوير العالمي",
+  satisfiedClients: "السرعة",
+  exploreServices: "اعرف المزيد",
+  getInTouch: "اتصل بنا",
+  scrollToDiscover: "مرر للاستكشاف"
+},
+leadership: {
+  title: "تميز القيادة",
+  description: "قيادة الفرق بالرؤية وتطوير القرارات الاستراتيجية التي تشكل مستقبل الشركة.",
+  alt: "تميز القيادة"
+},
+innovation: {
+  title: "الابتكار الإبداعي",
+  description: "تقديم منظورات جديدة وحلول للتحديات المعقدة من خلال التفكير الإبداعي.",
+  alt: "الابتكار الإبداعي"
+},
+expertise: {
+  title: "خبرة السوق",
+  description: "معرفة عميقة بالأسواق والاتجاهات واللوائح التي تضمن قرارات مدروسة.",
+  alt: "خبرة السوق"
+},
+collaboration: {
+  title: "التعاون الجماعي",
+  description: "العمل بسلاسة معاً، مشاركة المعرفة لتقديم نتائج استثنائية.",
+  alt: "التعاون الجماعي"
+},
+dedication: {
+  title: "التفاني للعملاء",
+  description: "التزام ثابت بنجاح العملاء، تجاوز المتوقع لتخطي التوقعات.",
+  alt: "التفاني للعملاء"
+},
+growth: {
+  title: "النمو المستمر",
+  description: "التعلم والتكيف والتطور المستمر للبقاء في المقدمة من التطورات الصناعية.",
+  alt: "النمو المستمر"
+},
+integrity: {
+  title: "النزاهة المهنية",
+  description: "الحفاظ على أعلى المعايير الأخلاقية والصدق في جميع الممارسات التجارية.",
+  alt: "النزاهة المهنية"
+},
+passion: {
+  title: "شغف الصناعة",
+  description: "الدافع من الحماس الحقيقي لمساعدة العملاء في تحقيق أحلامهم العقارية.",
+  alt: "شغف الصناعة"
+},
+excellence: {
+  title: "تميز الخدمة",
+  description: "السعي للكمال في كل التفاصيل، تقديم جودة فائقة تضع معايير جديدة.",
+  alt: "تميز الخدمة"
+},logo: {
+  title: "معك في كل خطوة على الطريق",
+  description: "ستجدنا معك لنرشدك خلال العملية. لا يوجد سؤال صغير جداً. لا ليالي بلا نوم. ثق بنفسك."
+},carCover: {
+  title: "حقق أحلامك في المستقبل",
+  subtitle: "نحن نخلق فرصاً للنمو والمعنى وبناء شيء دائم.",
+  description: "بيئة يكون فيها للتعاون والإبداع والتعلم والتأثير الحقيقي معنى.",
+  ourServices: "اعمل معنا",
+  getInTouch: "تواصل معنا"
+},cards: {
+  mainTitle: "الفرص الوظيفية",
+  mainDescription: "انضم إلى فريقنا المهني وابن مستقبلاً مشرقاً في صناعة العقارات",
+  card1: {
+    title: "مستشار عقاري أول",
+    frontText: "قيادة المبيعات والاستشارات العقارية",
+    backDescription: "نبحث عن مستشار عقاري ذو خبرة لتوجيه العملاء في شراء وبيع العقارات. يتطلب مهارات تواصل قوية ومعرفة بسوق العقارات.",
+    buttonText: "عرض التفاصيل"
+  },
+  card2: {
+    title: "مدير التسويق الرقمي",
+    frontText: "استراتيجيات التسويق الإلكتروني",
+    backDescription: "مسؤول عن تطوير وتنفيذ حملات التسويق الرقمي، إدارة الشبكات الاجتماعية وزيادة الحضور الإلكتروني للشركة.",
+    buttonText: "التقدم للوظيفة"
+  },
+  card3: {
+    title: "محلل مالي عقاري",
+    frontText: "تحليل الاستثمارات",
+    backDescription: "تقييم المشاريع العقارية، تحليل مخاطر وعوائد الاستثمار، إعداد التقارير المالية المتخصصة للعملاء.",
+    buttonText: "معلومات أكثر"
+  },
+  card4: {
+    title: "مهندس معماري للمشروع",
+    frontText: "التصميم والإشراف على البناء",
+    backDescription: "التصميم المعماري للمشاريع السكنية والتجارية، الإشراف على تنفيذ البناء والتنسيق مع الفرق الهندسية.",
+    buttonText: "إرسال السيرة الذاتية"
+  },
+  card5: {
+    title: "مدير علاقات العملاء",
+    frontText: "خدمات ما بعد البيع",
+    backDescription: "إدارة العلاقات مع العملاء، متابعة الرضا، حل المشاكل وتقديم خدمات الدعم الشاملة.",
+    buttonText: "اتصل بنا"
+  },
+  card6: {
+    title: "أخصائي قانوني عقاري",
+    frontText: "الاستشارة والدعم القانوني",
+    backDescription: "مراجعة وثائق العقارات، صياغة العقود، تقديم المشورة القانونية للعملاء ومتابعة الأمور القضائية.",
+    buttonText: "الحصول على المعلومات"
+  },
+  card7: {
+    title: "مهندس مدني",
+    frontText: "الإشراف الفني على المشاريع",
+    backDescription: "الإشراف على تنفيذ المشاريع الإنشائية، مراقبة الجودة، التخطيط الزمني والتنسيق مع المقاولين.",
+    buttonText: "طلب مقابلة"
+  },
+  card8: {
+    title: "أخصائي تقييم العقارات",
+    frontText: "تقدير قيمة العقار",
+    backDescription: "التقييم الدقيق للعقارات السكنية والتجارية، إعداد التقارير الخبيرة، تحليل السوق والتسعير.",
+    buttonText: "معلومات الوظيفة"
+  }
+},carForm: {
+  title: "نموذج إرسال السيرة الذاتية",
+  description: "يرجى إكمال معلوماتك حتى نتمكن من التواصل معك",
+  name: "الاسم الكامل",
+  namePlaceholder: "أدخل اسمك الكامل",
+  email: "عنوان البريد الإلكتروني",
+  emailPlaceholder: "example@email.com",
+  phone: "رقم الهاتف",
+  phonePlaceholder: "09123456789",
+  link: "رابط السيرة الذاتية",
+  linkPlaceholder: "https://example.com/",
+  birthdate: "تاريخ الميلاد",
+  jobTitle: "المسمى الوظيفي",
+  titlePlaceholder: "مثال: مهندس، طبيب، معلم",
+  message: "رسالة إضافية",
+  messagePlaceholder: "اكتب تفاصيل إضافية، طلبات خاصة أو أسئلتك...",
+  submit: "إرسال الطلب",
+  submitting: "جاري الإرسال...",
+  successMessage: "تم إرسال طلبك بنجاح. سنتواصل معك قريباً.",
+  errorMessage: "حدث خطأ في إرسال الطلب. يرجى المحاولة مرة أخرى."
+},
+
+
   },
   zh: {
     navbar: {
@@ -2927,7 +3639,186 @@ projectDetails: {
   },
   learnMore: "了解更多",
   backToProjects: "返回项目"
-}
+},
+cover: {
+  welcome: "我们的顾问",
+  mainTitle: "在复杂而动态的投资、商业发展和国际创新世界中，利用专业知识、经验和专业视角是必不可少的。",
+  subtitle: "我们的控股公司与一支在金融、法律、品牌、国际市场和战略发展方面拥有杰出业绩记录的杰出且敬业的顾问团队一起，在指导和支持重大项目方面发挥着关键作用。",
+  description: "我们的顾问通过精确分析、创新解决方案和专业风险评估，为可持续增长和全球成功铺平最佳道路。",
+  projectsCompletedNumber: "投资者",
+  projectsCompleted: "精确",
+  yearsExperienceNumber: "企业家",
+  yearsExperience: "专业",
+  satisfiedClientsNumber: "管理者",
+  satisfiedClients: "专家",
+  exploreServices: "了解更多",
+  getInTouch: "联系我们",
+  scrollToDiscover: "滚动探索"
+},
+company: {
+  vision: {
+    title: "我们的愿景",
+    description: "成为房地产行业的领导者，通过创新的房地产解决方案和卓越的客户服务来改变社区并创造可持续价值。",
+    alt: "公司愿景 - 未来增长"
+  },
+  mission: {
+    title: "我们的使命",
+    description: "我们致力于提供超越期望、建立信任并为客户和社区创造长期价值的全面房地产服务。",
+    alt: "公司使命 - 客户成功"
+  },
+  values: {
+    title: "我们的价值观",
+    description: "诚信、透明、卓越和创新指导我们做出的每一个决定。我们相信诚实的沟通和提供重要的结果。",
+    alt: "公司价值观 - 核心原则"
+  },
+  culture: {
+    title: "我们的文化",
+    description: "我们培养一个协作环境，在这里创造力蓬勃发展，多样性得到庆祝，每个团队成员都被赋权为我们共同的成功做出贡献。",
+    alt: "公司文化 - 团队协作"
+  }
+},
+coverPer: {
+  welcome: "顶级顾问",
+  mainTitle: "在每个项目中，我们受益于独立顾问的个性化视角到专业公司的运营和结构化能力。",
+  subtitle: "个人顾问：在金融、法律、技术、品牌发展、投资等方面经验丰富的专家，他们以深刻的洞察力和高度的灵活性使决策过程更加透明。",
+  description: "咨询公司：具有技术支持、多学科团队和国际项目经验的专业机构，与我们合作实现全面、可执行和可扩展的解决方案。",
+  projectsCompletedNumber: "增长",
+  projectsCompleted: "质量",
+  yearsExperienceNumber: "创新",
+  yearsExperience: "精确",
+  satisfiedClientsNumber: "全球发展",
+  satisfiedClients: "速度",
+  exploreServices: "了解更多",
+  getInTouch: "联系我们",
+  scrollToDiscover: "滚动探索"
+},
+leadership: {
+  title: "卓越领导力",
+  description: "以愿景引导团队，推进塑造公司未来的战略决策。",
+  alt: "卓越领导力"
+},
+innovation: {
+  title: "创意创新",
+  description: "通过创造性思维为复杂挑战提供新鲜视角和解决方案。",
+  alt: "创意创新"
+},
+expertise: {
+  title: "市场专业知识",
+  description: "对市场、趋势和法规的深入了解，确保明智的决策。",
+  alt: "市场专业知识"
+},
+collaboration: {
+  title: "团队协作",
+  description: "无缝合作，分享知识以提供卓越成果。",
+  alt: "团队协作"
+},
+dedication: {
+  title: "客户奉献",
+  description: "对客户成功的坚定承诺，超越期望以超出预期。",
+  alt: "客户奉献"
+},
+growth: {
+  title: "持续成长",
+  description: "持续学习、适应和发展，以保持领先于行业发展。",
+  alt: "持续成长"
+},
+integrity: {
+  title: "专业诚信",
+  description: "在所有商业实践中保持最高的道德标准和诚实。",
+  alt: "专业诚信"
+},
+passion: {
+  title: "行业热情",
+  description: "源于帮助客户实现房地产梦想的真正热情的动力。",
+  alt: "行业热情"
+},
+excellence: {
+  title: "服务卓越",
+  description: "在每个细节中追求完美，提供设定新标准的卓越质量。",
+  alt: "服务卓越"
+},logoZh: {
+  title: "每一步都与您同行",
+  description: "我们会指导您完成整个过程。没有问题是太小的。不会有不眠之夜。对自己要有信心。"
+},carCover: {
+  title: "推动您的梦想前进",
+  subtitle: "我们为成长、意义和建设持久事业创造机会。",
+  description: "一个让协作、创造力、学习和真正影响力具有意义的环境。",
+  ourServices: "与我们合作",
+  getInTouch: "联系我们"
+},cards: {
+  mainTitle: "工作机会",
+  mainDescription: "加入我们的专业团队，在房地产行业建立光明的未来",
+  card1: {
+    title: "高级房地产顾问",
+    frontText: "领导销售和房地产咨询",
+    backDescription: "寻找有经验的房地产顾问来指导客户买卖房产。需要强大的沟通技巧和房地产市场知识。",
+    buttonText: "查看详情"
+  },
+  card2: {
+    title: "数字营销经理",
+    frontText: "在线营销策略",
+    backDescription: "负责开发和实施数字营销活动，管理社交网络并提高公司的在线影响力。",
+    buttonText: "申请职位"
+  },
+  card3: {
+    title: "房地产金融分析师",
+    frontText: "投资分析",
+    backDescription: "评估房地产项目，分析投资风险和回报，为客户准备专业财务报告。",
+    buttonText: "更多信息"
+  },
+  card4: {
+    title: "项目建筑师",
+    frontText: "设计和施工监督",
+    backDescription: "住宅和商业项目的建筑设计，监督施工实施并与工程团队协调。",
+    buttonText: "提交简历"
+  },
+  card5: {
+    title: "客户关系经理",
+    frontText: "售后服务",
+    backDescription: "管理客户关系，跟进满意度，解决问题并提供全面的支持服务。",
+    buttonText: "联系我们"
+  },
+  card6: {
+    title: "房地产法律专家",
+    frontText: "法律咨询和支持",
+    backDescription: "审查房产文件，起草合同，为客户提供法律建议并跟进司法事务。",
+    buttonText: "获取信息"
+  },
+  card7: {
+    title: "土木工程师",
+    frontText: "项目技术监督",
+    backDescription: "监督建筑项目的实施，质量控制，时间安排并与承包商协调。",
+    buttonText: "申请面试"
+  },
+  card8: {
+    title: "房产评估专家",
+    frontText: "房产价值评估",
+    backDescription: "准确评估住宅和商业房产，准备专家报告，市场分析和定价。",
+    buttonText: "职位信息"
+  }
+},carForm: {
+  title: "简历提交表",
+  description: "请完善您的信息，以便我们与您联系",
+  name: "全名",
+  namePlaceholder: "请输入您的全名",
+  email: "电子邮箱地址",
+  emailPlaceholder: "example@email.com",
+  phone: "电话号码",
+  phonePlaceholder: "09123456789",
+  link: "简历链接",
+  linkPlaceholder: "https://example.com/",
+  birthdate: "出生日期",
+  jobTitle: "职位名称",
+  titlePlaceholder: "例如：工程师、医生、教师",
+  message: "附加信息",
+  messagePlaceholder: "写下额外的详细信息、特殊要求或您的问题...",
+  submit: "提交申请",
+  submitting: "提交中...",
+  successMessage: "您的申请已成功提交。我们将很快与您联系。",
+  errorMessage: "提交申请时发生错误。请重试。"
+},
+
+
   },
 };
 
