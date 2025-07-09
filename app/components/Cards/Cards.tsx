@@ -78,7 +78,7 @@ const Cards = () => {
       backDescription: t('cards.card6.backDescription'),
       buttonText: t('cards.card6.buttonText'),
       buttonLink: '/services/card6',
-      gradient: 'linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)'
+      gradient: 'linear-gradient(135deg,#75e4dc 0%,#fc93b3 100%)'
     },
     {
       id: 'card7',
