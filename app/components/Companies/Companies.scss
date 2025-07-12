@@ -18,7 +18,7 @@ align-items: center;
     }
 
     @media (max-width: 768px) {
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(1, 1fr);
       grid-template-rows: auto;
     }
 
@@ -35,7 +35,7 @@ align-items: center;
     justify-content: center;
     padding: 1.5rem;
     background: #ffffff;
-    border-radius: 12px;
+    border-radius: 240px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
     border: 1px solid #e5e7eb;
@@ -98,6 +98,10 @@ align-items: center;
 
 // Light theme (default)
 .companies {
+  &__grid:hover &__item:not(:hover) {
+    opacity: 0.2;
+  }
+
   &__item {
     background: #ffffff;
     border: 1px solid #e5e7eb;
@@ -106,6 +110,8 @@ align-items: center;
     &:hover {
       border-color: #d1d5db;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      transform: scale(1.2);
+      background-color: #737e8d !important;
     }
   }
 
@@ -117,6 +123,7 @@ align-items: center;
     color: #1f2937;
   }
 }
+
 
 // Dark theme support
 @media (prefers-color-scheme: dark) {
