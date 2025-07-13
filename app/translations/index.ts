@@ -814,7 +814,7 @@ contact: {
       marketAnalysis: "Modern Structure",
       investment: "Investment",
       aboutUs: "About Us",
-      readMore: "Read More",
+      readMore: "Explore",
       viewAllNews: "About Us",
     },
     careers: {
@@ -836,7 +836,7 @@ contact: {
       trainingDevelopment: "Training and Development",
       openPositions: "Services",
       exploreCareers: "Explore More",
-      learnMore: "Learn More",
+      learnMore: "Consulate",
       applyNow: "Apply Now",
       viewAllPositions: "View All Services",
     },

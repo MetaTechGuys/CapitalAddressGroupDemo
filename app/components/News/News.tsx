@@ -19,7 +19,7 @@ const News = () => {
       description: t('news.premiumServicesDesc'),
       image: "/images/news-1.webp",
       category: t('news.services'),
-      link: "/services",
+      link: "/aboutus",
       featured: true,
       gradient: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)"
     },
@@ -28,7 +28,7 @@ const News = () => {
       title: t('news.marketTrends'),
       description: t('news.marketTrendsDesc'),
       category: t('news.marketAnalysis'),
-      link: "/news/market-trends-2024",
+      link: "/aboutus",
       gradient: "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)"
     },
     {
@@ -36,7 +36,7 @@ const News = () => {
       title: t('news.investmentOpportunities'),
       description: t('news.investmentOpportunitiesDesc'),
       category: t('news.investment'),
-      link: "/news/investment-opportunities",
+      link: "/contactus",
       gradient: "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)"
     },
     {
@@ -45,7 +45,7 @@ const News = () => {
       description: t('news.trustedPartnerDesc'),
       image: "/images/news-2.webp",
       category: t('news.aboutUs'),
-      link: "/about",
+      link: "/consulate",
       featured: true,
       gradient: "linear-gradient(135deg, #fa709a 0%, #fee140 100%)"
     }
@@ -96,10 +96,10 @@ const News = () => {
                     <div className="news__item-meta">
                     </div>
                     
-                    <h3 className="news__item-title">{item.title}</h3>
+                    <h2 className="news__item-title">{item.title}</h2>
                     <p className="news__item-description">{item.description}</p>
                     
-                    <Link href={item.link} className="news__item-link">
+                    <Link href={item.link} className="news__item-link" aria-label='about our holding'>
                       {t('news.readMore')}
                       <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
                         <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
@@ -121,7 +121,7 @@ const News = () => {
                     <h2 className="news__item-title">{item.title}</h2>
                     <p className="news__item-description">{item.description}</p>
                     
-                    <Link href={item.link} className="news__item-link">
+                    <Link href={item.link} className="news__item-link" aria-label='contact us directly'>
                       {t('news.readMore')}
                       <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
                         <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
@@ -135,7 +135,7 @@ const News = () => {
         </div>
         
         <div className="news__footer">
-          <Link href="/aboutus" className="news__view-all">
+          <Link href="/aboutus" className="news__view-all" aria-label='our latest news'>
             {t('news.viewAllNews')}
             <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
               <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>

@@ -51,7 +51,7 @@ const Careers = () => {
       description: t('careers.professionalDevelopmentDesc'),
       image: "/images/career-2.webp",
       category: t('careers.trainingDevelopment'),
-      link: "/careers/development",
+      link: "/careers",
       featured: true,
       type: "wide",
       gradient: "linear-gradient(135deg, #fa709a 0%, #fee140 100%)"
@@ -94,7 +94,7 @@ const Careers = () => {
                     <h3 className="careers__item-title">{item.title}</h3>
                     <p className="careers__item-description">{item.description}</p>
                     
-                    <Link href={item.link} className="careers__item-link">
+                    <Link href={item.link} className="careers__item-link" aria-label=' about us page'>
                       {t('careers.exploreCareers')}
                       <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
                         <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
@@ -121,7 +121,7 @@ const Careers = () => {
                     <h3 className="careers__item-title">{item.title}</h3>
                     <p className="careers__item-description">{item.description}</p>
                     
-                    <Link href={item.link} className="careers__item-link">
+                    <Link href={item.link} className="careers__item-link" aria-label='read more'>
                       {t('careers.learnMore')}
                       <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
                         <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
@@ -140,7 +140,7 @@ const Careers = () => {
                     <h3 className="careers__item-title">{item.title}</h3>
                     <p className="careers__item-description">{item.description}</p>
                     
-                    <Link href={item.link} className="careers__item-link">
+                    <Link href={item.link} className="careers__item-link" aria-label='contact us page'>
                       {t('careers.applyNow')}
                       <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
                         <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
@@ -154,7 +154,7 @@ const Careers = () => {
         </div>
         
         <div className="careers__footer">
-          <Link href="/services" className="careers__view-all">
+          <Link href="/services" className="careers__view-all" aria-label='information about us'>
             {t('careers.viewAllPositions')}
             <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
               <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
