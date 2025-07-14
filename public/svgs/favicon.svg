@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Logo_1" data-name="Logo 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 109.9 109.9">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #000c65;
+      }
+    </style>
+  </defs>
+  <g id="group-4" data-name="group">
+    <circle class="cls-1" cx="54.95" cy="54.95" r="54.95"/>
+    <path class="cls-2" d="M99.69,80.61h-26.76l-18.03-28.75-17.93,28.75H10.21L54.9,9.35l44.79,71.27Z"/>
+  </g>
+</svg>

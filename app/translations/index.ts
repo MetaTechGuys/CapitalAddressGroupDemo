@@ -1,5 +1,9 @@
 export const translations = {
   fa: {
+    metadata: {
+      title: "گروه سرمایه گذاری آدرس",
+      description: "گروه سرمایه گذاری آدرس جهانی، آینده سرمایه گذاری"
+    },
     navbar: {
       home: "خانه",
       about: "درباره ما",
@@ -752,6 +756,10 @@ logo: {
 
   },
   en: {
+    metadata: {
+      title: "Capital Address Group",
+      description: "World-Wide Capital Address Group Holding, The Future of Investing"
+    },
     navbar: {
       home: "Home",
       about: "About Us",
@@ -1522,6 +1530,10 @@ excellence: {
 
   },
   de: {
+    metadata: {
+      title: "Capital Address Gruppe",
+      description: "Weltweite Capital Address Gruppe Holding, Die Zukunft des Investierens"
+    },
     navbar: {
       home: "Startseite",
       about: "Über uns",
@@ -2296,6 +2308,10 @@ excellence: {
 
   },
   ar: {
+    metadata: {
+      title: "مجموعة العنوان الرأسمالية",
+      description: "مجموعة العنوان الرأسمالية العالمية، مستقبل الاستثمار"
+    },
     navbar: {
       home: "الرئيسية",
       about: "من نحن",
@@ -3063,6 +3079,10 @@ excellence: {
 
   },
   zh: {
+    metadata: {
+      title: "资本地址集团",
+      description: "全球资本地址集团控股，投资的未来"
+    },
     navbar: {
       home: "首页",
       about: "关于我们",
